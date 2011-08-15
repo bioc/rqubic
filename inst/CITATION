@@ -1,0 +1,31 @@
+citHeader("To cite package 'rqubic' in publications please use:")
+
+if(!exists("meta") || is.null(meta)) meta <- packageDescription("rqubic")
+
+year <- sub(".*(2[[:digit:]]{3})-.*", "\\1", meta$Date)
+vers <- paste("R package version", meta$Version)
+
+citEntry(entry = "Article",
+	title = "QUBIC: a qualitative biclustering algorithm for analyses of gene expression data",
+	author = personList(as.person("Guojun Li"),
+			   as.person("Qin Ma"),
+			   as.person("Haibao Tang"),
+			   as.person("Andrew H. Paterson"),
+			   as.person("Ying Xu")),
+	year=2009,
+	journal = "Nucleic Acids Research",
+	volumn=37,
+	pages="e101",
+	textVersion=
+	paste("Guojun Li, Qin Ma, Haibao Tang, Andrew H. Paternson and Ying Xu (2009) ",
+	      "\\emph{QUBIC: a qualitative biclustering algorithm for analyses of gene expression data}. ",
+	      "Nucleic Acids Research, 37:e101", sep=""))
+
+citEntry(entry="Manual",
+	title="rqubic: Qualitative biclustering algorithm for expression data analysis in R",
+	author = personList(as.person("Jitao David Zhang")),
+	year = year,
+	note = vers,
+	textVersion = 
+	paste("Jitao David Zhang, Laura Badi and Martin Ebeling (", year, "). rqubic: Qualitative biclustering algorithm for expression data analysis in R. ", 
+	vers, ".", sep=""))

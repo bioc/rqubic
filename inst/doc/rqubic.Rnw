@@ -1,0 +1,234 @@
+%\VignetteIndexEntry{Qualitative Biclustering with Bioconductor Package rqubic}
+%\VignetteDepends{biclust,Biobase}
+%\VignettePackage{rqubic}
+
+\documentclass[11pt]{article}
+
+\usepackage{mathptmx}	 
+\usepackage[scaled=0.92]{helvet}
+\usepackage{courier}
+\usepackage{multirow}
+\usepackage{url}
+\renewcommand{\multirowsetup}{\centering}
+
+
+\usepackage{hyperref}
+\usepackage{geometry}
+\usepackage{longtable}
+\usepackage[pdftex]{graphicx}
+\SweaveOpts{keep.source=TRUE,eps=FALSE,pdf=TRUE,prefix=FALSE, echo=TRUE, results=hide} 
+
+% R part
+\newcommand{\todo}[2]{\textit{\textbf{To do:} (#1) #2}}
+\newcommand{\fixme}[2]{\textit{\textbf{FIXME:} (#1) #2}}
+\newcommand{\R}[1]{{\textsf{#1}}}
+\newcommand{\Rfunction}[1]{{\texttt{#1}}}
+\newcommand{\Robject}[1]{{\texttt{#1}}}
+\newcommand{\Rpackage}[1]{{\textit{#1}}}
+\newcommand{\Rclass}[1]{{\textit{#1}}}
+\newcommand{\Metas}[1]{{\texttt{#1}}}
+\newcommand{\myincfig}[3]{%
+  \begin{figure}[htbp]
+    \begin{center}
+      \includegraphics[width=#2]{#1}
+      \caption{\label{#1}#3}
+    \end{center}
+  \end{figure}
+}
+
+
+\begin{document}
+\setkeys{Gin}{width=0.9\textwidth}
+\title{Qualitative Biclustering with Bioconductor Package rqubic}
+\author{Jitao David Zhang, Laura Badi and Martin Ebeling}
+\maketitle
+
+\begin{abstract}
+  Biclustering has been suggested and found very useful to discover gene regulation
+  patterns from gene expression microarrays. Several quantitative algorithms,
+  among others \emph{CC} and \emph{BIMAX}, have been implemented in R,
+  mainly by the \Rpackage{biclust} package. To our best knowledge, there have been so
+  far no qualitative biclustering methods implemented. 
+  
+  Therefore we introduce \Rpackage{rqubic}, a Bioconductor package implementing the
+  qualitative biclustering (QUBIC) algorithm. Compared to quantitative
+  alternatives, this algorithm is less sensitive to outliers and heavy
+  tails of microarray data. In addition, it is straightforward to plug
+  other discretized data types in the algorithm, for example
+  differentially expressed transcripts in NGS experiments, for which
+  several R packages (e.g. \Rpackage{edgeR} and \Rpackage{DESeq}) have
+  been available. 
+  
+  The vignette introduces the functionalities provided by the
+  \Rpackage{rqubic} package. And we demonstrate the usage of the
+  package by implementing a biclustering software pipeline.
+\end{abstract}
+
+\section{Introduction}
+R and Bioconductor package \Rpackage{rqubic} implements a qualitative
+biclustering algorithm, \emph{QUBIC}, first introduced by~\cite{Li2009}. The input
+data is typically a \begin{math}N\times M\end{math} matrix
+  representing expression levels of \begin{math}N\end{math} genes in
+    \begin{math}M\end{math} samples. The algorithm first applies
+      quantile discretization. In its basic mode, the discretization classifies
+      any gene into three categories: expression
+      up-regulated,down-regulated or unchanged. A more refined
+      discretization is possible by increasing ranks, which are defined as the number of
+      levels in one changing direction (therefore the simple example
+      above has a rank of one). A rank
+      of two, for example, allows to discretize the matrix into five
+      levels (-2, -1, 0, +1 and +2, or very weak, weak, normal,
+      strong, very strong). 
+      
+      
+Once the discretized matrix is available, a heuristic algorithm is
+applied to identify biclusters. This procedure starts with setting
+seeds, which are pairs of gene sharing expression patterns in a number
+of samples. Biclusters are identified from these seeds, by searching
+for other genes sharing the expression patterns, or for those which
+have an even similar match. This step is repeated for all generated
+seeds, and a number of maximal biclusters (defined as the number of
+genes times the number of conditions in that bicluster) are reported.
+
+\section{Functionality}
+
+The \Rpackage{rqubic} package implements data structures and
+functionalities to perform biclustering with the QUBIC algorithm in
+R. In addition it provides a set of tools to parse QUBIC program
+outputs into R data structures, so as to enable further analysis of
+existing QUBIC biclustering results.
+
+The QUBIC algorithm is to large extent in ANSI-C implemented, so as to
+save memory usage and to speed the biclustering. It shares codes with
+the QUBIC implementation in C, with modifications in the
+program structure as well as implementation details. The basic R
+implementation of the QUBIC algorithm provides consistent results on a
+given dataset with the C implementation. The R implementation allows flexible further development of the algorithm.
+
+The parsers for QUBIC C program outputs are straight-forward
+implemented in R functions. Their uses and examples can be found by
+executing following codes in R.
+
+<<helpParser, eval=FALSE, echo=TRUE>>=
+library(rqubic)
+help("parseQubicRules")
+example(parseQubicRules)
+@ 
+
+\section{Case study: a software pipeline to identify biclusters}
+Here we demonstrate the use of the \Rpackage{rqubic} by identifying
+biclusters from a microarray dataset.
+
+First we build an object of the \Robject{ExpressionSet} class. If the
+given dataset is already an \Robject{ExpressionSet}, this step can be
+skipped. Although \Rpackage{rqubic} can also accepts \Robject{matrix}
+as input, here we use the \Rpackage{ExpressionSet} to demonstrate a
+general approach.
+
+<<buildExpres>>=
+library(rqubic)
+data(BicatYeast)
+demo.exprs <- new("ExpressionSet", exprs=BicatYeast)
+
+## processing the condition information
+demo.cond.split <- strsplit(sub("\\.CEL", "", colnames(BicatYeast)), "_")
+demo.group <- sapply(demo.cond.split, function(x) paste(x[-length(x)], collapse="_"))
+demo.time <- sapply(demo.cond.split, function(x) x[length(x)])
+
+pData(demo.exprs) <- data.frame(group=demo.group,
+                                time=demo.time)
+sampleNames(demo.exprs) <- paste(demo.group, demo.time)
+@ 
+
+Once the \Robject{ExpressionSet} object is ready, we could discretize
+the dataset with \Rfunction{quantile.discretization} implemented in
+the \Rpackage{biclust} package. Discretization methods other than the
+default quantile approach might also be used.
+
+By default, the rank is set to \begin{math}1\end{math}. Expression
+  levels of each feature is classified into down, unchanged and up in
+  samples.
+  
+<<quantile>>=
+demo.disc <- quantileDiscretize(demo.exprs)
+@ 
+
+The discretized matrix is used to generate seeds. This step can be
+slow if there are many features (rows) in the matrix, for example,
+\begin{math}>10000\end{math} in a human microarray experiment.
+
+<<seed>>=
+demo.seed <- generateSeeds(demo.disc)
+@   
+
+Finally, by the heuristic algorithm described before, the microarray
+expression matrix are bi-clustered.
+
+<<biclust, results=verbatim>>=
+demo.bic <- quBicluster(demo.seed, demo.disc)
+demo.bic
+@ 
+
+As the code above shows, a summary of the \Rclass{QUBICBiclusterSet} object,
+\Robject{demo.bic}, is given when the object name is given as the only
+command (namely calling the \Rfunction{print} function
+implicitly). The summary, extending from the method for the
+\Rclass{biclust} objects, contains important information about the
+biclusters found in the expression dataset. They include used features
+and conditions (note that there is no guarantee that all
+features/conditions will be within one or more biclusters), parameters
+used to identify biclusters, the function call, and the sizes of first
+five clusters. 
+
+To further explore the features and conditions that are within biclusters, one
+could use functions include \Rfunction{features}, 
+\Rfunction{conditions}; to examine each bicluster, the corresponding
+functions will be \Rfunction{BCfeatures} and
+\Rfunction{BCconditions}, where \textit{BC} stands for bicluster. Counting function, for example
+\Rfunction{featureCount} and \Rfunction{BCfeatureCount}. For more
+details on these functions, one could call on-line help pages by executing:
+
+<<help, eval=FALSE, results=hide>>=
+help("features", package="rqubic")
+@ 
+
+Note that the third bicluster includes all samples of the group
+\verb+cell\_cycle\_aph+. We show the parallel plot of this bicluster
+in figure~\ref{fig:parallel} by the function implemented in the \Rpackage{biclust} package.
+
+\begin{figure}
+  \centering
+<<biclustVis, fig=TRUE, echo=FALSE>>=
+parallelCoordinates(BicatYeast, demo.bic, number=3, plotBoth=FALSE, 
+                    compare=TRUE, col="#004495", pch=1)                       
+@ 
+\caption{Parallel plot of one bicluster identified by rqubic. Each
+  line represents the expression profile of one sample: blue lines
+  indicate samples in the third bicluster, while the gray lines are
+  rest of the samples. Each point of the line indicate the expression
+  value, normalized by centering and scaling, of one feature in that
+  bicluster. It is clear that for most of the genes identified in this
+  bicluster, the expression levels in the cell cycle aph subset
+  samples are lower. One of the next steps could be to perform gene
+  set enrichment analysis to elucidate functions of these genes.}\label{fig:parallel}
+\end{figure}
+
+\section{Prospects}
+Since the biclustering algorithm usually produces a large number of
+biclusters, one open question is how to determine which biclusters are
+the best or most informative. We are now working on a set of measures,
+and they will be implemented in the \Rpackage{rqubic} package once
+they are available.
+
+\section{Session Info}
+The vignette was produced within the following session:
+<<sessionInfo, echo=FALSE, results=tex>>=
+toLatex(sessionInfo())
+@
+
+
+\bibliographystyle{plain}
+
+\bibliography{rqubic}
+
+\end{document}

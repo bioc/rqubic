@@ -1,0 +1,11 @@
+Version 0.99.1 (2011-08-11)
+  + Rename quantile.discritize to quantileDiscritize in order to avoid conflicts with the S3 method nomenclature
+
+Version 0.99.0 (2011-08-05)
+  + Re-starting version indexing due to submission to the Bioc repository
+
+Version 1.8.1 (2011-08-02)
+  + Fix errors in documentations
+
+Version 1.8.0 (2011-07-11)
+  + Submission to Bioconductor

@@ -1,0 +1,3909 @@
+# QUBIC version 0.2 output
+# Datafile sampleExpressionSet.csv: continuous type
+# Parameters: -k 2 -f 1.00 -c 0.95 -o 100 -q 0.06 -r 1
+
+BC000	S=222
+ Genes [74]: 31580_at 31634_at AFFX-ThrX-M_at AFFX-TrpnX-5_at 31450_s_at AFFX-MurIL2_at AFFX-MurIL4_at AFFX-BioB-5_at AFFX-BioB-M_at AFFX-BioB-3_at AFFX-CreX-3_at AFFX-BioB-5_st AFFX-BioB-3_st AFFX-BioC-5_st AFFX-BioDn-3_st AFFX-CreX-5_st AFFX-DapX-M_at AFFX-DapX-3_at AFFX-LysX-3_at AFFX-PheX-M_at AFFX-YEL018w/_at AFFX-YEL024w/RIP1_at AFFX-YEL021w/URA3_at 31307_at 31314_at 31331_at 31347_at 31357_at 31363_at 31365_f_at 31384_at 31386_at 31394_at 31396_r_at 31397_at 31424_at 31425_g_at 31429_at 31441_at 31452_at 31453_s_at 31455_r_at 31485_at 31495_at 31497_at 31537_at 31554_at 31555_at 31558_at 31564_at 31591_s_at 31597_r_at 31613_at 31614_at 31618_at 31624_at 31626_i_at 31628_at 31649_at 31679_at 31701_r_at 31710_at 31712_at 31715_at 31725_s_at 31736_at 31536_at 31543_at 31573_at 31600_s_at 31631_f_at 31642_at 31652_at 31670_s_at 
+ Conds [3]: A R V 
+  31580_at:	1	1	1
+  31634_at:	1	1	1
+AFFX-ThrX-M_at:	1	1	1
+AFFX-TrpnX-5_at:	1	1	1
+31450_s_at:	1	1	1
+AFFX-MurIL2_at:	1	1	1
+AFFX-MurIL4_at:	1	1	1
+AFFX-BioB-5_at:	1	1	1
+AFFX-BioB-M_at:	1	1	0
+AFFX-BioB-3_at:	1	1	0
+AFFX-CreX-3_at:	1	1	1
+AFFX-BioB-5_st:	1	1	1
+AFFX-BioB-3_st:	1	1	1
+AFFX-BioC-5_st:	1	1	1
+AFFX-BioDn-3_st:	1	1	1
+AFFX-CreX-5_st:	1	1	1
+AFFX-DapX-M_at:	1	1	1
+AFFX-DapX-3_at:	1	1	1
+AFFX-LysX-3_at:	1	1	1
+AFFX-PheX-M_at:	1	1	1
+AFFX-YEL018w/_at:	1	1	1
+AFFX-YEL024w/RIP1_at:	1	1	1
+AFFX-YEL021w/URA3_at:	1	1	1
+  31307_at:	1	1	1
+  31314_at:	0	1	1
+  31331_at:	1	1	1
+  31347_at:	1	1	0
+  31357_at:	0	1	1
+  31363_at:	1	1	1
+31365_f_at:	1	0	1
+  31384_at:	1	1	1
+  31386_at:	1	1	1
+  31394_at:	1	1	1
+31396_r_at:	1	0	1
+  31397_at:	1	1	1
+  31424_at:	1	1	1
+31425_g_at:	1	1	1
+  31429_at:	1	1	1
+  31441_at:	1	1	1
+  31452_at:	1	1	1
+31453_s_at:	1	1	1
+31455_r_at:	1	1	1
+  31485_at:	1	1	1
+  31495_at:	1	1	1
+  31497_at:	1	1	1
+  31537_at:	1	1	1
+  31554_at:	1	1	1
+  31555_at:	1	1	1
+  31558_at:	1	1	1
+  31564_at:	1	1	1
+31591_s_at:	0	1	1
+31597_r_at:	1	1	1
+  31613_at:	1	1	1
+  31614_at:	1	1	1
+  31618_at:	1	1	1
+  31624_at:	1	1	1
+31626_i_at:	1	1	1
+  31628_at:	1	1	1
+  31649_at:	1	1	1
+  31679_at:	1	1	1
+31701_r_at:	1	1	1
+  31710_at:	1	1	1
+  31712_at:	1	1	1
+  31715_at:	1	1	1
+31725_s_at:	1	1	1
+  31736_at:	1	1	1
+
+  31536_at:	-1	0	-1
+  31543_at:	-1	-1	-1
+  31573_at:	-1	-1	-1
+31600_s_at:	-1	0	-1
+31631_f_at:	-1	-1	-1
+  31642_at:	-1	-1	-1
+  31652_at:	-1	-1	-1
+31670_s_at:	0	-1	-1
+
+BC001	S=168
+ Genes [42]: AFFX-CreX-3_at AFFX-CreX-5_st 31554_at AFFX-MurIL2_at AFFX-BioB-5_at 31425_g_at 31441_at 31450_s_at 31564_at 31614_at 31725_s_at AFFX-BioC-5_at AFFX-BioB-3_st AFFX-BioDn-3_st AFFX-DapX-M_at AFFX-DapX-3_at AFFX-LysX-3_at AFFX-ThrX-M_at AFFX-YEL024w/RIP1_at AFFX-YEL021w/URA3_at 31307_at 31331_at 31363_at 31394_at 31397_at 31424_at 31429_at 31452_at 31455_r_at 31485_at 31497_at 31537_at 31555_at 31558_at 31613_at 31628_at 31634_at 31679_at 31710_at 31715_at 31642_at 31652_at 
+ Conds [4]: A G R V 
+AFFX-CreX-3_at:	1	1	1	1
+AFFX-CreX-5_st:	1	1	1	1
+  31554_at:	1	1	1	1
+AFFX-MurIL2_at:	1	1	1	1
+AFFX-BioB-5_at:	1	1	1	1
+31425_g_at:	1	1	1	1
+  31441_at:	1	1	1	1
+31450_s_at:	1	1	1	1
+  31564_at:	1	1	1	1
+  31614_at:	1	1	1	1
+31725_s_at:	1	1	1	1
+AFFX-BioC-5_at:	1	1	1	0
+AFFX-BioB-3_st:	1	1	1	1
+AFFX-BioDn-3_st:	1	1	1	1
+AFFX-DapX-M_at:	1	1	1	1
+AFFX-DapX-3_at:	1	1	1	1
+AFFX-LysX-3_at:	1	1	1	1
+AFFX-ThrX-M_at:	1	1	1	1
+AFFX-YEL024w/RIP1_at:	1	1	1	1
+AFFX-YEL021w/URA3_at:	1	1	1	1
+  31307_at:	1	1	1	1
+  31331_at:	1	1	1	1
+  31363_at:	1	1	1	1
+  31394_at:	1	1	1	1
+  31397_at:	1	1	1	1
+  31424_at:	1	1	1	1
+  31429_at:	1	1	1	1
+  31452_at:	1	1	1	1
+31455_r_at:	1	1	1	1
+  31485_at:	1	1	1	1
+  31497_at:	1	1	1	1
+  31537_at:	1	1	1	1
+  31555_at:	1	1	1	1
+  31558_at:	1	1	1	1
+  31613_at:	1	1	1	1
+  31628_at:	1	1	1	1
+  31634_at:	1	1	1	1
+  31679_at:	1	1	1	1
+  31710_at:	1	1	1	1
+  31715_at:	1	1	1	1
+
+  31642_at:	-1	-1	-1	-1
+  31652_at:	-1	-1	-1	-1
+
+BC002	S=147
+ Genes [49]: AFFX-YEL021w/URA3_at 31405_at AFFX-MurIL2_at 31397_at 31424_at 31554_at AFFX-BioB-5_at AFFX-BioC-5_at AFFX-CreX-3_at AFFX-BioB-3_st AFFX-BioDn-3_st AFFX-CreX-5_st AFFX-DapX-M_at AFFX-DapX-3_at AFFX-LysX-3_at AFFX-PheX-M_at AFFX-ThrX-M_at AFFX-YEL024w/RIP1_at 31307_at 31314_at 31321_at 31331_at 31363_at 31394_at 31419_r_at 31425_g_at 31429_at 31441_at 31450_s_at 31452_at 31455_r_at 31485_at 31497_at 31537_at 31555_at 31558_at 31564_at 31602_at 31613_at 31614_at 31618_at 31628_at 31634_at 31679_at 31710_at 31725_s_at 31573_at 31642_at 31652_at 
+ Conds [3]: A G V 
+AFFX-YEL021w/URA3_at:	1	1	1
+  31405_at:	1	1	1
+AFFX-MurIL2_at:	1	1	1
+  31397_at:	1	1	1
+  31424_at:	1	1	1
+  31554_at:	1	1	1
+AFFX-BioB-5_at:	1	1	1
+AFFX-BioC-5_at:	1	1	0
+AFFX-CreX-3_at:	1	1	1
+AFFX-BioB-3_st:	1	1	1
+AFFX-BioDn-3_st:	1	1	1
+AFFX-CreX-5_st:	1	1	1
+AFFX-DapX-M_at:	1	1	1
+AFFX-DapX-3_at:	1	1	1
+AFFX-LysX-3_at:	1	1	1
+AFFX-PheX-M_at:	1	1	1
+AFFX-ThrX-M_at:	1	1	1
+AFFX-YEL024w/RIP1_at:	1	1	1
+  31307_at:	1	1	1
+  31314_at:	0	1	1
+  31321_at:	1	1	1
+  31331_at:	1	1	1
+  31363_at:	1	1	1
+  31394_at:	1	1	1
+31419_r_at:	1	1	1
+31425_g_at:	1	1	1
+  31429_at:	1	1	1
+  31441_at:	1	1	1
+31450_s_at:	1	1	1
+  31452_at:	1	1	1
+31455_r_at:	1	1	1
+  31485_at:	1	1	1
+  31497_at:	1	1	1
+  31537_at:	1	1	1
+  31555_at:	1	1	1
+  31558_at:	1	1	1
+  31564_at:	1	1	1
+  31602_at:	0	1	1
+  31613_at:	1	1	1
+  31614_at:	1	1	1
+  31618_at:	1	0	1
+  31628_at:	1	1	1
+  31634_at:	1	1	1
+  31679_at:	1	1	1
+  31710_at:	1	1	1
+31725_s_at:	1	1	1
+
+  31573_at:	-1	-1	-1
+  31642_at:	-1	-1	-1
+  31652_at:	-1	-1	-1
+
+BC003	S=140
+ Genes [70]: AFFX-YEL021w/URA3_at 31701_r_at 31449_at AFFX-MurIL2_at AFFX-BioB-3_st AFFX-YEL024w/RIP1_at 31314_at 31397_at 31425_g_at 31554_at 31555_at 31564_at 31602_at 31603_at AFFX-BioB-5_at AFFX-CreX-3_at AFFX-BioB-5_st AFFX-BioC-5_st AFFX-BioDn-3_st AFFX-CreX-5_st AFFX-DapX-M_at AFFX-DapX-3_at AFFX-LysX-3_at AFFX-PheX-M_at AFFX-ThrX-M_at AFFX-HUMISGF3A/M97935_5_at 31307_at 31311_at 31331_at 31347_at 31363_at 31377_r_at 31384_at 31386_at 31394_at 31412_at 31424_at 31429_at 31441_at 31442_at 31450_s_at 31451_at 31452_at 31453_s_at 31455_r_at 31485_at 31495_at 31497_at 31507_at 31537_at 31558_at 31585_at 31595_at 31613_at 31614_at 31618_at 31620_at 31626_i_at 31628_at 31634_at 31677_at 31679_at 31686_at 31710_at 31725_s_at 31371_at 31517_f_at 31642_at 31652_at 31719_at 
+ Conds [2]: R V 
+AFFX-YEL021w/URA3_at:	1	1
+31701_r_at:	1	1
+  31449_at:	1	1
+AFFX-MurIL2_at:	1	1
+AFFX-BioB-3_st:	1	1
+AFFX-YEL024w/RIP1_at:	1	1
+  31314_at:	1	1
+  31397_at:	1	1
+31425_g_at:	1	1
+  31554_at:	1	1
+  31555_at:	1	1
+  31564_at:	1	1
+  31602_at:	1	1
+  31603_at:	1	1
+AFFX-BioB-5_at:	1	1
+AFFX-CreX-3_at:	1	1
+AFFX-BioB-5_st:	1	1
+AFFX-BioC-5_st:	1	1
+AFFX-BioDn-3_st:	1	1
+AFFX-CreX-5_st:	1	1
+AFFX-DapX-M_at:	1	1
+AFFX-DapX-3_at:	1	1
+AFFX-LysX-3_at:	1	1
+AFFX-PheX-M_at:	1	1
+AFFX-ThrX-M_at:	1	1
+AFFX-HUMISGF3A/M97935_5_at:	1	1
+  31307_at:	1	1
+  31311_at:	1	1
+  31331_at:	1	1
+  31347_at:	1	0
+  31363_at:	1	1
+31377_r_at:	1	1
+  31384_at:	1	1
+  31386_at:	1	1
+  31394_at:	1	1
+  31412_at:	1	1
+  31424_at:	1	1
+  31429_at:	1	1
+  31441_at:	1	1
+  31442_at:	1	1
+31450_s_at:	1	1
+  31451_at:	0	1
+  31452_at:	1	1
+31453_s_at:	1	1
+31455_r_at:	1	1
+  31485_at:	1	1
+  31495_at:	1	1
+  31497_at:	1	1
+  31507_at:	1	0
+  31537_at:	1	1
+  31558_at:	1	1
+  31585_at:	1	1
+  31595_at:	1	1
+  31613_at:	1	1
+  31614_at:	1	1
+  31618_at:	1	1
+  31620_at:	1	1
+31626_i_at:	1	1
+  31628_at:	1	1
+  31634_at:	1	1
+  31677_at:	1	0
+  31679_at:	1	1
+  31686_at:	1	1
+  31710_at:	1	1
+31725_s_at:	1	1
+
+  31371_at:	-1	-1
+31517_f_at:	-1	-1
+  31642_at:	-1	-1
+  31652_at:	-1	-1
+  31719_at:	0	-1
+
+BC004	S=123
+ Genes [123]: AFFX-ThrX-5_at 31501_at AFFX-CreX-3_at AFFX-CreX-5_st AFFX-DapX-M_at 31384_at 31554_at 31620_at AFFX-MurIL2_at AFFX-MurIL4_at AFFX-BioB-5_at AFFX-BioDn-3_at AFFX-BioB-5_st AFFX-BioB-3_st AFFX-BioC-5_st AFFX-BioDn-3_st AFFX-DapX-3_at AFFX-LysX-3_at AFFX-PheX-M_at AFFX-ThrX-M_at AFFX-TrpnX-5_at AFFX-TrpnX-M_at AFFX-HUMISGF3A/M97935_5_at AFFX-M27830_3_at AFFX-YEL018w/_at AFFX-YEL024w/RIP1_at AFFX-YEL021w/URA3_at 31307_at 31311_at 31313_at 31314_at 31331_at 31342_at 31344_at 31345_at 31353_f_at 31357_at 31360_at 31361_at 31363_at 31365_f_at 31366_at 31373_at 31377_r_at 31386_at 31392_r_at 31394_at 31397_at 31403_at 31412_at 31424_at 31425_g_at 31428_at 31429_at 31441_at 31442_at 31449_at 31450_s_at 31452_at 31453_s_at 31455_r_at 31485_at 31495_at 31497_at 31507_at 31520_at 31537_at 31555_at 31558_at 31564_at 31580_at 31582_at 31585_at 31591_s_at 31595_at 31597_r_at 31602_at 31603_at 31613_at 31614_at 31618_at 31624_at 31626_i_at 31628_at 31634_at 31648_at 31649_at 31650_g_at 31660_at 31677_at 31679_at 31686_at 31701_r_at 31710_at 31712_at 31713_s_at 31715_at 31724_at 31725_s_at 31736_at AFFX-HSAC07/X00351_3_st 31371_at 31431_at 31511_at 31516_f_at 31517_f_at 31525_s_at 31527_at 31543_at 31545_at 31546_at 31573_at 31583_at 31584_at 31627_f_at 31631_f_at 31642_at 31652_at 31670_s_at 31674_s_at 31698_at 31723_at 31731_at 
+ Conds [1]: R 
+AFFX-ThrX-5_at:	1
+  31501_at:	1
+AFFX-CreX-3_at:	1
+AFFX-CreX-5_st:	1
+AFFX-DapX-M_at:	1
+  31384_at:	1
+  31554_at:	1
+  31620_at:	1
+AFFX-MurIL2_at:	1
+AFFX-MurIL4_at:	1
+AFFX-BioB-5_at:	1
+AFFX-BioDn-3_at:	1
+AFFX-BioB-5_st:	1
+AFFX-BioB-3_st:	1
+AFFX-BioC-5_st:	1
+AFFX-BioDn-3_st:	1
+AFFX-DapX-3_at:	1
+AFFX-LysX-3_at:	1
+AFFX-PheX-M_at:	1
+AFFX-ThrX-M_at:	1
+AFFX-TrpnX-5_at:	1
+AFFX-TrpnX-M_at:	1
+AFFX-HUMISGF3A/M97935_5_at:	1
+AFFX-M27830_3_at:	1
+AFFX-YEL018w/_at:	1
+AFFX-YEL024w/RIP1_at:	1
+AFFX-YEL021w/URA3_at:	1
+  31307_at:	1
+  31311_at:	1
+  31313_at:	1
+  31314_at:	1
+  31331_at:	1
+  31342_at:	1
+  31344_at:	0
+  31345_at:	1
+31353_f_at:	1
+  31357_at:	1
+  31360_at:	1
+  31361_at:	1
+  31363_at:	1
+31365_f_at:	0
+  31366_at:	1
+  31373_at:	1
+31377_r_at:	1
+  31386_at:	1
+31392_r_at:	1
+  31394_at:	1
+  31397_at:	1
+  31403_at:	1
+  31412_at:	1
+  31424_at:	1
+31425_g_at:	1
+  31428_at:	0
+  31429_at:	1
+  31441_at:	1
+  31442_at:	1
+  31449_at:	1
+31450_s_at:	1
+  31452_at:	1
+31453_s_at:	1
+31455_r_at:	1
+  31485_at:	1
+  31495_at:	1
+  31497_at:	1
+  31507_at:	1
+  31520_at:	1
+  31537_at:	1
+  31555_at:	1
+  31558_at:	1
+  31564_at:	1
+  31580_at:	1
+  31582_at:	1
+  31585_at:	1
+31591_s_at:	1
+  31595_at:	1
+31597_r_at:	1
+  31602_at:	1
+  31603_at:	1
+  31613_at:	1
+  31614_at:	1
+  31618_at:	1
+  31624_at:	1
+31626_i_at:	1
+  31628_at:	1
+  31634_at:	1
+  31648_at:	0
+  31649_at:	1
+31650_g_at:	1
+  31660_at:	0
+  31677_at:	1
+  31679_at:	1
+  31686_at:	1
+31701_r_at:	1
+  31710_at:	1
+  31712_at:	1
+31713_s_at:	1
+  31715_at:	1
+  31724_at:	1
+31725_s_at:	1
+  31736_at:	1
+
+AFFX-HSAC07/X00351_3_st:	0
+  31371_at:	-1
+  31431_at:	-1
+  31511_at:	-1
+31516_f_at:	-1
+31517_f_at:	-1
+31525_s_at:	-1
+  31527_at:	-1
+  31543_at:	-1
+  31545_at:	-1
+  31546_at:	-1
+  31573_at:	-1
+  31583_at:	-1
+  31584_at:	-1
+31627_f_at:	-1
+31631_f_at:	-1
+  31642_at:	-1
+  31652_at:	-1
+31670_s_at:	-1
+31674_s_at:	-1
+  31698_at:	-1
+  31723_at:	0
+  31731_at:	-1
+
+BC005	S=118
+ Genes [59]: AFFX-MurIL2_at 31649_at 31397_at AFFX-MurIL4_at AFFX-BioDn-3_st AFFX-CreX-5_st AFFX-PheX-M_at AFFX-TrpnX-5_at AFFX-YEL024w/RIP1_at AFFX-YEL021w/URA3_at 31425_g_at 31450_s_at 31537_at 31554_at 31555_at 31564_at 31710_at 31715_at AFFX-BioB-5_at AFFX-BioB-M_at AFFX-CreX-3_at AFFX-BioB-3_st AFFX-DapX-M_at AFFX-DapX-3_at AFFX-LysX-3_at AFFX-ThrX-M_at 31307_at 31314_at 31331_at 31363_at 31373_at 31386_at 31394_at 31424_at 31429_at 31441_at 31452_at 31453_s_at 31455_r_at 31485_at 31495_at 31497_at 31558_at 31582_at 31602_at 31613_at 31614_at 31618_at 31624_at 31628_at 31634_at 31662_at 31679_at 31712_at 31725_s_at 31511_at 31573_at 31642_at 31652_at 
+ Conds [2]: R V 
+AFFX-MurIL2_at:	1	1
+  31649_at:	1	1
+  31397_at:	1	1
+AFFX-MurIL4_at:	1	1
+AFFX-BioDn-3_st:	1	1
+AFFX-CreX-5_st:	1	1
+AFFX-PheX-M_at:	1	1
+AFFX-TrpnX-5_at:	1	1
+AFFX-YEL024w/RIP1_at:	1	1
+AFFX-YEL021w/URA3_at:	1	1
+31425_g_at:	1	1
+31450_s_at:	1	1
+  31537_at:	1	1
+  31554_at:	1	1
+  31555_at:	1	1
+  31564_at:	1	1
+  31710_at:	1	1
+  31715_at:	1	1
+AFFX-BioB-5_at:	1	1
+AFFX-BioB-M_at:	1	0
+AFFX-CreX-3_at:	1	1
+AFFX-BioB-3_st:	1	1
+AFFX-DapX-M_at:	1	1
+AFFX-DapX-3_at:	1	1
+AFFX-LysX-3_at:	1	1
+AFFX-ThrX-M_at:	1	1
+  31307_at:	1	1
+  31314_at:	1	1
+  31331_at:	1	1
+  31363_at:	1	1
+  31373_at:	1	1
+  31386_at:	1	1
+  31394_at:	1	1
+  31424_at:	1	1
+  31429_at:	1	1
+  31441_at:	1	1
+  31452_at:	1	1
+31453_s_at:	1	1
+31455_r_at:	1	1
+  31485_at:	1	1
+  31495_at:	1	1
+  31497_at:	1	1
+  31558_at:	1	1
+  31582_at:	1	1
+  31602_at:	1	1
+  31613_at:	1	1
+  31614_at:	1	1
+  31618_at:	1	1
+  31624_at:	1	1
+  31628_at:	1	1
+  31634_at:	1	1
+  31662_at:	0	1
+  31679_at:	1	1
+  31712_at:	1	1
+31725_s_at:	1	1
+
+  31511_at:	-1	-1
+  31573_at:	-1	-1
+  31642_at:	-1	-1
+  31652_at:	-1	-1
+
+BC006	S=118
+ Genes [59]: 31393_r_at 31429_at AFFX-BioB-5_st AFFX-BioDn-3_st 31613_at AFFX-MurIL2_at AFFX-BioB-5_at AFFX-BioB-M_at AFFX-BioB-3_at AFFX-BioC-5_at AFFX-CreX-3_at AFFX-BioB-3_st AFFX-BioC-5_st AFFX-CreX-5_st AFFX-DapX-5_at AFFX-DapX-M_at AFFX-DapX-3_at AFFX-LysX-3_at AFFX-ThrX-M_at AFFX-YEL024w/RIP1_at AFFX-YEL021w/URA3_at 31307_at 31331_at 31347_at 31363_at 31377_r_at 31384_at 31394_at 31397_at 31424_at 31425_g_at 31441_at 31450_s_at 31452_at 31453_s_at 31454_f_at 31455_r_at 31485_at 31495_at 31497_at 31507_at 31554_at 31555_at 31558_at 31564_at 31597_r_at 31614_at 31618_at 31621_s_at 31626_i_at 31628_at 31629_at 31634_at 31679_at 31689_at 31701_r_at 31725_s_at 31642_at 31652_at 
+ Conds [2]: A R 
+31393_r_at:	1	1
+  31429_at:	1	1
+AFFX-BioB-5_st:	1	1
+AFFX-BioDn-3_st:	1	1
+  31613_at:	1	1
+AFFX-MurIL2_at:	1	1
+AFFX-BioB-5_at:	1	1
+AFFX-BioB-M_at:	1	1
+AFFX-BioB-3_at:	1	1
+AFFX-BioC-5_at:	1	1
+AFFX-CreX-3_at:	1	1
+AFFX-BioB-3_st:	1	1
+AFFX-BioC-5_st:	1	1
+AFFX-CreX-5_st:	1	1
+AFFX-DapX-5_at:	1	1
+AFFX-DapX-M_at:	1	1
+AFFX-DapX-3_at:	1	1
+AFFX-LysX-3_at:	1	1
+AFFX-ThrX-M_at:	1	1
+AFFX-YEL024w/RIP1_at:	1	1
+AFFX-YEL021w/URA3_at:	1	1
+  31307_at:	1	1
+  31331_at:	1	1
+  31347_at:	1	1
+  31363_at:	1	1
+31377_r_at:	0	1
+  31384_at:	1	1
+  31394_at:	1	1
+  31397_at:	1	1
+  31424_at:	1	1
+31425_g_at:	1	1
+  31441_at:	1	1
+31450_s_at:	1	1
+  31452_at:	1	1
+31453_s_at:	1	1
+31454_f_at:	1	1
+31455_r_at:	1	1
+  31485_at:	1	1
+  31495_at:	1	1
+  31497_at:	1	1
+  31507_at:	1	1
+  31554_at:	1	1
+  31555_at:	1	1
+  31558_at:	1	1
+  31564_at:	1	1
+31597_r_at:	1	1
+  31614_at:	1	1
+  31618_at:	1	1
+31621_s_at:	1	1
+31626_i_at:	1	1
+  31628_at:	1	1
+  31629_at:	1	1
+  31634_at:	1	1
+  31679_at:	1	1
+  31689_at:	1	1
+31701_r_at:	1	1
+31725_s_at:	1	1
+
+  31642_at:	-1	-1
+  31652_at:	-1	-1
+
+BC007	S=93
+ Genes [93]: 31457_at 31686_at 31370_at 31501_at AFFX-MurIL2_at AFFX-MurIL4_at AFFX-BioB-5_at AFFX-CreX-3_at AFFX-BioB-5_st AFFX-CreX-5_st AFFX-LysX-M_at AFFX-PheX-M_at AFFX-ThrX-3_at AFFX-TrpnX-M_at 31313_at 31321_at 31331_at 31342_at 31344_at 31345_at 31351_at 31352_at 31360_at 31365_f_at 31377_r_at 31386_at 31392_r_at 31397_at 31402_at 31403_at 31425_g_at 31428_at 31435_at 31441_at 31448_s_at 31450_s_at 31455_r_at 31461_at 31465_g_at 31484_at 31498_f_at 31502_at 31515_at 31518_i_at 31537_at 31551_at 31554_at 31558_at 31564_at 31566_at 31585_at 31599_f_at 31602_at 31614_at 31619_at 31627_f_at 31645_at 31656_at 31658_at 31662_at 31695_g_at 31705_at 31710_at 31713_s_at 31715_at 31725_s_at 31733_at AFFX-HSAC07/X00351_3_st 31431_at 31432_g_at 31463_s_at 31492_at 31494_at 31512_at 31517_f_at 31525_s_at 31541_at 31562_at 31575_f_at 31600_s_at 31622_f_at 31639_f_at 31642_at 31652_at 31665_s_at 31671_at 31672_g_at 31680_at 31684_at 31687_f_at 31690_at 31716_at 31731_at 
+ Conds [1]: V 
+  31457_at:	1
+  31686_at:	1
+  31370_at:	1
+  31501_at:	1
+AFFX-MurIL2_at:	1
+AFFX-MurIL4_at:	1
+AFFX-BioB-5_at:	1
+AFFX-CreX-3_at:	1
+AFFX-BioB-5_st:	1
+AFFX-CreX-5_st:	1
+AFFX-LysX-M_at:	1
+AFFX-PheX-M_at:	1
+AFFX-ThrX-3_at:	1
+AFFX-TrpnX-M_at:	1
+  31313_at:	1
+  31321_at:	1
+  31331_at:	1
+  31342_at:	1
+  31344_at:	1
+  31345_at:	1
+  31351_at:	0
+  31352_at:	1
+  31360_at:	1
+31365_f_at:	1
+31377_r_at:	1
+  31386_at:	1
+31392_r_at:	1
+  31397_at:	1
+  31402_at:	1
+  31403_at:	1
+31425_g_at:	1
+  31428_at:	1
+  31435_at:	1
+  31441_at:	1
+31448_s_at:	1
+31450_s_at:	1
+31455_r_at:	1
+  31461_at:	1
+31465_g_at:	1
+  31484_at:	1
+31498_f_at:	1
+  31502_at:	1
+  31515_at:	1
+31518_i_at:	1
+  31537_at:	1
+  31551_at:	1
+  31554_at:	1
+  31558_at:	1
+  31564_at:	1
+  31566_at:	1
+  31585_at:	1
+31599_f_at:	1
+  31602_at:	1
+  31614_at:	1
+  31619_at:	1
+31627_f_at:	1
+  31645_at:	1
+  31656_at:	1
+  31658_at:	1
+  31662_at:	1
+31695_g_at:	1
+  31705_at:	-1
+  31710_at:	1
+31713_s_at:	1
+  31715_at:	1
+31725_s_at:	1
+  31733_at:	1
+
+AFFX-HSAC07/X00351_3_st:	-1
+  31431_at:	-1
+31432_g_at:	-1
+31463_s_at:	-1
+  31492_at:	0
+  31494_at:	0
+  31512_at:	1
+31517_f_at:	-1
+31525_s_at:	-1
+  31541_at:	-1
+  31562_at:	0
+31575_f_at:	-1
+31600_s_at:	-1
+31622_f_at:	-1
+31639_f_at:	0
+  31642_at:	-1
+  31652_at:	-1
+31665_s_at:	-1
+  31671_at:	0
+31672_g_at:	0
+  31680_at:	-1
+  31684_at:	-1
+31687_f_at:	0
+  31690_at:	0
+  31716_at:	0
+  31731_at:	0
+
+BC008	S=92
+ Genes [46]: AFFX-BioB-3_st 31730_at AFFX-BioB-5_at AFFX-LysX-3_at AFFX-TrpnX-5_at 31429_at 31558_at 31564_at 31699_at 31712_at AFFX-MurIL2_at AFFX-BioDn-3_st AFFX-CreX-5_st AFFX-DapX-M_at AFFX-DapX-3_at AFFX-ThrX-M_at AFFX-M27830_3_at AFFX-YEL024w/RIP1_at AFFX-YEL021w/URA3_at 31307_at 31321_at 31331_at 31368_at 31373_at 31397_at 31405_at 31419_r_at 31425_g_at 31450_s_at 31452_at 31455_r_at 31476_g_at 31537_at 31554_at 31555_at 31582_at 31613_at 31614_at 31618_at 31624_at 31628_at 31662_at 31679_at 31710_at 31715_at 31573_at 
+ Conds [2]: G V 
+AFFX-BioB-3_st:	1	1
+  31730_at:	1	1
+AFFX-BioB-5_at:	1	1
+AFFX-LysX-3_at:	1	1
+AFFX-TrpnX-5_at:	1	1
+  31429_at:	1	1
+  31558_at:	1	1
+  31564_at:	1	1
+  31699_at:	1	1
+  31712_at:	1	1
+AFFX-MurIL2_at:	1	1
+AFFX-BioDn-3_st:	1	1
+AFFX-CreX-5_st:	1	1
+AFFX-DapX-M_at:	1	1
+AFFX-DapX-3_at:	1	1
+AFFX-ThrX-M_at:	1	1
+AFFX-M27830_3_at:	1	0
+AFFX-YEL024w/RIP1_at:	1	1
+AFFX-YEL021w/URA3_at:	1	1
+  31307_at:	1	1
+  31321_at:	1	1
+  31331_at:	1	1
+  31368_at:	1	1
+  31373_at:	1	1
+  31397_at:	1	1
+  31405_at:	1	1
+31419_r_at:	1	1
+31425_g_at:	1	1
+31450_s_at:	1	1
+  31452_at:	1	1
+31455_r_at:	1	1
+31476_g_at:	1	1
+  31537_at:	1	1
+  31554_at:	1	1
+  31555_at:	1	1
+  31582_at:	1	1
+  31613_at:	1	1
+  31614_at:	1	1
+  31618_at:	0	1
+  31624_at:	1	1
+  31628_at:	1	1
+  31662_at:	1	1
+  31679_at:	1	1
+  31710_at:	1	1
+  31715_at:	1	1
+
+  31573_at:	-1	-1
+
+BC009	S=92
+ Genes [92]: AFFX-LysX-3_at 31435_at AFFX-BioB-5_at AFFX-DapX-3_at 31307_at 31331_at 31412_at 31549_at 31558_at 31595_at 31613_at 31628_at 31730_at AFFX-BioB-5_st AFFX-BioB-3_st AFFX-BioC-5_st AFFX-BioDn-3_st AFFX-DapX-M_at AFFX-ThrX-M_at AFFX-TrpnX-5_at AFFX-HUMISGF3A/M97935_5_at 31311_at 31313_at 31314_at 31327_at 31335_at 31345_at 31360_at 31368_at 31373_at 31377_r_at 31392_r_at 31396_r_at 31405_at 31419_r_at 31429_at 31442_at 31443_at 31452_at 31455_r_at 31465_g_at 31469_s_at 31476_g_at 31485_at 31495_at 31497_at 31500_at 31512_at 31515_at 31551_at 31556_at 31564_at 31565_at 31582_at 31599_f_at 31617_at 31618_at 31624_at 31626_i_at 31634_at 31648_at 31649_at 31656_at 31658_at 31660_at 31679_at 31695_g_at 31698_at 31699_at 31712_at 31733_at 31735_at 31736_at AFFX-M27830_5_at AFFX-M27830_M_at AFFX-HSAC07/X00351_3_st 31410_at 31463_s_at 31482_at 31509_at 31516_f_at 31543_at 31546_at 31547_at 31573_at 31592_at 31600_s_at 31601_s_at 31680_at 31697_s_at 31700_at 31705_at 
+ Conds [1]: V 
+AFFX-LysX-3_at:	1
+  31435_at:	1
+AFFX-BioB-5_at:	1
+AFFX-DapX-3_at:	1
+  31307_at:	1
+  31331_at:	1
+  31412_at:	1
+  31549_at:	1
+  31558_at:	1
+  31595_at:	1
+  31613_at:	1
+  31628_at:	1
+  31730_at:	1
+AFFX-BioB-5_st:	1
+AFFX-BioB-3_st:	1
+AFFX-BioC-5_st:	1
+AFFX-BioDn-3_st:	1
+AFFX-DapX-M_at:	1
+AFFX-ThrX-M_at:	1
+AFFX-TrpnX-5_at:	1
+AFFX-HUMISGF3A/M97935_5_at:	1
+  31311_at:	1
+  31313_at:	1
+  31314_at:	1
+  31327_at:	0
+  31335_at:	0
+  31345_at:	1
+  31360_at:	1
+  31368_at:	1
+  31373_at:	1
+31377_r_at:	1
+31392_r_at:	1
+31396_r_at:	1
+  31405_at:	1
+31419_r_at:	1
+  31429_at:	1
+  31442_at:	1
+  31443_at:	1
+  31452_at:	1
+31455_r_at:	1
+31465_g_at:	1
+31469_s_at:	1
+31476_g_at:	1
+  31485_at:	1
+  31495_at:	1
+  31497_at:	1
+  31500_at:	1
+  31512_at:	1
+  31515_at:	1
+  31551_at:	1
+  31556_at:	1
+  31564_at:	1
+  31565_at:	1
+  31582_at:	1
+31599_f_at:	1
+  31617_at:	1
+  31618_at:	1
+  31624_at:	1
+31626_i_at:	1
+  31634_at:	1
+  31648_at:	1
+  31649_at:	1
+  31656_at:	1
+  31658_at:	1
+  31660_at:	1
+  31679_at:	1
+31695_g_at:	1
+  31698_at:	1
+  31699_at:	1
+  31712_at:	1
+  31733_at:	1
+  31735_at:	1
+  31736_at:	1
+
+AFFX-M27830_5_at:	0
+AFFX-M27830_M_at:	0
+AFFX-HSAC07/X00351_3_st:	-1
+  31410_at:	0
+31463_s_at:	-1
+  31482_at:	-1
+  31509_at:	-1
+31516_f_at:	-1
+  31543_at:	-1
+  31546_at:	-1
+  31547_at:	-1
+  31573_at:	-1
+  31592_at:	0
+31600_s_at:	-1
+31601_s_at:	-1
+  31680_at:	-1
+31697_s_at:	-1
+  31700_at:	-1
+  31705_at:	-1
+
+BC010	S=92
+ Genes [92]: 31394_at 31483_g_at AFFX-BioC-5_st AFFX-LysX-3_at 31424_at 31555_at 31725_s_at AFFX-MurIL2_at AFFX-BioB-5_at AFFX-BioB-M_at AFFX-BioB-3_at AFFX-BioC-5_at AFFX-CreX-5_at AFFX-CreX-3_at AFFX-BioB-5_st AFFX-BioB-3_st AFFX-BioDn-3_st AFFX-CreX-5_st AFFX-DapX-5_at AFFX-DapX-M_at AFFX-DapX-3_at AFFX-ThrX-M_at AFFX-M27830_5_at AFFX-M27830_M_at AFFX-YEL024w/RIP1_at AFFX-YEL021w/URA3_at 31307_at 31311_at 31318_at 31331_at 31333_at 31341_at 31347_at 31363_at 31364_i_at 31380_at 31384_at 31393_r_at 31397_at 31399_at 31400_at 31405_at 31425_g_at 31429_at 31441_at 31450_s_at 31451_at 31452_at 31453_s_at 31454_f_at 31455_r_at 31466_at 31484_at 31485_at 31495_at 31497_at 31507_at 31551_at 31554_at 31558_at 31560_at 31564_at 31574_i_at 31577_at 31583_at 31598_s_at 31613_at 31614_at 31618_at 31621_s_at 31626_i_at 31628_at 31634_at 31636_s_at 31647_at 31678_at 31679_at 31693_f_at 31701_r_at 31718_at 31316_at 31336_at 31382_f_at 31472_s_at 31517_f_at 31536_at 31547_at 31570_at 31593_at 31606_at 31642_at 31652_at 
+ Conds [1]: S 
+  31394_at:	1
+31483_g_at:	1
+AFFX-BioC-5_st:	1
+AFFX-LysX-3_at:	1
+  31424_at:	1
+  31555_at:	1
+31725_s_at:	1
+AFFX-MurIL2_at:	1
+AFFX-BioB-5_at:	1
+AFFX-BioB-M_at:	1
+AFFX-BioB-3_at:	1
+AFFX-BioC-5_at:	1
+AFFX-CreX-5_at:	0
+AFFX-CreX-3_at:	1
+AFFX-BioB-5_st:	1
+AFFX-BioB-3_st:	1
+AFFX-BioDn-3_st:	1
+AFFX-CreX-5_st:	1
+AFFX-DapX-5_at:	1
+AFFX-DapX-M_at:	1
+AFFX-DapX-3_at:	1
+AFFX-ThrX-M_at:	1
+AFFX-M27830_5_at:	1
+AFFX-M27830_M_at:	1
+AFFX-YEL024w/RIP1_at:	1
+AFFX-YEL021w/URA3_at:	1
+  31307_at:	1
+  31311_at:	1
+  31318_at:	1
+  31331_at:	1
+  31333_at:	1
+  31341_at:	1
+  31347_at:	1
+  31363_at:	1
+31364_i_at:	1
+  31380_at:	1
+  31384_at:	1
+31393_r_at:	1
+  31397_at:	1
+  31399_at:	1
+  31400_at:	1
+  31405_at:	1
+31425_g_at:	1
+  31429_at:	1
+  31441_at:	1
+31450_s_at:	1
+  31451_at:	1
+  31452_at:	1
+31453_s_at:	1
+31454_f_at:	1
+31455_r_at:	1
+  31466_at:	1
+  31484_at:	1
+  31485_at:	1
+  31495_at:	1
+  31497_at:	1
+  31507_at:	1
+  31551_at:	1
+  31554_at:	1
+  31558_at:	1
+  31560_at:	1
+  31564_at:	1
+31574_i_at:	1
+  31577_at:	1
+  31583_at:	1
+31598_s_at:	1
+  31613_at:	1
+  31614_at:	1
+  31618_at:	1
+31621_s_at:	1
+31626_i_at:	1
+  31628_at:	1
+  31634_at:	1
+31636_s_at:	1
+  31647_at:	1
+  31678_at:	1
+  31679_at:	1
+31693_f_at:	1
+31701_r_at:	1
+  31718_at:	0
+
+  31316_at:	-1
+  31336_at:	-1
+31382_f_at:	-1
+31472_s_at:	0
+31517_f_at:	-1
+  31536_at:	0
+  31547_at:	-1
+  31570_at:	-1
+  31593_at:	-1
+  31606_at:	-1
+  31642_at:	-1
+  31652_at:	-1
+
+BC011	S=90
+ Genes [18]: AFFX-MurIL2_at 31397_at AFFX-YEL021w/URA3_at 31425_g_at AFFX-BioB-3_st AFFX-YEL024w/RIP1_at 31554_at 31555_at 31564_at AFFX-BioB-5_at AFFX-CreX-5_st AFFX-LysX-3_at 31429_at 31450_s_at 31537_at 31558_at 31614_at 31710_at 
+ Conds [5]: A D G R V 
+AFFX-MurIL2_at:	1	1	1	1	1
+  31397_at:	1	1	1	1	1
+AFFX-YEL021w/URA3_at:	1	1	1	1	1
+31425_g_at:	1	1	1	1	1
+AFFX-BioB-3_st:	1	1	1	1	1
+AFFX-YEL024w/RIP1_at:	1	1	1	1	1
+  31554_at:	1	1	1	1	1
+  31555_at:	1	1	1	1	1
+  31564_at:	1	1	1	1	1
+AFFX-BioB-5_at:	1	1	1	1	1
+AFFX-CreX-5_st:	1	1	1	1	1
+AFFX-LysX-3_at:	1	1	1	1	1
+  31429_at:	1	1	1	1	1
+31450_s_at:	1	1	1	1	1
+  31537_at:	1	1	1	1	1
+  31558_at:	1	1	1	1	1
+  31614_at:	1	1	1	1	1
+  31710_at:	1	1	1	1	1
+
+
+BC012	S=90
+ Genes [30]: AFFX-MurIL2_at 31591_s_at 31397_at AFFX-YEL021w/URA3_at AFFX-BioB-3_st AFFX-YEL024w/RIP1_at 31425_g_at AFFX-MurIL4_at AFFX-BioB-5_at AFFX-CreX-5_st AFFX-LysX-3_at AFFX-ThrX-M_at AFFX-TrpnX-5_at 31311_at 31373_at 31382_f_at 31429_at 31441_at 31450_s_at 31537_at 31554_at 31555_at 31558_at 31564_at 31582_at 31614_at 31686_at 31710_at 31712_at 31715_at 
+ Conds [3]: G R V 
+AFFX-MurIL2_at:	1	1	1
+31591_s_at:	1	1	1
+  31397_at:	1	1	1
+AFFX-YEL021w/URA3_at:	1	1	1
+AFFX-BioB-3_st:	1	1	1
+AFFX-YEL024w/RIP1_at:	1	1	1
+31425_g_at:	1	1	1
+AFFX-MurIL4_at:	1	1	1
+AFFX-BioB-5_at:	1	1	1
+AFFX-CreX-5_st:	1	1	1
+AFFX-LysX-3_at:	1	1	1
+AFFX-ThrX-M_at:	1	1	1
+AFFX-TrpnX-5_at:	1	1	1
+  31311_at:	1	1	1
+  31373_at:	1	1	1
+31382_f_at:	1	1	0
+  31429_at:	1	1	1
+  31441_at:	1	1	1
+31450_s_at:	1	1	1
+  31537_at:	1	1	1
+  31554_at:	1	1	1
+  31555_at:	1	1	1
+  31558_at:	1	1	1
+  31564_at:	1	1	1
+  31582_at:	1	1	1
+  31614_at:	1	1	1
+  31686_at:	0	1	1
+  31710_at:	1	1	1
+  31712_at:	1	1	1
+  31715_at:	1	1	1
+
+
+BC013	S=88
+ Genes [22]: 31331_at 31558_at AFFX-BioB-5_at AFFX-DapX-3_at AFFX-LysX-3_at 31307_at 31613_at 31628_at AFFX-BioB-3_st AFFX-BioDn-3_st AFFX-DapX-M_at AFFX-ThrX-M_at 31412_at 31429_at 31452_at 31455_r_at 31485_at 31497_at 31564_at 31595_at 31634_at 31679_at 
+ Conds [4]: G R S V 
+  31331_at:	1	1	1	1
+  31558_at:	1	1	1	1
+AFFX-BioB-5_at:	1	1	1	1
+AFFX-DapX-3_at:	1	1	1	1
+AFFX-LysX-3_at:	1	1	1	1
+  31307_at:	1	1	1	1
+  31613_at:	1	1	1	1
+  31628_at:	1	1	1	1
+AFFX-BioB-3_st:	1	1	1	1
+AFFX-BioDn-3_st:	1	1	1	1
+AFFX-DapX-M_at:	1	1	1	1
+AFFX-ThrX-M_at:	1	1	1	1
+  31412_at:	1	1	1	1
+  31429_at:	1	1	1	1
+  31452_at:	1	1	1	1
+31455_r_at:	1	1	1	1
+  31485_at:	1	1	1	1
+  31497_at:	1	1	1	1
+  31564_at:	1	1	1	1
+  31595_at:	1	1	1	1
+  31634_at:	1	1	1	1
+  31679_at:	1	1	1	1
+
+
+BC014	S=88
+ Genes [44]: 31595_at 31599_f_at 31412_at 31452_at 31558_at 31582_at AFFX-BioB-5_at AFFX-BioB-3_st AFFX-BioDn-3_st AFFX-DapX-M_at AFFX-DapX-3_at AFFX-LysX-3_at AFFX-ThrX-M_at AFFX-TrpnX-5_at AFFX-HUMISGF3A/M97935_5_at 31307_at 31314_at 31315_at 31331_at 31368_at 31373_at 31405_at 31419_r_at 31429_at 31430_at 31443_at 31455_r_at 31469_s_at 31476_g_at 31524_f_at 31556_at 31564_at 31613_at 31624_at 31628_at 31676_at 31679_at 31699_at 31712_at 31730_at 31463_s_at 31546_at 31573_at 31697_s_at 
+ Conds [2]: G T 
+  31595_at:	1	-1
+31599_f_at:	1	-1
+  31412_at:	1	-1
+  31452_at:	1	-1
+  31558_at:	1	-1
+  31582_at:	1	-1
+AFFX-BioB-5_at:	1	-1
+AFFX-BioB-3_st:	1	-1
+AFFX-BioDn-3_st:	1	-1
+AFFX-DapX-M_at:	1	-1
+AFFX-DapX-3_at:	1	-1
+AFFX-LysX-3_at:	1	-1
+AFFX-ThrX-M_at:	1	-1
+AFFX-TrpnX-5_at:	1	-1
+AFFX-HUMISGF3A/M97935_5_at:	0	-1
+  31307_at:	1	-1
+  31314_at:	1	0
+  31315_at:	1	0
+  31331_at:	1	-1
+  31368_at:	1	-1
+  31373_at:	1	-1
+  31405_at:	1	-1
+31419_r_at:	1	-1
+  31429_at:	1	-1
+  31430_at:	1	-1
+  31443_at:	1	-1
+31455_r_at:	1	-1
+31469_s_at:	1	-1
+31476_g_at:	1	-1
+31524_f_at:	1	-1
+  31556_at:	1	-1
+  31564_at:	1	-1
+  31613_at:	1	-1
+  31624_at:	1	-1
+  31628_at:	1	-1
+  31676_at:	1	-1
+  31679_at:	1	-1
+  31699_at:	1	-1
+  31712_at:	1	-1
+  31730_at:	1	-1
+
+31463_s_at:	-1	1
+  31546_at:	-1	1
+  31573_at:	-1	1
+31697_s_at:	-1	1
+
+BC015	S=88
+ Genes [44]: AFFX-LysX-3_at 31343_at AFFX-BioB-5_at 31311_at 31558_at AFFX-MurIL2_at AFFX-BioB-3_st AFFX-CreX-5_st AFFX-DapX-3_at AFFX-TrpnX-5_at AFFX-M27830_3_at AFFX-YEL024w/RIP1_at AFFX-YEL021w/URA3_at 31307_at 31314_at 31331_at 31373_at 31382_f_at 31397_at 31412_at 31425_g_at 31429_at 31450_s_at 31471_at 31485_at 31497_at 31500_at 31537_at 31554_at 31555_at 31564_at 31582_at 31591_s_at 31595_at 31613_at 31614_at 31628_at 31634_at 31649_at 31710_at 31712_at 31715_at 31727_at 31730_at 
+ Conds [2]: G R 
+AFFX-LysX-3_at:	1	1
+  31343_at:	1	1
+AFFX-BioB-5_at:	1	1
+  31311_at:	1	1
+  31558_at:	1	1
+AFFX-MurIL2_at:	1	1
+AFFX-BioB-3_st:	1	1
+AFFX-CreX-5_st:	1	1
+AFFX-DapX-3_at:	1	1
+AFFX-TrpnX-5_at:	1	1
+AFFX-M27830_3_at:	1	1
+AFFX-YEL024w/RIP1_at:	1	1
+AFFX-YEL021w/URA3_at:	1	1
+  31307_at:	1	1
+  31314_at:	1	1
+  31331_at:	1	1
+  31373_at:	1	1
+31382_f_at:	1	1
+  31397_at:	1	1
+  31412_at:	1	1
+31425_g_at:	1	1
+  31429_at:	1	1
+31450_s_at:	1	1
+  31471_at:	1	1
+  31485_at:	1	1
+  31497_at:	1	1
+  31500_at:	1	0
+  31537_at:	1	1
+  31554_at:	1	1
+  31555_at:	1	1
+  31564_at:	1	1
+  31582_at:	1	1
+31591_s_at:	1	1
+  31595_at:	1	1
+  31613_at:	1	1
+  31614_at:	1	1
+  31628_at:	1	1
+  31634_at:	1	1
+  31649_at:	1	1
+  31710_at:	1	1
+  31712_at:	1	1
+  31715_at:	1	1
+  31727_at:	1	1
+  31730_at:	1	0
+
+
+BC016	S=86
+ Genes [43]: AFFX-BioB-5_at 31345_at 31360_at 31564_at AFFX-MurIL2_at AFFX-CreX-5_st 31425_g_at 31450_s_at 31537_at 31554_at 31614_at 31686_at 31710_at 31715_at AFFX-CreX-3_at AFFX-BioB-3_st AFFX-LysX-3_at AFFX-TrpnX-5_at AFFX-YEL024w/RIP1_at AFFX-YEL021w/URA3_at 31311_at 31313_at 31342_at 31373_at 31386_at 31397_at 31428_at 31429_at 31441_at 31501_at 31507_at 31555_at 31558_at 31582_at 31591_s_at 31618_at 31662_at 31712_at 31713_s_at 31725_s_at 31517_f_at 31525_s_at 31642_at 
+ Conds [2]: R V 
+AFFX-BioB-5_at:	1	1
+  31345_at:	1	1
+  31360_at:	1	1
+  31564_at:	1	1
+AFFX-MurIL2_at:	1	1
+AFFX-CreX-5_st:	1	1
+31425_g_at:	1	1
+31450_s_at:	1	1
+  31537_at:	1	1
+  31554_at:	1	1
+  31614_at:	1	1
+  31686_at:	1	1
+  31710_at:	1	1
+  31715_at:	1	1
+AFFX-CreX-3_at:	1	1
+AFFX-BioB-3_st:	1	1
+AFFX-LysX-3_at:	1	1
+AFFX-TrpnX-5_at:	1	1
+AFFX-YEL024w/RIP1_at:	1	1
+AFFX-YEL021w/URA3_at:	1	1
+  31311_at:	1	1
+  31313_at:	1	1
+  31342_at:	1	1
+  31373_at:	1	1
+  31386_at:	1	1
+  31397_at:	1	1
+  31428_at:	0	1
+  31429_at:	1	1
+  31441_at:	1	1
+  31501_at:	1	1
+  31507_at:	1	0
+  31555_at:	1	1
+  31558_at:	1	1
+  31582_at:	1	1
+31591_s_at:	1	1
+  31618_at:	1	1
+  31662_at:	0	1
+  31712_at:	1	1
+31713_s_at:	1	1
+31725_s_at:	1	1
+
+31517_f_at:	-1	-1
+31525_s_at:	-1	-1
+  31642_at:	-1	-1
+
+BC017	S=75
+ Genes [75]: 31423_at 31440_at 31450_s_at 31515_at AFFX-MurIL2_at AFFX-BioB-M_at AFFX-BioB-3_at AFFX-CreX-5_st AFFX-TrpnX-5_at AFFX-HUMGAPDH/M33197_5_st 31313_at 31314_at 31323_r_at 31357_at 31360_at 31365_f_at 31367_at 31376_at 31386_at 31406_at 31416_at 31420_at 31425_g_at 31428_at 31439_f_at 31461_at 31474_r_at 31476_g_at 31477_at 31498_f_at 31507_at 31514_at 31529_at 31535_i_at 31537_at 31550_at 31554_at 31560_at 31564_at 31566_at 31571_at 31589_at 31627_f_at 31632_at 31635_g_at 31654_at 31658_at 31662_at 31686_at 31710_at 31715_at 31721_at 31732_at AFFX-HUMTFRR/M11507_M_at AFFX-HSAC07/X00351_3_st 31462_f_at 31463_s_at 31481_s_at 31492_at 31504_at 31574_i_at 31575_f_at 31576_at 31600_s_at 31605_at 31608_g_at 31642_at 31665_s_at 31671_at 31672_g_at 31684_at 31690_at 31706_at 31717_at 31737_at 
+ Conds [1]: J 
+  31423_at:	1
+  31440_at:	1
+31450_s_at:	1
+  31515_at:	1
+AFFX-MurIL2_at:	1
+AFFX-BioB-M_at:	1
+AFFX-BioB-3_at:	1
+AFFX-CreX-5_st:	1
+AFFX-TrpnX-5_at:	1
+AFFX-HUMGAPDH/M33197_5_st:	1
+  31313_at:	1
+  31314_at:	1
+31323_r_at:	1
+  31357_at:	1
+  31360_at:	1
+31365_f_at:	0
+  31367_at:	1
+  31376_at:	0
+  31386_at:	1
+  31406_at:	1
+  31416_at:	1
+  31420_at:	1
+31425_g_at:	1
+  31428_at:	1
+31439_f_at:	1
+  31461_at:	1
+31474_r_at:	1
+31476_g_at:	1
+  31477_at:	1
+31498_f_at:	1
+  31507_at:	1
+  31514_at:	1
+  31529_at:	1
+31535_i_at:	1
+  31537_at:	1
+  31550_at:	1
+  31554_at:	1
+  31560_at:	1
+  31564_at:	1
+  31566_at:	1
+  31571_at:	1
+  31589_at:	1
+31627_f_at:	1
+  31632_at:	1
+31635_g_at:	1
+  31654_at:	1
+  31658_at:	1
+  31662_at:	1
+  31686_at:	1
+  31710_at:	1
+  31715_at:	1
+  31721_at:	1
+  31732_at:	1
+
+AFFX-HUMTFRR/M11507_M_at:	0
+AFFX-HSAC07/X00351_3_st:	-1
+31462_f_at:	-1
+31463_s_at:	0
+31481_s_at:	-1
+  31492_at:	-1
+  31504_at:	0
+31574_i_at:	0
+31575_f_at:	0
+  31576_at:	-1
+31600_s_at:	0
+  31605_at:	-1
+31608_g_at:	-1
+  31642_at:	-1
+31665_s_at:	-1
+  31671_at:	0
+31672_g_at:	0
+  31684_at:	0
+  31690_at:	0
+  31706_at:	-1
+  31717_at:	-1
+  31737_at:	0
+
+BC018	S=74
+ Genes [74]: 31592_at 31653_at 31687_f_at AFFX-MurIL2_at AFFX-BioB-5_at AFFX-BioB-M_at AFFX-BioC-5_at AFFX-BioC-3_at AFFX-CreX-3_at AFFX-BioB-3_st AFFX-BioDn-3_st AFFX-CreX-5_st AFFX-DapX-M_at AFFX-DapX-3_at AFFX-LysX-5_at AFFX-LysX-M_at AFFX-LysX-3_at AFFX-ThrX-M_at AFFX-M27830_3_at AFFX-YEL024w/RIP1_at AFFX-YEL021w/URA3_at 31307_at 31311_at 31314_at 31331_at 31355_at 31363_at 31364_i_at 31382_f_at 31394_at 31397_at 31405_at 31412_at 31414_at 31424_at 31425_g_at 31429_at 31441_at 31445_at 31446_s_at 31450_s_at 31452_at 31455_r_at 31485_at 31486_s_at 31497_at 31514_at 31525_s_at 31551_at 31554_at 31555_at 31558_at 31564_at 31595_at 31602_at 31613_at 31614_at 31621_s_at 31628_at 31634_at 31635_g_at 31636_s_at 31660_at 31678_at 31679_at 31693_f_at 31725_s_at 31737_at 31483_g_at 31583_at 31642_at 31650_g_at 31652_at 31729_at 
+ Conds [1]: G 
+  31592_at:	1
+  31653_at:	1
+31687_f_at:	1
+AFFX-MurIL2_at:	1
+AFFX-BioB-5_at:	1
+AFFX-BioB-M_at:	1
+AFFX-BioC-5_at:	1
+AFFX-BioC-3_at:	0
+AFFX-CreX-3_at:	1
+AFFX-BioB-3_st:	1
+AFFX-BioDn-3_st:	1
+AFFX-CreX-5_st:	1
+AFFX-DapX-M_at:	1
+AFFX-DapX-3_at:	1
+AFFX-LysX-5_at:	1
+AFFX-LysX-M_at:	1
+AFFX-LysX-3_at:	1
+AFFX-ThrX-M_at:	1
+AFFX-M27830_3_at:	1
+AFFX-YEL024w/RIP1_at:	1
+AFFX-YEL021w/URA3_at:	1
+  31307_at:	1
+  31311_at:	1
+  31314_at:	1
+  31331_at:	1
+  31355_at:	1
+  31363_at:	1
+31364_i_at:	0
+31382_f_at:	1
+  31394_at:	1
+  31397_at:	1
+  31405_at:	1
+  31412_at:	1
+  31414_at:	1
+  31424_at:	1
+31425_g_at:	1
+  31429_at:	1
+  31441_at:	1
+  31445_at:	1
+31446_s_at:	1
+31450_s_at:	1
+  31452_at:	1
+31455_r_at:	1
+  31485_at:	1
+31486_s_at:	1
+  31497_at:	1
+  31514_at:	1
+31525_s_at:	1
+  31551_at:	0
+  31554_at:	1
+  31555_at:	1
+  31558_at:	1
+  31564_at:	1
+  31595_at:	1
+  31602_at:	1
+  31613_at:	1
+  31614_at:	1
+31621_s_at:	1
+  31628_at:	1
+  31634_at:	1
+31635_g_at:	1
+31636_s_at:	1
+  31660_at:	1
+  31678_at:	1
+  31679_at:	1
+31693_f_at:	1
+31725_s_at:	1
+  31737_at:	1
+
+31483_g_at:	-1
+  31583_at:	-1
+  31642_at:	-1
+31650_g_at:	-1
+  31652_at:	-1
+  31729_at:	-1
+
+BC019	S=72
+ Genes [18]: 31537_at 31715_at AFFX-MurIL2_at 31425_g_at 31564_at 31710_at AFFX-CreX-5_st 31450_s_at 31554_at AFFX-BioB-5_at AFFX-TrpnX-5_at AFFX-YEL024w/RIP1_at AFFX-YEL021w/URA3_at 31397_at 31555_at 31614_at 31662_at 31642_at 
+ Conds [4]: A D G V 
+  31537_at:	1	1	1	1
+  31715_at:	1	1	1	1
+AFFX-MurIL2_at:	1	1	1	1
+31425_g_at:	1	1	1	1
+  31564_at:	1	1	1	1
+  31710_at:	1	1	1	1
+AFFX-CreX-5_st:	1	1	1	1
+31450_s_at:	1	1	1	1
+  31554_at:	1	1	1	1
+AFFX-BioB-5_at:	1	1	1	1
+AFFX-TrpnX-5_at:	1	1	1	1
+AFFX-YEL024w/RIP1_at:	1	1	1	1
+AFFX-YEL021w/URA3_at:	1	1	1	1
+  31397_at:	1	1	1	1
+  31555_at:	1	1	1	1
+  31614_at:	1	1	1	1
+  31662_at:	1	1	1	1
+
+  31642_at:	-1	0	-1	-1
+
+BC020	S=72
+ Genes [18]: 31397_at 31602_at AFFX-MurIL2_at AFFX-YEL021w/URA3_at 31314_at 31554_at AFFX-PheX-M_at 31537_at 31710_at AFFX-YEL024w/RIP1_at 31386_at 31425_g_at 31555_at 31564_at 31585_at 31686_at 31511_at 31573_at 
+ Conds [4]: J R V Z 
+  31397_at:	1	1	1	1
+  31602_at:	1	1	1	1
+AFFX-MurIL2_at:	1	1	1	1
+AFFX-YEL021w/URA3_at:	1	1	1	1
+  31314_at:	1	1	1	1
+  31554_at:	1	1	1	1
+AFFX-PheX-M_at:	1	1	1	1
+  31537_at:	1	1	1	1
+  31710_at:	1	1	1	1
+AFFX-YEL024w/RIP1_at:	1	1	1	1
+  31386_at:	1	1	1	1
+31425_g_at:	1	1	1	1
+  31555_at:	1	1	1	1
+  31564_at:	1	1	1	1
+  31585_at:	1	1	1	1
+  31686_at:	1	1	1	1
+
+  31511_at:	-1	-1	-1	0
+  31573_at:	-1	-1	-1	0
+
+BC021	S=68
+ Genes [17]: AFFX-MurIL4_at 31397_at AFFX-MurIL2_at AFFX-YEL021w/URA3_at 31425_g_at AFFX-BioB-3_st AFFX-DapX-M_at AFFX-ThrX-M_at AFFX-TrpnX-5_at AFFX-YEL024w/RIP1_at 31424_at 31441_at 31537_at 31564_at 31710_at 31715_at 31573_at 
+ Conds [4]: A G R V 
+AFFX-MurIL4_at:	1	1	1	1
+  31397_at:	1	1	1	1
+AFFX-MurIL2_at:	1	1	1	1
+AFFX-YEL021w/URA3_at:	1	1	1	1
+31425_g_at:	1	1	1	1
+AFFX-BioB-3_st:	1	1	1	1
+AFFX-DapX-M_at:	1	1	1	1
+AFFX-ThrX-M_at:	1	1	1	1
+AFFX-TrpnX-5_at:	1	1	1	1
+AFFX-YEL024w/RIP1_at:	1	1	1	1
+  31424_at:	1	1	1	1
+  31441_at:	1	1	1	1
+  31537_at:	1	1	1	1
+  31564_at:	1	1	1	1
+  31710_at:	1	1	1	1
+  31715_at:	1	1	1	1
+
+  31573_at:	-1	-1	-1	-1
+
+BC022	S=68
+ Genes [68]: 31331_at 31551_at 31455_r_at 31558_at AFFX-BioB-5_at AFFX-BioB-3_st AFFX-BioDn-3_st AFFX-DapX-M_at AFFX-DapX-3_at AFFX-LysX-3_at AFFX-ThrX-M_at 31307_at 31405_at 31429_at 31452_at 31495_at 31564_at 31613_at 31618_at 31626_i_at 31628_at 31679_at AFFX-MurIL2_at AFFX-BioC-5_at AFFX-CreX-3_at AFFX-BioB-5_st AFFX-BioC-5_st AFFX-CreX-5_st AFFX-DapX-5_at AFFX-TrpnX-5_at AFFX-YEL024w/RIP1_at AFFX-YEL021w/URA3_at 31363_at 31384_at 31394_at 31396_r_at 31397_at 31400_at 31412_at 31419_r_at 31424_at 31425_g_at 31441_at 31450_s_at 31453_s_at 31465_g_at 31466_at 31485_at 31497_at 31554_at 31555_at 31595_at 31614_at 31624_at 31634_at 31695_g_at 31699_at 31701_r_at 31712_at 31725_s_at 31730_at 31736_at 31316_at 31543_at 31573_at 31600_s_at 31642_at 31652_at 
+ Conds [1]: A 
+  31331_at:	1
+  31551_at:	1
+31455_r_at:	1
+  31558_at:	1
+AFFX-BioB-5_at:	1
+AFFX-BioB-3_st:	1
+AFFX-BioDn-3_st:	1
+AFFX-DapX-M_at:	1
+AFFX-DapX-3_at:	1
+AFFX-LysX-3_at:	1
+AFFX-ThrX-M_at:	1
+  31307_at:	1
+  31405_at:	1
+  31429_at:	1
+  31452_at:	1
+  31495_at:	1
+  31564_at:	1
+  31613_at:	1
+  31618_at:	1
+31626_i_at:	1
+  31628_at:	1
+  31679_at:	1
+AFFX-MurIL2_at:	1
+AFFX-BioC-5_at:	1
+AFFX-CreX-3_at:	1
+AFFX-BioB-5_st:	1
+AFFX-BioC-5_st:	1
+AFFX-CreX-5_st:	1
+AFFX-DapX-5_at:	1
+AFFX-TrpnX-5_at:	1
+AFFX-YEL024w/RIP1_at:	1
+AFFX-YEL021w/URA3_at:	1
+  31363_at:	1
+  31384_at:	1
+  31394_at:	1
+31396_r_at:	1
+  31397_at:	1
+  31400_at:	1
+  31412_at:	-1
+31419_r_at:	1
+  31424_at:	1
+31425_g_at:	1
+  31441_at:	1
+31450_s_at:	1
+31453_s_at:	1
+31465_g_at:	1
+  31466_at:	1
+  31485_at:	1
+  31497_at:	1
+  31554_at:	1
+  31555_at:	1
+  31595_at:	0
+  31614_at:	1
+  31624_at:	1
+  31634_at:	1
+31695_g_at:	0
+  31699_at:	1
+31701_r_at:	1
+  31712_at:	1
+31725_s_at:	1
+  31730_at:	1
+  31736_at:	1
+
+  31316_at:	-1
+  31543_at:	-1
+  31573_at:	-1
+31600_s_at:	-1
+  31642_at:	-1
+  31652_at:	-1
+
+BC023	S=66
+ Genes [66]: 31382_f_at 31630_at 31420_at 31659_at 31662_at AFFX-MurIL2_at AFFX-CreX-5_st AFFX-TrpnX-5_at AFFX-M27830_5_at AFFX-HUMGAPDH/M33197_5_st AFFX-HUMGAPDH/M33197_3_st AFFX-HSAC07/X00351_5_st AFFX-YEL024w/RIP1_at AFFX-YEL021w/URA3_at 31322_at 31360_at 31368_at 31373_at 31397_at 31406_at 31408_at 31425_g_at 31428_at 31450_s_at 31458_at 31471_at 31475_at 31476_g_at 31507_at 31535_i_at 31537_at 31547_at 31550_at 31554_at 31555_at 31560_at 31564_at 31569_at 31571_at 31579_at 31582_at 31585_at 31589_at 31592_at 31596_f_at 31606_at 31607_at 31618_at 31686_at 31709_at 31710_at 31715_at 31726_at 31727_at AFFX-HSAC07/X00351_5_at AFFX-HSAC07/X00351_M_at AFFX-HSAC07/X00351_3_at AFFX-HSAC07/X00351_3_st 31444_s_at 31485_at 31511_at 31573_at 31601_s_at 31660_at 31695_g_at 31717_at 
+ Conds [1]: J 
+31382_f_at:	1
+  31630_at:	1
+  31420_at:	1
+  31659_at:	1
+  31662_at:	1
+AFFX-MurIL2_at:	1
+AFFX-CreX-5_st:	1
+AFFX-TrpnX-5_at:	1
+AFFX-M27830_5_at:	1
+AFFX-HUMGAPDH/M33197_5_st:	1
+AFFX-HUMGAPDH/M33197_3_st:	1
+AFFX-HSAC07/X00351_5_st:	1
+AFFX-YEL024w/RIP1_at:	1
+AFFX-YEL021w/URA3_at:	1
+  31322_at:	1
+  31360_at:	1
+  31368_at:	1
+  31373_at:	1
+  31397_at:	1
+  31406_at:	1
+  31408_at:	1
+31425_g_at:	1
+  31428_at:	1
+31450_s_at:	1
+  31458_at:	1
+  31471_at:	1
+  31475_at:	1
+31476_g_at:	1
+  31507_at:	1
+31535_i_at:	1
+  31537_at:	1
+  31547_at:	1
+  31550_at:	1
+  31554_at:	1
+  31555_at:	1
+  31560_at:	1
+  31564_at:	1
+  31569_at:	1
+  31571_at:	1
+  31579_at:	1
+  31582_at:	1
+  31585_at:	1
+  31589_at:	1
+  31592_at:	1
+31596_f_at:	1
+  31606_at:	1
+  31607_at:	1
+  31618_at:	1
+  31686_at:	1
+  31709_at:	1
+  31710_at:	1
+  31715_at:	1
+  31726_at:	1
+  31727_at:	1
+
+AFFX-HSAC07/X00351_5_at:	-1
+AFFX-HSAC07/X00351_M_at:	-1
+AFFX-HSAC07/X00351_3_at:	-1
+AFFX-HSAC07/X00351_3_st:	-1
+31444_s_at:	-1
+  31485_at:	-1
+  31511_at:	-1
+  31573_at:	-1
+31601_s_at:	-1
+  31660_at:	0
+31695_g_at:	0
+  31717_at:	-1
+
+BC024	S=64
+ Genes [32]: 31382_f_at 31659_at 31397_at 31686_at 31727_at AFFX-MurIL2_at AFFX-MurIL4_at AFFX-BioB-M_at AFFX-CreX-5_st AFFX-PheX-M_at AFFX-TrpnX-5_at AFFX-YEL024w/RIP1_at AFFX-YEL021w/URA3_at 31360_at 31373_at 31425_g_at 31450_s_at 31471_at 31507_at 31537_at 31554_at 31555_at 31558_at 31564_at 31582_at 31585_at 31602_at 31618_at 31710_at 31715_at AFFX-HSAC07/X00351_5_at AFFX-HSAC07/X00351_3_at 
+ Conds [2]: J R 
+31382_f_at:	1	1
+  31659_at:	1	1
+  31397_at:	1	1
+  31686_at:	1	1
+  31727_at:	1	1
+AFFX-MurIL2_at:	1	1
+AFFX-MurIL4_at:	1	1
+AFFX-BioB-M_at:	1	1
+AFFX-CreX-5_st:	1	1
+AFFX-PheX-M_at:	1	1
+AFFX-TrpnX-5_at:	1	1
+AFFX-YEL024w/RIP1_at:	1	1
+AFFX-YEL021w/URA3_at:	1	1
+  31360_at:	1	1
+  31373_at:	1	1
+31425_g_at:	1	1
+31450_s_at:	1	1
+  31471_at:	1	1
+  31507_at:	1	1
+  31537_at:	1	1
+  31554_at:	1	1
+  31555_at:	1	1
+  31558_at:	0	1
+  31564_at:	1	1
+  31582_at:	1	1
+  31585_at:	1	1
+  31602_at:	1	1
+  31618_at:	1	1
+  31710_at:	1	1
+  31715_at:	1	1
+
+AFFX-HSAC07/X00351_5_at:	-1	0
+AFFX-HSAC07/X00351_3_at:	-1	-1
+
+BC025	S=62
+ Genes [62]: 31312_at 31614_at 31710_at AFFX-MurIL2_at AFFX-BioB-5_at AFFX-BioC-5_at AFFX-CreX-3_at AFFX-CreX-5_st 31425_g_at 31441_at 31450_s_at 31537_at 31554_at 31564_at 31715_at 31725_s_at AFFX-MurIL4_at AFFX-BioB-M_at AFFX-BioB-3_st AFFX-BioDn-3_st AFFX-DapX-M_at AFFX-DapX-3_at AFFX-LysX-3_at AFFX-PheX-M_at AFFX-ThrX-M_at AFFX-TrpnX-5_at AFFX-M27830_3_at AFFX-YEL024w/RIP1_at AFFX-YEL021w/URA3_at 31307_at 31331_at 31352_at 31363_at 31386_at 31394_at 31397_at 31424_at 31429_at 31437_r_at 31452_at 31455_r_at 31485_at 31497_at 31507_at 31514_at 31540_at 31555_at 31558_at 31613_at 31621_s_at 31624_at 31628_at 31634_at 31649_at 31662_at 31676_at 31679_at 31712_at 31573_at 31642_at 31652_at 31672_g_at 
+ Conds [1]: A 
+  31312_at:	1
+  31614_at:	1
+  31710_at:	1
+AFFX-MurIL2_at:	1
+AFFX-BioB-5_at:	1
+AFFX-BioC-5_at:	1
+AFFX-CreX-3_at:	1
+AFFX-CreX-5_st:	1
+31425_g_at:	1
+  31441_at:	1
+31450_s_at:	1
+  31537_at:	1
+  31554_at:	1
+  31564_at:	1
+  31715_at:	1
+31725_s_at:	1
+AFFX-MurIL4_at:	1
+AFFX-BioB-M_at:	1
+AFFX-BioB-3_st:	1
+AFFX-BioDn-3_st:	1
+AFFX-DapX-M_at:	1
+AFFX-DapX-3_at:	1
+AFFX-LysX-3_at:	1
+AFFX-PheX-M_at:	1
+AFFX-ThrX-M_at:	1
+AFFX-TrpnX-5_at:	1
+AFFX-M27830_3_at:	1
+AFFX-YEL024w/RIP1_at:	1
+AFFX-YEL021w/URA3_at:	1
+  31307_at:	1
+  31331_at:	1
+  31352_at:	1
+  31363_at:	1
+  31386_at:	1
+  31394_at:	1
+  31397_at:	1
+  31424_at:	1
+  31429_at:	1
+31437_r_at:	1
+  31452_at:	1
+31455_r_at:	1
+  31485_at:	1
+  31497_at:	1
+  31507_at:	1
+  31514_at:	0
+  31540_at:	1
+  31555_at:	1
+  31558_at:	1
+  31613_at:	1
+31621_s_at:	1
+  31624_at:	1
+  31628_at:	1
+  31634_at:	1
+  31649_at:	1
+  31662_at:	1
+  31676_at:	0
+  31679_at:	1
+  31712_at:	1
+
+  31573_at:	-1
+  31642_at:	-1
+  31652_at:	-1
+31672_g_at:	0
+
+BC026	S=62
+ Genes [62]: 31318_at 31510_s_at AFFX-hum_alu_at AFFX-BioB-5_st AFFX-BioDn-3_st AFFX-HSAC07/X00351_5_at AFFX-HSAC07/X00351_M_at 31325_at 31377_r_at 31419_r_at 31429_at 31469_s_at 31496_g_at 31597_r_at 31613_at 31673_s_at 31704_at 31729_at AFFX-MurIL2_at AFFX-BioC-3_at AFFX-BioB-3_st AFFX-HUMGAPDH/M33197_3_at AFFX-M27830_5_at AFFX-HSAC07/X00351_3_st AFFX-HUMGAPDH/M33197_M_st AFFX-HSAC07/X00351_5_st AFFX-YEL002c/WBP1_at AFFX-YEL024w/RIP1_at AFFX-YEL021w/URA3_at 31341_at 31379_at 31397_at 31404_at 31406_at 31425_g_at 31434_at 31466_at 31507_at 31516_f_at 31519_f_at 31527_at 31545_at 31546_at 31568_at 31569_at 31571_at 31574_i_at 31575_f_at 31584_at 31589_at 31604_at 31622_f_at 31623_f_at 31631_f_at 31652_at 31655_at 31658_at 31684_at 31686_at 31697_s_at 31719_at 31726_at 
+ Conds [1]: Q 
+  31318_at:	-1
+31510_s_at:	-1
+AFFX-hum_alu_at:	-1
+AFFX-BioB-5_st:	-1
+AFFX-BioDn-3_st:	-1
+AFFX-HSAC07/X00351_5_at:	-1
+AFFX-HSAC07/X00351_M_at:	-1
+  31325_at:	-1
+31377_r_at:	-1
+31419_r_at:	-1
+  31429_at:	-1
+31469_s_at:	-1
+31496_g_at:	-1
+31597_r_at:	-1
+  31613_at:	-1
+31673_s_at:	-1
+  31704_at:	-1
+  31729_at:	-1
+
+AFFX-MurIL2_at:	1
+AFFX-BioC-3_at:	1
+AFFX-BioB-3_st:	1
+AFFX-HUMGAPDH/M33197_3_at:	0
+AFFX-M27830_5_at:	1
+AFFX-HSAC07/X00351_3_st:	1
+AFFX-HUMGAPDH/M33197_M_st:	1
+AFFX-HSAC07/X00351_5_st:	1
+AFFX-YEL002c/WBP1_at:	1
+AFFX-YEL024w/RIP1_at:	1
+AFFX-YEL021w/URA3_at:	1
+  31341_at:	1
+  31379_at:	1
+  31397_at:	1
+  31404_at:	1
+  31406_at:	1
+31425_g_at:	1
+  31434_at:	1
+  31466_at:	1
+  31507_at:	1
+31516_f_at:	1
+31519_f_at:	1
+  31527_at:	0
+  31545_at:	1
+  31546_at:	0
+  31568_at:	0
+  31569_at:	1
+  31571_at:	1
+31574_i_at:	1
+31575_f_at:	1
+  31584_at:	1
+  31589_at:	1
+  31604_at:	1
+31622_f_at:	0
+31623_f_at:	0
+31631_f_at:	0
+  31652_at:	0
+  31655_at:	1
+  31658_at:	1
+  31684_at:	1
+  31686_at:	1
+31697_s_at:	1
+  31719_at:	1
+  31726_at:	1
+
+BC027	S=62
+ Genes [62]: 31488_s_at 31605_at 31608_g_at AFFX-HUMISGF3A/M97935_MA_at AFFX-HSAC07/X00351_3_st 31371_at 31382_f_at 31462_f_at 31481_s_at 31491_s_at 31516_f_at 31521_f_at 31522_f_at 31523_f_at 31524_f_at 31528_f_at 31533_s_at 31593_at 31655_at 31665_s_at 31674_s_at 31690_at 31693_f_at 31706_at 31717_at AFFX-YEL024w/RIP1_at 31323_r_at 31328_at 31356_at 31369_at 31373_at 31381_at 31408_at 31410_at 31433_at 31440_at 31446_s_at 31447_at 31453_s_at 31458_at 31474_r_at 31475_at 31498_f_at 31529_at 31535_i_at 31547_at 31560_at 31566_at 31579_at 31589_at 31592_at 31602_at 31607_at 31618_at 31636_s_at 31637_s_at 31709_at 31721_at 31726_at 31727_at 31732_at 31733_at 
+ Conds [1]: H 
+31488_s_at:	1
+  31605_at:	1
+31608_g_at:	1
+AFFX-HUMISGF3A/M97935_MA_at:	1
+AFFX-HSAC07/X00351_3_st:	1
+  31371_at:	1
+31382_f_at:	1
+31462_f_at:	0
+31481_s_at:	1
+31491_s_at:	1
+31516_f_at:	1
+31521_f_at:	1
+31522_f_at:	1
+31523_f_at:	1
+31524_f_at:	1
+31528_f_at:	1
+31533_s_at:	1
+  31593_at:	1
+  31655_at:	1
+31665_s_at:	1
+31674_s_at:	1
+  31690_at:	1
+31693_f_at:	1
+  31706_at:	1
+  31717_at:	1
+
+AFFX-YEL024w/RIP1_at:	-1
+31323_r_at:	-1
+  31328_at:	-1
+  31356_at:	-1
+  31369_at:	-1
+  31373_at:	-1
+  31381_at:	-1
+  31408_at:	-1
+  31410_at:	-1
+  31433_at:	-1
+  31440_at:	-1
+31446_s_at:	-1
+  31447_at:	-1
+31453_s_at:	-1
+  31458_at:	-1
+31474_r_at:	-1
+  31475_at:	-1
+31498_f_at:	-1
+  31529_at:	-1
+31535_i_at:	-1
+  31547_at:	-1
+  31560_at:	-1
+  31566_at:	-1
+  31579_at:	-1
+  31589_at:	-1
+  31592_at:	-1
+  31602_at:	-1
+  31607_at:	-1
+  31618_at:	-1
+31636_s_at:	-1
+31637_s_at:	-1
+  31709_at:	-1
+  31721_at:	-1
+  31726_at:	-1
+  31727_at:	-1
+  31732_at:	-1
+  31733_at:	-1
+
+BC028	S=61
+ Genes [61]: AFFX-HSAC07/X00351_M_st 31657_at 31332_at AFFX-BioDn-3_at 31349_at 31407_at 31409_at 31447_at 31707_at AFFX-BioDn-3_st AFFX-HSAC07/X00351_5_at 31329_at 31350_at 31362_at 31368_at 31381_at 31391_at 31417_at 31419_r_at 31427_at 31429_at 31442_at 31466_at 31469_s_at 31499_s_at 31503_at 31515_at 31531_g_at 31534_at 31569_at 31582_at 31597_r_at 31612_at 31613_at 31615_i_at 31629_at 31688_at 31689_at 31724_at 31729_at AFFX-M27830_5_at AFFX-HSAC07/X00351_3_st 31316_at 31339_at 31341_at 31382_f_at 31401_r_at 31421_at 31473_s_at 31508_at 31516_f_at 31562_at 31571_at 31588_at 31592_at 31610_at 31646_at 31658_at 31697_s_at 31706_at 31711_at 
+ Conds [1]: T 
+AFFX-HSAC07/X00351_M_st:	-1
+  31657_at:	-1
+  31332_at:	-1
+AFFX-BioDn-3_at:	-1
+  31349_at:	-1
+  31407_at:	-1
+  31409_at:	-1
+  31447_at:	-1
+  31707_at:	-1
+AFFX-BioDn-3_st:	-1
+AFFX-HSAC07/X00351_5_at:	0
+  31329_at:	-1
+  31350_at:	-1
+  31362_at:	-1
+  31368_at:	-1
+  31381_at:	-1
+  31391_at:	-1
+  31417_at:	-1
+31419_r_at:	-1
+  31427_at:	-1
+  31429_at:	-1
+  31442_at:	-1
+  31466_at:	-1
+31469_s_at:	-1
+31499_s_at:	-1
+  31503_at:	-1
+  31515_at:	-1
+31531_g_at:	-1
+  31534_at:	-1
+  31569_at:	-1
+  31582_at:	-1
+31597_r_at:	0
+  31612_at:	-1
+  31613_at:	-1
+31615_i_at:	-1
+  31629_at:	-1
+  31688_at:	-1
+  31689_at:	-1
+  31724_at:	-1
+  31729_at:	-1
+
+AFFX-M27830_5_at:	1
+AFFX-HSAC07/X00351_3_st:	1
+  31316_at:	1
+  31339_at:	0
+  31341_at:	1
+31382_f_at:	1
+31401_r_at:	1
+  31421_at:	1
+31473_s_at:	1
+  31508_at:	1
+31516_f_at:	1
+  31562_at:	1
+  31571_at:	1
+  31588_at:	0
+  31592_at:	1
+  31610_at:	1
+  31646_at:	1
+  31658_at:	0
+31697_s_at:	1
+  31706_at:	1
+  31711_at:	1
+
+BC029	S=61
+ Genes [61]: AFFX-TrpnX-3_at 31314_at 31307_at 31588_at 31649_at AFFX-MurIL2_at AFFX-BioB-5_at AFFX-BioB-5_st AFFX-BioC-5_st AFFX-DapX-3_at AFFX-LysX-3_at AFFX-TrpnX-M_at AFFX-YEL018w/_at 31311_at 31313_at 31316_at 31331_at 31335_at 31343_at 31357_at 31358_at 31377_r_at 31397_at 31401_r_at 31412_at 31418_at 31464_at 31471_at 31473_s_at 31485_at 31497_at 31558_at 31562_at 31591_s_at 31595_at 31603_at 31613_at 31628_at 31632_at 31634_at 31669_s_at 31677_at 31713_s_at 31735_at AFFX-BioDn-5_st AFFX-HUMISGF3A/M97935_MB_at 31348_at 31385_at 31409_at 31431_at 31499_s_at 31511_at 31516_f_at 31525_s_at 31583_at 31605_at 31621_s_at 31642_at 31672_g_at 31674_s_at 31696_at 
+ Conds [1]: R 
+AFFX-TrpnX-3_at:	1
+  31314_at:	1
+  31307_at:	1
+  31588_at:	1
+  31649_at:	1
+AFFX-MurIL2_at:	1
+AFFX-BioB-5_at:	1
+AFFX-BioB-5_st:	1
+AFFX-BioC-5_st:	1
+AFFX-DapX-3_at:	1
+AFFX-LysX-3_at:	1
+AFFX-TrpnX-M_at:	1
+AFFX-YEL018w/_at:	1
+  31311_at:	1
+  31313_at:	1
+  31316_at:	1
+  31331_at:	1
+  31335_at:	0
+  31343_at:	1
+  31357_at:	1
+  31358_at:	1
+31377_r_at:	1
+  31397_at:	1
+31401_r_at:	1
+  31412_at:	1
+  31418_at:	1
+  31464_at:	1
+  31471_at:	1
+31473_s_at:	1
+  31485_at:	1
+  31497_at:	1
+  31558_at:	1
+  31562_at:	1
+31591_s_at:	1
+  31595_at:	1
+  31603_at:	1
+  31613_at:	1
+  31628_at:	1
+  31632_at:	1
+  31634_at:	1
+31669_s_at:	1
+  31677_at:	1
+31713_s_at:	1
+  31735_at:	0
+
+AFFX-BioDn-5_st:	-1
+AFFX-HUMISGF3A/M97935_MB_at:	0
+  31348_at:	0
+  31385_at:	-1
+  31409_at:	-1
+  31431_at:	-1
+31499_s_at:	0
+  31511_at:	-1
+31516_f_at:	-1
+31525_s_at:	-1
+  31583_at:	-1
+  31605_at:	-1
+31621_s_at:	1
+  31642_at:	-1
+31672_g_at:	-1
+31674_s_at:	-1
+  31696_at:	0
+
+BC030	S=61
+ Genes [61]: 31506_s_at 31730_at AFFX-BioB-3_st 31565_at AFFX-BioB-5_at AFFX-DapX-3_at AFFX-LysX-3_at AFFX-TrpnX-5_at AFFX-M27830_3_at 31333_at 31335_at 31345_at 31349_at 31360_at 31368_at 31373_at 31375_at 31408_at 31415_at 31429_at 31465_g_at 31476_g_at 31486_s_at 31534_at 31542_at 31558_at 31564_at 31569_at 31571_at 31578_at 31579_at 31582_at 31612_at 31618_at 31626_i_at 31628_at 31695_g_at 31699_at 31712_at AFFX-HUMISGF3A/M97935_MA_at AFFX-HUMISGF3A/M97935_3_at AFFX-HUMGAPDH/M33197_5_at AFFX-HSAC07/X00351_5_at AFFX-HSAC07/X00351_M_at AFFX-HSAC07/X00351_3_at AFFX-HUMTFRR/M11507_M_at AFFX-HSAC07/X00351_3_st 31309_r_at 31463_s_at 31473_s_at 31477_at 31491_s_at 31504_at 31508_at 31600_s_at 31673_s_at 31674_s_at 31680_at 31711_at 31719_at 31720_s_at 
+ Conds [1]: T 
+31506_s_at:	-1
+  31730_at:	-1
+AFFX-BioB-3_st:	-1
+  31565_at:	-1
+AFFX-BioB-5_at:	-1
+AFFX-DapX-3_at:	-1
+AFFX-LysX-3_at:	-1
+AFFX-TrpnX-5_at:	-1
+AFFX-M27830_3_at:	-1
+  31333_at:	-1
+  31335_at:	-1
+  31345_at:	-1
+  31349_at:	-1
+  31360_at:	-1
+  31368_at:	-1
+  31373_at:	-1
+  31375_at:	-1
+  31408_at:	-1
+  31415_at:	-1
+  31429_at:	-1
+31465_g_at:	-1
+31476_g_at:	-1
+31486_s_at:	-1
+  31534_at:	-1
+  31542_at:	-1
+  31558_at:	-1
+  31564_at:	-1
+  31569_at:	-1
+  31571_at:	1
+  31578_at:	-1
+  31579_at:	-1
+  31582_at:	-1
+  31612_at:	-1
+  31618_at:	-1
+31626_i_at:	-1
+  31628_at:	-1
+31695_g_at:	-1
+  31699_at:	-1
+  31712_at:	-1
+
+AFFX-HUMISGF3A/M97935_MA_at:	0
+AFFX-HUMISGF3A/M97935_3_at:	1
+AFFX-HUMGAPDH/M33197_5_at:	0
+AFFX-HSAC07/X00351_5_at:	0
+AFFX-HSAC07/X00351_M_at:	0
+AFFX-HSAC07/X00351_3_at:	1
+AFFX-HUMTFRR/M11507_M_at:	-1
+AFFX-HSAC07/X00351_3_st:	1
+31309_r_at:	1
+31463_s_at:	1
+31473_s_at:	1
+  31477_at:	1
+31491_s_at:	0
+  31504_at:	1
+  31508_at:	1
+31600_s_at:	1
+31673_s_at:	1
+31674_s_at:	1
+  31680_at:	1
+  31711_at:	1
+  31719_at:	0
+31720_s_at:	0
+
+BC031	S=60
+ Genes [60]: AFFX-PheX-3_at 31477_at AFFX-M27830_5_at 31571_at 31592_at AFFX-MurIL2_at AFFX-MurIL4_at AFFX-TrpnX-5_at AFFX-HSAC07/X00351_5_st AFFX-YEL021w/URA3_at 31313_at 31328_at 31356_at 31360_at 31367_at 31368_at 31373_at 31382_f_at 31397_at 31406_at 31410_at 31416_at 31417_at 31425_g_at 31433_at 31439_f_at 31440_at 31446_s_at 31458_at 31471_at 31475_at 31476_g_at 31478_at 31507_at 31535_i_at 31537_at 31550_at 31564_at 31569_at 31572_at 31582_at 31589_at 31594_at 31596_f_at 31602_at 31607_at 31618_at 31636_s_at 31637_s_at 31678_at 31686_at 31709_at 31710_at 31715_at 31716_at 31726_at 31727_at 31462_f_at 31511_at 31573_at 
+ Conds [1]: J 
+AFFX-PheX-3_at:	1
+  31477_at:	1
+AFFX-M27830_5_at:	1
+  31571_at:	1
+  31592_at:	1
+AFFX-MurIL2_at:	1
+AFFX-MurIL4_at:	1
+AFFX-TrpnX-5_at:	1
+AFFX-HSAC07/X00351_5_st:	1
+AFFX-YEL021w/URA3_at:	1
+  31313_at:	1
+  31328_at:	1
+  31356_at:	1
+  31360_at:	1
+  31367_at:	1
+  31368_at:	1
+  31373_at:	1
+31382_f_at:	1
+  31397_at:	1
+  31406_at:	1
+  31410_at:	1
+  31416_at:	1
+  31417_at:	1
+31425_g_at:	1
+  31433_at:	1
+31439_f_at:	1
+  31440_at:	1
+31446_s_at:	1
+  31458_at:	1
+  31471_at:	1
+  31475_at:	1
+31476_g_at:	1
+  31478_at:	1
+  31507_at:	1
+31535_i_at:	1
+  31537_at:	1
+  31550_at:	1
+  31564_at:	1
+  31569_at:	1
+  31572_at:	1
+  31582_at:	1
+  31589_at:	1
+  31594_at:	1
+31596_f_at:	1
+  31602_at:	1
+  31607_at:	1
+  31618_at:	1
+31636_s_at:	1
+31637_s_at:	1
+  31678_at:	1
+  31686_at:	1
+  31709_at:	1
+  31710_at:	1
+  31715_at:	1
+  31716_at:	0
+  31726_at:	1
+  31727_at:	1
+
+31462_f_at:	-1
+  31511_at:	-1
+  31573_at:	-1
+
+BC032	S=59
+ Genes [59]: AFFX-PheX-M_at 31370_at AFFX-BioC-3_at 31348_at AFFX-BioDn-3_at AFFX-HUMISGF3A/M97935_MB_at AFFX-M27830_5_at AFFX-M27830_M_at AFFX-HUMGAPDH/M33197_M_st AFFX-HSAC07/X00351_5_st AFFX-YEL021w/URA3_at 31344_at 31362_at 31380_at 31386_at 31391_at 31397_at 31406_at 31407_at 31417_at 31434_at 31438_s_at 31442_at 31446_s_at 31449_at 31451_at 31456_at 31466_at 31491_s_at 31499_s_at 31503_at 31534_at 31569_at 31574_i_at 31585_at 31596_f_at 31599_f_at 31602_at 31686_at 31696_at 31701_r_at 31705_at 31710_at 31727_at 31728_at AFFX-HSAC07/X00351_5_at 31307_at 31339_at 31343_at 31445_at 31473_s_at 31508_at 31512_at 31557_at 31562_at 31593_at 31625_at 31729_at 31731_at 
+ Conds [1]: Z 
+AFFX-PheX-M_at:	1
+  31370_at:	1
+AFFX-BioC-3_at:	1
+  31348_at:	1
+AFFX-BioDn-3_at:	1
+AFFX-HUMISGF3A/M97935_MB_at:	1
+AFFX-M27830_5_at:	1
+AFFX-M27830_M_at:	1
+AFFX-HUMGAPDH/M33197_M_st:	1
+AFFX-HSAC07/X00351_5_st:	1
+AFFX-YEL021w/URA3_at:	1
+  31344_at:	1
+  31362_at:	1
+  31380_at:	1
+  31386_at:	1
+  31391_at:	1
+  31397_at:	1
+  31406_at:	1
+  31407_at:	1
+  31417_at:	1
+  31434_at:	1
+31438_s_at:	1
+  31442_at:	1
+31446_s_at:	1
+  31449_at:	1
+  31451_at:	1
+  31456_at:	1
+  31466_at:	1
+31491_s_at:	1
+31499_s_at:	1
+  31503_at:	1
+  31534_at:	1
+  31569_at:	1
+31574_i_at:	1
+  31585_at:	1
+31596_f_at:	1
+31599_f_at:	1
+  31602_at:	1
+  31686_at:	1
+  31696_at:	1
+31701_r_at:	1
+  31705_at:	0
+  31710_at:	1
+  31727_at:	1
+  31728_at:	1
+
+AFFX-HSAC07/X00351_5_at:	-1
+  31307_at:	0
+  31339_at:	-1
+  31343_at:	0
+  31445_at:	-1
+31473_s_at:	0
+  31508_at:	-1
+  31512_at:	1
+  31557_at:	-1
+  31562_at:	-1
+  31593_at:	-1
+  31625_at:	-1
+  31729_at:	-1
+  31731_at:	0
+
+BC033	S=58
+ Genes [58]: AFFX-CreX-5_at AFFX-BioB-3_st AFFX-M27830_3_at 31564_at AFFX-MurIL2_at AFFX-BioB-5_at AFFX-BioC-5_at AFFX-BioDn-3_at AFFX-BioDn-3_st AFFX-DapX-5_at AFFX-DapX-M_at AFFX-DapX-3_at AFFX-LysX-3_at AFFX-PheX-M_at AFFX-ThrX-M_at AFFX-TrpnX-5_at AFFX-HUMISGF3A/M97935_5_at AFFX-YEL024w/RIP1_at AFFX-YEL021w/URA3_at 31307_at 31308_at 31331_at 31347_at 31362_at 31379_at 31386_at 31397_at 31418_at 31425_g_at 31429_at 31442_at 31452_at 31455_r_at 31466_at 31495_at 31507_at 31534_at 31537_at 31554_at 31555_at 31558_at 31613_at 31618_at 31624_at 31626_i_at 31628_at 31629_at 31679_at 31689_at 31694_at 31699_at 31701_r_at 31710_at 31712_at 31736_at AFFX-HSAC07/X00351_3_at 31543_at 31573_at 
+ Conds [1]: R 
+AFFX-CreX-5_at:	1
+AFFX-BioB-3_st:	1
+AFFX-M27830_3_at:	1
+  31564_at:	1
+AFFX-MurIL2_at:	1
+AFFX-BioB-5_at:	1
+AFFX-BioC-5_at:	1
+AFFX-BioDn-3_at:	1
+AFFX-BioDn-3_st:	1
+AFFX-DapX-5_at:	1
+AFFX-DapX-M_at:	1
+AFFX-DapX-3_at:	1
+AFFX-LysX-3_at:	1
+AFFX-PheX-M_at:	1
+AFFX-ThrX-M_at:	1
+AFFX-TrpnX-5_at:	1
+AFFX-HUMISGF3A/M97935_5_at:	1
+AFFX-YEL024w/RIP1_at:	1
+AFFX-YEL021w/URA3_at:	1
+  31307_at:	1
+  31308_at:	1
+  31331_at:	1
+  31347_at:	1
+  31362_at:	1
+  31379_at:	1
+  31386_at:	1
+  31397_at:	1
+  31418_at:	1
+31425_g_at:	1
+  31429_at:	1
+  31442_at:	1
+  31452_at:	1
+31455_r_at:	1
+  31466_at:	0
+  31495_at:	1
+  31507_at:	1
+  31534_at:	1
+  31537_at:	1
+  31554_at:	1
+  31555_at:	1
+  31558_at:	1
+  31613_at:	1
+  31618_at:	1
+  31624_at:	1
+31626_i_at:	1
+  31628_at:	1
+  31629_at:	1
+  31679_at:	1
+  31689_at:	1
+  31694_at:	1
+  31699_at:	0
+31701_r_at:	1
+  31710_at:	1
+  31712_at:	1
+  31736_at:	1
+
+AFFX-HSAC07/X00351_3_at:	-1
+  31543_at:	-1
+  31573_at:	-1
+
+BC034	S=57
+ Genes [19]: AFFX-BioB-5_st 31377_r_at 31558_at AFFX-BioC-5_st 31314_at 31412_at 31595_at AFFX-BioB-5_at AFFX-DapX-3_at AFFX-LysX-3_at 31307_at 31311_at 31331_at 31452_at 31485_at 31497_at 31613_at 31628_at 31634_at 
+ Conds [3]: R S V 
+AFFX-BioB-5_st:	1	1	1
+31377_r_at:	1	1	1
+  31558_at:	1	1	1
+AFFX-BioC-5_st:	1	1	1
+  31314_at:	1	1	1
+  31412_at:	1	1	1
+  31595_at:	1	1	1
+AFFX-BioB-5_at:	1	1	1
+AFFX-DapX-3_at:	1	1	1
+AFFX-LysX-3_at:	1	1	1
+  31307_at:	1	1	1
+  31311_at:	1	1	1
+  31331_at:	1	1	1
+  31452_at:	1	1	1
+  31485_at:	1	1	1
+  31497_at:	1	1	1
+  31613_at:	1	1	1
+  31628_at:	1	1	1
+  31634_at:	1	1	1
+
+
+BC035	S=54
+ Genes [54]: 31497_at 31660_at AFFX-BioB-5_at AFFX-DapX-3_at AFFX-LysX-3_at 31307_at 31311_at 31314_at 31331_at 31412_at 31485_at 31558_at 31595_at 31613_at 31628_at 31634_at AFFX-MurIL2_at AFFX-CreX-3_at AFFX-BioB-5_st AFFX-BioB-3_st AFFX-BioC-5_st AFFX-BioDn-3_st AFFX-CreX-5_st AFFX-DapX-M_at AFFX-LysX-M_at AFFX-ThrX-M_at AFFX-YEL024w/RIP1_at AFFX-YEL021w/URA3_at 31363_at 31377_r_at 31394_at 31397_at 31405_at 31424_at 31425_g_at 31429_at 31441_at 31450_s_at 31452_at 31455_r_at 31500_at 31554_at 31555_at 31564_at 31602_at 31614_at 31649_at 31679_at 31725_s_at 31730_at 31735_at 31547_at 31642_at 31652_at 
+ Conds [1]: V 
+  31497_at:	1
+  31660_at:	1
+AFFX-BioB-5_at:	1
+AFFX-DapX-3_at:	1
+AFFX-LysX-3_at:	1
+  31307_at:	1
+  31311_at:	1
+  31314_at:	1
+  31331_at:	1
+  31412_at:	1
+  31485_at:	1
+  31558_at:	1
+  31595_at:	1
+  31613_at:	1
+  31628_at:	1
+  31634_at:	1
+AFFX-MurIL2_at:	1
+AFFX-CreX-3_at:	1
+AFFX-BioB-5_st:	1
+AFFX-BioB-3_st:	1
+AFFX-BioC-5_st:	1
+AFFX-BioDn-3_st:	1
+AFFX-CreX-5_st:	1
+AFFX-DapX-M_at:	1
+AFFX-LysX-M_at:	1
+AFFX-ThrX-M_at:	1
+AFFX-YEL024w/RIP1_at:	1
+AFFX-YEL021w/URA3_at:	1
+  31363_at:	1
+31377_r_at:	1
+  31394_at:	1
+  31397_at:	1
+  31405_at:	1
+  31424_at:	1
+31425_g_at:	1
+  31429_at:	1
+  31441_at:	1
+31450_s_at:	1
+  31452_at:	1
+31455_r_at:	1
+  31500_at:	1
+  31554_at:	1
+  31555_at:	1
+  31564_at:	1
+  31602_at:	1
+  31614_at:	1
+  31649_at:	1
+  31679_at:	1
+31725_s_at:	1
+  31730_at:	1
+  31735_at:	1
+
+  31547_at:	-1
+  31642_at:	-1
+  31652_at:	-1
+
+BC036	S=54
+ Genes [27]: 31450_s_at 31514_at AFFX-MurIL2_at AFFX-CreX-5_st 31425_g_at 31554_at 31564_at AFFX-BioB-5_at AFFX-BioB-M_at AFFX-BioC-5_at AFFX-CreX-3_at AFFX-BioDn-3_st AFFX-YEL024w/RIP1_at AFFX-YEL021w/URA3_at 31314_at 31397_at 31441_at 31507_at 31537_at 31555_at 31602_at 31614_at 31635_g_at 31710_at 31715_at 31725_s_at 31642_at 
+ Conds [2]: G R 
+31450_s_at:	1	1
+  31514_at:	1	1
+AFFX-MurIL2_at:	1	1
+AFFX-CreX-5_st:	1	1
+31425_g_at:	1	1
+  31554_at:	1	1
+  31564_at:	1	1
+AFFX-BioB-5_at:	1	1
+AFFX-BioB-M_at:	1	1
+AFFX-BioC-5_at:	1	1
+AFFX-CreX-3_at:	1	1
+AFFX-BioDn-3_st:	1	1
+AFFX-YEL024w/RIP1_at:	1	1
+AFFX-YEL021w/URA3_at:	1	1
+  31314_at:	1	1
+  31397_at:	1	1
+  31441_at:	1	1
+  31507_at:	0	1
+  31537_at:	1	1
+  31555_at:	1	1
+  31602_at:	1	1
+  31614_at:	1	1
+31635_g_at:	1	0
+  31710_at:	1	1
+  31715_at:	1	1
+31725_s_at:	1	1
+
+  31642_at:	-1	-1
+
+BC037	S=53
+ Genes [53]: 31333_at 31484_at 31454_f_at 31474_r_at AFFX-BioB-M_at AFFX-BioC-3_at AFFX-BioB-5_st AFFX-HUMRGE/M10098_M_at 31331_at 31334_at 31377_r_at 31397_at 31425_g_at 31448_s_at 31455_r_at 31501_at 31518_i_at 31551_at 31558_at 31577_at 31602_at 31646_at 31683_at 31705_at AFFX-CreX-3_at AFFX-HUMISGF3A/M97935_3_at AFFX-HSAC07/X00351_5_at 31322_at 31395_i_at 31431_at 31438_s_at 31475_at 31494_at 31512_at 31521_f_at 31524_f_at 31528_f_at 31533_s_at 31586_f_at 31587_at 31593_at 31596_f_at 31598_s_at 31625_at 31652_at 31657_at 31662_at 31663_at 31682_s_at 31696_at 31716_at 31729_at 31731_at 
+ Conds [1]: S 
+  31333_at:	1
+  31484_at:	1
+31454_f_at:	1
+31474_r_at:	1
+AFFX-BioB-M_at:	1
+AFFX-BioC-3_at:	1
+AFFX-BioB-5_st:	1
+AFFX-HUMRGE/M10098_M_at:	1
+  31331_at:	1
+  31334_at:	1
+31377_r_at:	1
+  31397_at:	1
+31425_g_at:	1
+31448_s_at:	1
+31455_r_at:	1
+  31501_at:	0
+31518_i_at:	1
+  31551_at:	1
+  31558_at:	1
+  31577_at:	1
+  31602_at:	1
+  31646_at:	1
+  31683_at:	1
+  31705_at:	1
+
+AFFX-CreX-3_at:	1
+AFFX-HUMISGF3A/M97935_3_at:	-1
+AFFX-HSAC07/X00351_5_at:	-1
+  31322_at:	-1
+31395_i_at:	-1
+  31431_at:	0
+31438_s_at:	-1
+  31475_at:	-1
+  31494_at:	-1
+  31512_at:	-1
+31521_f_at:	0
+31524_f_at:	0
+31528_f_at:	0
+31533_s_at:	0
+31586_f_at:	-1
+  31587_at:	-1
+  31593_at:	-1
+31596_f_at:	-1
+31598_s_at:	1
+  31625_at:	0
+  31652_at:	-1
+  31657_at:	-1
+  31662_at:	-1
+  31663_at:	0
+31682_s_at:	-1
+  31696_at:	0
+  31716_at:	0
+  31729_at:	-1
+  31731_at:	0
+
+BC038	S=53
+ Genes [53]: 31590_g_at 31610_at AFFX-HUMTFRR/M11507_5_at AFFX-MurIL4_at AFFX-MurFAS_at AFFX-BioB-M_at AFFX-PheX-M_at AFFX-ThrX-3_at AFFX-HUMRGE/M10098_3_at AFFX-M27830_3_at 31321_at 31325_at 31328_at 31331_at 31337_at 31382_f_at 31397_at 31402_at 31403_at 31445_at 31455_r_at 31457_at 31461_at 31522_f_at 31523_f_at 31524_f_at 31528_f_at 31558_at 31599_f_at 31602_at 31621_s_at 31633_g_at 31640_r_at 31644_at 31727_at 31737_at AFFX-HUMGAPDH/M33197_M_st 31315_at 31317_r_at 31367_at 31541_at 31544_at 31562_at 31581_at 31650_g_at 31652_at 31654_at 31663_at 31672_g_at 31687_f_at 31690_at 31716_at 31729_at 
+ Conds [1]: G 
+31590_g_at:	1
+  31610_at:	1
+AFFX-HUMTFRR/M11507_5_at:	1
+AFFX-MurIL4_at:	1
+AFFX-MurFAS_at:	1
+AFFX-BioB-M_at:	1
+AFFX-PheX-M_at:	1
+AFFX-ThrX-3_at:	1
+AFFX-HUMRGE/M10098_3_at:	1
+AFFX-M27830_3_at:	1
+  31321_at:	1
+  31325_at:	1
+  31328_at:	1
+  31331_at:	1
+  31337_at:	1
+31382_f_at:	1
+  31397_at:	1
+  31402_at:	0
+  31403_at:	1
+  31445_at:	1
+31455_r_at:	1
+  31457_at:	1
+  31461_at:	1
+31522_f_at:	1
+31523_f_at:	1
+31524_f_at:	1
+31528_f_at:	1
+  31558_at:	1
+31599_f_at:	1
+  31602_at:	1
+31621_s_at:	1
+31633_g_at:	1
+31640_r_at:	1
+  31644_at:	1
+  31727_at:	1
+  31737_at:	1
+
+AFFX-HUMGAPDH/M33197_M_st:	-1
+  31315_at:	1
+31317_r_at:	-1
+  31367_at:	0
+  31541_at:	-1
+  31544_at:	1
+  31562_at:	-1
+  31581_at:	-1
+31650_g_at:	-1
+  31652_at:	-1
+  31654_at:	-1
+  31663_at:	0
+31672_g_at:	-1
+31687_f_at:	1
+  31690_at:	-1
+  31716_at:	-1
+  31729_at:	-1
+
+BC039	S=52
+ Genes [52]: AFFX-YEL024w/RIP1_at 31566_at 31453_s_at 31618_at AFFX-MurIL2_at AFFX-MurIL4_at AFFX-BioDn-3_st AFFX-CreX-5_st AFFX-PheX-M_at AFFX-TrpnX-5_at AFFX-YEL021w/URA3_at 31321_at 31352_at 31363_at 31369_at 31373_at 31384_at 31386_at 31397_at 31424_at 31425_g_at 31450_s_at 31452_at 31485_at 31495_at 31497_at 31498_f_at 31537_at 31551_at 31554_at 31555_at 31560_at 31564_at 31580_at 31602_at 31624_at 31634_at 31649_at 31662_at 31679_at 31709_at 31710_at 31712_at 31715_at 31733_at 31736_at AFFX-HSAC07/X00351_3_st 31371_at 31481_s_at 31573_at 31642_at 31665_s_at 
+ Conds [1]: V 
+AFFX-YEL024w/RIP1_at:	1
+  31566_at:	1
+31453_s_at:	1
+  31618_at:	1
+AFFX-MurIL2_at:	1
+AFFX-MurIL4_at:	1
+AFFX-BioDn-3_st:	1
+AFFX-CreX-5_st:	1
+AFFX-PheX-M_at:	1
+AFFX-TrpnX-5_at:	1
+AFFX-YEL021w/URA3_at:	1
+  31321_at:	1
+  31352_at:	1
+  31363_at:	1
+  31369_at:	0
+  31373_at:	1
+  31384_at:	1
+  31386_at:	1
+  31397_at:	1
+  31424_at:	1
+31425_g_at:	1
+31450_s_at:	1
+  31452_at:	1
+  31485_at:	1
+  31495_at:	1
+  31497_at:	1
+31498_f_at:	1
+  31537_at:	1
+  31551_at:	1
+  31554_at:	1
+  31555_at:	1
+  31560_at:	0
+  31564_at:	1
+  31580_at:	1
+  31602_at:	1
+  31624_at:	1
+  31634_at:	1
+  31649_at:	1
+  31662_at:	1
+  31679_at:	1
+  31709_at:	1
+  31710_at:	1
+  31712_at:	1
+  31715_at:	1
+  31733_at:	1
+  31736_at:	1
+
+AFFX-HSAC07/X00351_3_st:	-1
+  31371_at:	-1
+31481_s_at:	-1
+  31573_at:	-1
+  31642_at:	-1
+31665_s_at:	-1
+
+BC040	S=51
+ Genes [17]: AFFX-MurIL2_at 31726_at 31397_at AFFX-YEL021w/URA3_at 31406_at 31571_at 31589_at 31686_at AFFX-M27830_5_at AFFX-HSAC07/X00351_5_st 31425_g_at 31507_at 31537_at 31569_at 31592_at 31607_at 31710_at 
+ Conds [3]: C D J 
+AFFX-MurIL2_at:	1	1	1
+  31726_at:	1	1	1
+  31397_at:	1	1	1
+AFFX-YEL021w/URA3_at:	1	1	1
+  31406_at:	1	1	1
+  31571_at:	1	1	1
+  31589_at:	1	1	1
+  31686_at:	1	1	1
+AFFX-M27830_5_at:	1	1	1
+AFFX-HSAC07/X00351_5_st:	1	1	1
+31425_g_at:	1	1	1
+  31507_at:	1	1	1
+  31537_at:	1	1	1
+  31569_at:	1	1	1
+  31592_at:	1	1	1
+  31607_at:	1	1	1
+  31710_at:	1	1	1
+
+
+BC041	S=51
+ Genes [17]: AFFX-YEL021w/URA3_at 31699_at AFFX-MurIL2_at AFFX-BioB-3_st 31397_at 31425_g_at 31537_at 31564_at 31710_at AFFX-TrpnX-5_at AFFX-YEL024w/RIP1_at 31321_at 31554_at 31555_at 31662_at 31709_at 31715_at 
+ Conds [3]: D G V 
+AFFX-YEL021w/URA3_at:	1	1	1
+  31699_at:	1	1	1
+AFFX-MurIL2_at:	1	1	1
+AFFX-BioB-3_st:	1	1	1
+  31397_at:	1	1	1
+31425_g_at:	1	1	1
+  31537_at:	1	1	1
+  31564_at:	1	1	1
+  31710_at:	1	1	1
+AFFX-TrpnX-5_at:	1	1	1
+AFFX-YEL024w/RIP1_at:	1	1	1
+  31321_at:	1	1	1
+  31554_at:	1	1	1
+  31555_at:	1	1	1
+  31662_at:	1	1	1
+  31709_at:	1	1	1
+  31715_at:	1	1	1
+
+
+BC042	S=49
+ Genes [49]: 31646_at 31666_f_at AFFX-HSAC07/X00351_3_st 31341_at AFFX-MurIL2_at AFFX-BioC-3_at AFFX-BioB-5_st AFFX-BioB-3_st AFFX-BioC-5_st AFFX-ThrX-M_at AFFX-M27830_5_at AFFX-YEL024w/RIP1_at AFFX-YEL021w/URA3_at 31314_at 31334_at 31347_at 31377_r_at 31397_at 31412_at 31414_at 31425_g_at 31441_at 31452_at 31453_s_at 31466_at 31489_at 31507_at 31513_at 31550_at 31558_at 31571_at 31574_i_at 31577_at 31592_at 31595_at 31607_at 31636_s_at 31647_at 31687_f_at 31693_f_at 31717_at 31739_at AFFX-BioDn-3_at AFFX-HSAC07/X00351_5_at AFFX-HSAC07/X00351_M_at 31332_at 31493_s_at 31657_at 31729_at 
+ Conds [1]: S 
+  31646_at:	1
+31666_f_at:	1
+AFFX-HSAC07/X00351_3_st:	1
+  31341_at:	1
+AFFX-MurIL2_at:	1
+AFFX-BioC-3_at:	1
+AFFX-BioB-5_st:	1
+AFFX-BioB-3_st:	1
+AFFX-BioC-5_st:	1
+AFFX-ThrX-M_at:	1
+AFFX-M27830_5_at:	1
+AFFX-YEL024w/RIP1_at:	1
+AFFX-YEL021w/URA3_at:	1
+  31314_at:	1
+  31334_at:	1
+  31347_at:	1
+31377_r_at:	1
+  31397_at:	1
+  31412_at:	1
+  31414_at:	1
+31425_g_at:	1
+  31441_at:	1
+  31452_at:	1
+31453_s_at:	1
+  31466_at:	1
+  31489_at:	1
+  31507_at:	1
+  31513_at:	0
+  31550_at:	1
+  31558_at:	1
+  31571_at:	1
+31574_i_at:	1
+  31577_at:	1
+  31592_at:	1
+  31595_at:	1
+  31607_at:	1
+31636_s_at:	1
+  31647_at:	1
+31687_f_at:	1
+31693_f_at:	1
+  31717_at:	1
+  31739_at:	1
+
+AFFX-BioDn-3_at:	0
+AFFX-HSAC07/X00351_5_at:	-1
+AFFX-HSAC07/X00351_M_at:	-1
+  31332_at:	0
+31493_s_at:	-1
+  31657_at:	-1
+  31729_at:	-1
+
+BC043	S=49
+ Genes [49]: 31490_at 31522_f_at 31523_f_at 31524_f_at 31528_f_at AFFX-HUMISGF3A/M97935_5_at AFFX-HUMISGF3A/M97935_MA_at AFFX-HUMISGF3A/M97935_MB_at AFFX-HUMISGF3A/M97935_3_at AFFX-HUMGAPDH/M33197_5_at AFFX-HUMTFRR/M11507_5_at AFFX-HUMTFRR/M11507_M_at AFFX-HUMTFRR/M11507_3_at AFFX-HSAC07/X00351_3_st 31315_at 31317_r_at 31319_at 31386_at 31431_at 31438_s_at 31463_s_at 31499_s_at 31504_at 31512_at 31526_f_at 31540_at 31586_f_at 31596_f_at 31600_s_at 31608_g_at 31638_at 31665_s_at 31670_s_at 31671_at 31672_g_at 31674_s_at 31680_at 31690_at AFFX-ThrX-5_at 31320_at 31335_at 31365_f_at 31367_at 31440_at 31474_r_at 31501_at 31544_at 31667_r_at 31687_f_at 
+ Conds [1]: P 
+  31490_at:	1
+31522_f_at:	1
+31523_f_at:	1
+31524_f_at:	1
+31528_f_at:	1
+AFFX-HUMISGF3A/M97935_5_at:	1
+AFFX-HUMISGF3A/M97935_MA_at:	1
+AFFX-HUMISGF3A/M97935_MB_at:	1
+AFFX-HUMISGF3A/M97935_3_at:	1
+AFFX-HUMGAPDH/M33197_5_at:	1
+AFFX-HUMTFRR/M11507_5_at:	0
+AFFX-HUMTFRR/M11507_M_at:	1
+AFFX-HUMTFRR/M11507_3_at:	1
+AFFX-HSAC07/X00351_3_st:	1
+  31315_at:	1
+31317_r_at:	1
+  31319_at:	1
+  31386_at:	1
+  31431_at:	1
+31438_s_at:	1
+31463_s_at:	1
+31499_s_at:	1
+  31504_at:	1
+  31512_at:	1
+31526_f_at:	1
+  31540_at:	1
+31586_f_at:	1
+31596_f_at:	1
+31600_s_at:	1
+31608_g_at:	1
+  31638_at:	1
+31665_s_at:	1
+31670_s_at:	1
+  31671_at:	1
+31672_g_at:	1
+31674_s_at:	1
+  31680_at:	1
+  31690_at:	1
+
+AFFX-ThrX-5_at:	-1
+  31320_at:	-1
+  31335_at:	-1
+31365_f_at:	-1
+  31367_at:	-1
+  31440_at:	0
+31474_r_at:	-1
+  31501_at:	-1
+  31544_at:	0
+31667_r_at:	-1
+31687_f_at:	-1
+
+BC044	S=49
+ Genes [49]: 31411_at 31664_at AFFX-CreX-3_at 31676_at AFFX-MurIL2_at AFFX-BioB-5_at AFFX-BioC-5_at AFFX-CreX-5_st 31312_at 31313_at 31342_at 31345_at 31360_at 31376_at 31386_at 31425_g_at 31441_at 31450_s_at 31487_at 31497_at 31501_at 31507_at 31514_at 31537_at 31540_at 31554_at 31564_at 31602_at 31614_at 31621_s_at 31677_at 31686_at 31696_at 31710_at 31713_s_at 31715_at 31725_s_at 31338_at 31409_at 31517_f_at 31525_s_at 31553_at 31591_s_at 31605_at 31642_at 31647_at 31672_g_at 31674_s_at 31731_at 
+ Conds [1]: R 
+  31411_at:	1
+  31664_at:	1
+AFFX-CreX-3_at:	1
+  31676_at:	1
+AFFX-MurIL2_at:	1
+AFFX-BioB-5_at:	1
+AFFX-BioC-5_at:	1
+AFFX-CreX-5_st:	1
+  31312_at:	1
+  31313_at:	1
+  31342_at:	1
+  31345_at:	1
+  31360_at:	1
+  31376_at:	1
+  31386_at:	1
+31425_g_at:	1
+  31441_at:	1
+31450_s_at:	1
+  31487_at:	1
+  31497_at:	1
+  31501_at:	1
+  31507_at:	1
+  31514_at:	1
+  31537_at:	1
+  31540_at:	1
+  31554_at:	1
+  31564_at:	1
+  31602_at:	1
+  31614_at:	1
+31621_s_at:	1
+  31677_at:	1
+  31686_at:	1
+  31696_at:	0
+  31710_at:	1
+31713_s_at:	1
+  31715_at:	1
+31725_s_at:	1
+
+  31338_at:	0
+  31409_at:	-1
+31517_f_at:	-1
+31525_s_at:	-1
+  31553_at:	0
+31591_s_at:	1
+  31605_at:	-1
+  31642_at:	-1
+  31647_at:	0
+31672_g_at:	-1
+31674_s_at:	-1
+  31731_at:	-1
+
+BC045	S=49
+ Genes [49]: AFFX-HUMRGE/M10098_5_at 31332_at 31729_at AFFX-CreX-3_at AFFX-HSAC07/X00351_5_at 31329_at 31342_at 31395_i_at 31409_at 31411_at 31487_at 31490_at 31496_g_at 31533_s_at 31540_at 31612_at 31619_at 31627_f_at 31639_f_at 31657_at 31662_at 31696_at 31707_at 31731_at AFFX-MurIL4_at AFFX-BioC-3_at AFFX-HSAC07/X00351_3_st 31334_at 31341_at 31346_at 31382_f_at 31397_at 31398_at 31422_at 31448_s_at 31467_at 31494_at 31538_at 31553_at 31574_i_at 31575_f_at 31591_s_at 31610_at 31646_at 31656_at 31684_at 31686_at 31687_f_at 31717_at 
+ Conds [1]: B 
+AFFX-HUMRGE/M10098_5_at:	1
+  31332_at:	1
+  31729_at:	1
+AFFX-CreX-3_at:	1
+AFFX-HSAC07/X00351_5_at:	1
+  31329_at:	1
+  31342_at:	1
+31395_i_at:	1
+  31409_at:	1
+  31411_at:	1
+  31487_at:	1
+  31490_at:	1
+31496_g_at:	1
+31533_s_at:	1
+  31540_at:	1
+  31612_at:	0
+  31619_at:	1
+31627_f_at:	1
+31639_f_at:	1
+  31657_at:	1
+  31662_at:	1
+  31696_at:	1
+  31707_at:	1
+  31731_at:	1
+
+AFFX-MurIL4_at:	-1
+AFFX-BioC-3_at:	-1
+AFFX-HSAC07/X00351_3_st:	1
+  31334_at:	-1
+  31341_at:	0
+  31346_at:	-1
+31382_f_at:	-1
+  31397_at:	-1
+  31398_at:	-1
+  31422_at:	-1
+31448_s_at:	-1
+  31467_at:	0
+  31494_at:	1
+  31538_at:	0
+  31553_at:	-1
+31574_i_at:	0
+31575_f_at:	0
+31591_s_at:	0
+  31610_at:	-1
+  31646_at:	0
+  31656_at:	-1
+  31684_at:	0
+  31686_at:	-1
+31687_f_at:	1
+  31717_at:	0
+
+BC046	S=47
+ Genes [47]: 31314_at 31357_at AFFX-MurIL2_at 31397_at AFFX-PheX-M_at AFFX-YEL021w/URA3_at 31386_at 31520_at 31537_at 31554_at 31585_at 31602_at 31618_at 31686_at 31710_at AFFX-MurIL4_at AFFX-BioDn-3_st AFFX-CreX-5_st AFFX-TrpnX-5_at AFFX-YEL018w/_at AFFX-YEL024w/RIP1_at 31313_at 31360_at 31373_at 31382_f_at 31424_at 31425_g_at 31449_at 31450_s_at 31453_s_at 31495_at 31555_at 31564_at 31582_at 31591_s_at 31632_at 31649_at 31715_at 31371_at 31444_s_at 31511_at 31527_at 31545_at 31546_at 31573_at 31583_at 31642_at 
+ Conds [1]: R 
+  31314_at:	1
+  31357_at:	1
+AFFX-MurIL2_at:	1
+  31397_at:	1
+AFFX-PheX-M_at:	1
+AFFX-YEL021w/URA3_at:	1
+  31386_at:	1
+  31520_at:	1
+  31537_at:	1
+  31554_at:	1
+  31585_at:	1
+  31602_at:	1
+  31618_at:	1
+  31686_at:	1
+  31710_at:	1
+AFFX-MurIL4_at:	1
+AFFX-BioDn-3_st:	1
+AFFX-CreX-5_st:	1
+AFFX-TrpnX-5_at:	1
+AFFX-YEL018w/_at:	1
+AFFX-YEL024w/RIP1_at:	1
+  31313_at:	1
+  31360_at:	1
+  31373_at:	1
+31382_f_at:	1
+  31424_at:	1
+31425_g_at:	1
+  31449_at:	1
+31450_s_at:	1
+31453_s_at:	1
+  31495_at:	1
+  31555_at:	1
+  31564_at:	1
+  31582_at:	1
+31591_s_at:	1
+  31632_at:	1
+  31649_at:	1
+  31715_at:	1
+
+  31371_at:	-1
+31444_s_at:	0
+  31511_at:	-1
+  31527_at:	-1
+  31545_at:	-1
+  31546_at:	-1
+  31573_at:	-1
+  31583_at:	-1
+  31642_at:	-1
+
+BC047	S=47
+ Genes [47]: 31535_i_at 31592_at 31373_at 31589_at 31607_at 31618_at 31709_at 31726_at 31727_at AFFX-MurIL2_at AFFX-TrpnX-5_at AFFX-M27830_5_at AFFX-HSAC07/X00351_5_st AFFX-YEL024w/RIP1_at AFFX-YEL021w/URA3_at 31321_at 31328_at 31356_at 31360_at 31368_at 31397_at 31406_at 31408_at 31425_g_at 31433_at 31440_at 31446_s_at 31458_at 31471_at 31475_at 31476_g_at 31507_at 31537_at 31550_at 31560_at 31564_at 31569_at 31571_at 31579_at 31582_at 31602_at 31636_s_at 31637_s_at 31686_at 31710_at 31715_at 31717_at 
+ Conds [1]: J 
+31535_i_at:	1
+  31592_at:	1
+  31373_at:	1
+  31589_at:	1
+  31607_at:	1
+  31618_at:	1
+  31709_at:	1
+  31726_at:	1
+  31727_at:	1
+AFFX-MurIL2_at:	1
+AFFX-TrpnX-5_at:	1
+AFFX-M27830_5_at:	1
+AFFX-HSAC07/X00351_5_st:	1
+AFFX-YEL024w/RIP1_at:	1
+AFFX-YEL021w/URA3_at:	1
+  31321_at:	0
+  31328_at:	1
+  31356_at:	1
+  31360_at:	1
+  31368_at:	1
+  31397_at:	1
+  31406_at:	1
+  31408_at:	1
+31425_g_at:	1
+  31433_at:	1
+  31440_at:	1
+31446_s_at:	1
+  31458_at:	1
+  31471_at:	1
+  31475_at:	1
+31476_g_at:	1
+  31507_at:	1
+  31537_at:	1
+  31550_at:	1
+  31560_at:	1
+  31564_at:	1
+  31569_at:	1
+  31571_at:	1
+  31579_at:	1
+  31582_at:	1
+  31602_at:	1
+31636_s_at:	1
+31637_s_at:	1
+  31686_at:	1
+  31710_at:	1
+  31715_at:	1
+
+  31717_at:	-1
+
+BC048	S=47
+ Genes [47]: AFFX-BioB-M_st 31321_at AFFX-YEL024w/RIP1_at 31712_at AFFX-MurIL2_at AFFX-BioB-5_at AFFX-BioB-3_st AFFX-CreX-5_st AFFX-LysX-3_at AFFX-TrpnX-5_at AFFX-M27830_3_at AFFX-YEL021w/URA3_at 31311_at 31352_at 31363_at 31369_at 31373_at 31397_at 31408_at 31424_at 31425_g_at 31429_at 31437_r_at 31450_s_at 31452_at 31485_at 31497_at 31537_at 31554_at 31555_at 31558_at 31560_at 31564_at 31579_at 31592_at 31614_at 31618_at 31624_at 31634_at 31662_at 31679_at 31699_at 31709_at 31710_at 31715_at 31727_at 31730_at 
+ Conds [1]: G 
+AFFX-BioB-M_st:	1
+  31321_at:	1
+AFFX-YEL024w/RIP1_at:	1
+  31712_at:	1
+AFFX-MurIL2_at:	1
+AFFX-BioB-5_at:	1
+AFFX-BioB-3_st:	1
+AFFX-CreX-5_st:	1
+AFFX-LysX-3_at:	1
+AFFX-TrpnX-5_at:	1
+AFFX-M27830_3_at:	1
+AFFX-YEL021w/URA3_at:	1
+  31311_at:	1
+  31352_at:	1
+  31363_at:	1
+  31369_at:	1
+  31373_at:	1
+  31397_at:	1
+  31408_at:	1
+  31424_at:	1
+31425_g_at:	1
+  31429_at:	1
+31437_r_at:	1
+31450_s_at:	1
+  31452_at:	1
+  31485_at:	1
+  31497_at:	1
+  31537_at:	1
+  31554_at:	1
+  31555_at:	1
+  31558_at:	1
+  31560_at:	0
+  31564_at:	1
+  31579_at:	1
+  31592_at:	1
+  31614_at:	1
+  31618_at:	0
+  31624_at:	1
+  31634_at:	1
+  31662_at:	1
+  31679_at:	1
+  31699_at:	1
+  31709_at:	1
+  31710_at:	1
+  31715_at:	1
+  31727_at:	1
+  31730_at:	1
+
+
+BC049	S=46
+ Genes [46]: AFFX-TrpnX-5_at 31461_at 31314_at 31450_s_at 31476_g_at AFFX-MurIL2_at AFFX-MurIL4_at AFFX-BioB-M_at AFFX-BioDn-3_st AFFX-CreX-5_st AFFX-PheX-M_at AFFX-ThrX-M_at AFFX-YEL024w/RIP1_at AFFX-YEL021w/URA3_at 31315_at 31357_at 31368_at 31373_at 31397_at 31425_g_at 31443_at 31498_f_at 31500_at 31515_at 31537_at 31554_at 31555_at 31564_at 31582_at 31591_s_at 31602_at 31634_at 31649_at 31662_at 31709_at 31710_at 31715_at 31463_s_at 31481_s_at 31511_at 31568_at 31573_at 31623_f_at 31642_at 31665_s_at 31684_at 
+ Conds [1]: V 
+AFFX-TrpnX-5_at:	1
+  31461_at:	1
+  31314_at:	1
+31450_s_at:	1
+31476_g_at:	1
+AFFX-MurIL2_at:	1
+AFFX-MurIL4_at:	1
+AFFX-BioB-M_at:	0
+AFFX-BioDn-3_st:	1
+AFFX-CreX-5_st:	1
+AFFX-PheX-M_at:	1
+AFFX-ThrX-M_at:	1
+AFFX-YEL024w/RIP1_at:	1
+AFFX-YEL021w/URA3_at:	1
+  31315_at:	1
+  31357_at:	1
+  31368_at:	1
+  31373_at:	1
+  31397_at:	1
+31425_g_at:	1
+  31443_at:	1
+31498_f_at:	1
+  31500_at:	1
+  31515_at:	1
+  31537_at:	1
+  31554_at:	1
+  31555_at:	1
+  31564_at:	1
+  31582_at:	1
+31591_s_at:	1
+  31602_at:	1
+  31634_at:	1
+  31649_at:	1
+  31662_at:	1
+  31709_at:	1
+  31710_at:	1
+  31715_at:	1
+
+31463_s_at:	-1
+31481_s_at:	-1
+  31511_at:	-1
+  31568_at:	-1
+  31573_at:	-1
+31623_f_at:	-1
+  31642_at:	-1
+31665_s_at:	-1
+  31684_at:	-1
+
+BC050	S=45
+ Genes [45]: 31508_at 31641_s_at AFFX-PheX-3_at AFFX-HUMISGF3A/M97935_3_at AFFX-HSAC07/X00351_3_at 31421_at 31477_at 31504_at 31562_at 31601_s_at 31673_s_at 31711_at AFFX-BioDn-3_at AFFX-CreX-5_at AFFX-BioB-3_st AFFX-BioC-3_st AFFX-HUMISGF3A/M97935_5_at AFFX-M27830_3_at 31335_at 31362_at 31379_at 31391_at 31400_at 31407_at 31417_at 31418_at 31442_at 31447_at 31460_f_at 31466_at 31499_s_at 31503_at 31534_at 31555_at 31556_at 31564_at 31569_at 31578_at 31599_f_at 31603_at 31677_at 31678_at 31699_at 31714_at 31724_at 
+ Conds [1]: T 
+  31508_at:	1
+31641_s_at:	1
+AFFX-PheX-3_at:	1
+AFFX-HUMISGF3A/M97935_3_at:	1
+AFFX-HSAC07/X00351_3_at:	1
+  31421_at:	1
+  31477_at:	1
+  31504_at:	1
+  31562_at:	1
+31601_s_at:	1
+31673_s_at:	1
+  31711_at:	1
+
+AFFX-BioDn-3_at:	-1
+AFFX-CreX-5_at:	-1
+AFFX-BioB-3_st:	-1
+AFFX-BioC-3_st:	0
+AFFX-HUMISGF3A/M97935_5_at:	-1
+AFFX-M27830_3_at:	-1
+  31335_at:	-1
+  31362_at:	-1
+  31379_at:	-1
+  31391_at:	-1
+  31400_at:	-1
+  31407_at:	-1
+  31417_at:	-1
+  31418_at:	-1
+  31442_at:	-1
+  31447_at:	-1
+31460_f_at:	-1
+  31466_at:	-1
+31499_s_at:	-1
+  31503_at:	-1
+  31534_at:	-1
+  31555_at:	0
+  31556_at:	-1
+  31564_at:	-1
+  31569_at:	-1
+  31578_at:	-1
+31599_f_at:	-1
+  31603_at:	0
+  31677_at:	0
+  31678_at:	1
+  31699_at:	-1
+  31714_at:	-1
+  31724_at:	-1
+
+BC051	S=44
+ Genes [44]: 31372_at 31696_at AFFX-M27830_5_at 31582_at AFFX-HSAC07/X00351_5_st AFFX-YEL021w/URA3_at 31350_at 31368_at 31406_at 31417_at 31434_at 31440_at 31446_s_at 31466_at 31477_at 31478_at 31482_at 31491_s_at 31503_at 31531_g_at 31534_at 31548_at 31550_at 31561_at 31569_at 31572_at 31574_i_at 31576_at 31592_at 31596_f_at 31597_r_at 31621_s_at 31640_r_at 31663_at 31710_at 31724_at 31738_at 31311_at 31335_at 31473_s_at 31485_at 31497_at 31508_at 31634_at 
+ Conds [1]: M 
+  31372_at:	-1
+  31696_at:	-1
+AFFX-M27830_5_at:	-1
+  31582_at:	-1
+AFFX-HSAC07/X00351_5_st:	-1
+AFFX-YEL021w/URA3_at:	-1
+  31350_at:	-1
+  31368_at:	-1
+  31406_at:	-1
+  31417_at:	-1
+  31434_at:	-1
+  31440_at:	-1
+31446_s_at:	-1
+  31466_at:	-1
+  31477_at:	0
+  31478_at:	-1
+  31482_at:	-1
+31491_s_at:	-1
+  31503_at:	-1
+31531_g_at:	-1
+  31534_at:	-1
+  31548_at:	-1
+  31550_at:	-1
+  31561_at:	-1
+  31569_at:	-1
+  31572_at:	-1
+31574_i_at:	-1
+  31576_at:	-1
+  31592_at:	-1
+31596_f_at:	-1
+31597_r_at:	-1
+31621_s_at:	-1
+31640_r_at:	-1
+  31663_at:	-1
+  31710_at:	-1
+  31724_at:	-1
+  31738_at:	-1
+
+  31311_at:	1
+  31335_at:	1
+31473_s_at:	1
+  31485_at:	1
+  31497_at:	1
+  31508_at:	1
+  31634_at:	1
+
+BC052	S=43
+ Genes [43]: AFFX-BioB-3_st 31416_at AFFX-DapX-M_at 31564_at 31618_at AFFX-MurIL2_at AFFX-BioB-5_at AFFX-BioC-5_at AFFX-BioDn-3_st AFFX-DapX-5_at AFFX-DapX-3_at AFFX-LysX-3_at AFFX-ThrX-M_at AFFX-TrpnX-5_at AFFX-YEL021w/URA3_at 31307_at 31331_at 31360_at 31373_at 31379_at 31397_at 31412_at 31424_at 31425_g_at 31427_at 31429_at 31452_at 31455_r_at 31466_at 31495_at 31507_at 31534_at 31558_at 31582_at 31595_at 31602_at 31613_at 31626_i_at 31628_at 31679_at 31724_at 31330_at 31573_at 
+ Conds [1]: R 
+AFFX-BioB-3_st:	1
+  31416_at:	1
+AFFX-DapX-M_at:	1
+  31564_at:	1
+  31618_at:	1
+AFFX-MurIL2_at:	1
+AFFX-BioB-5_at:	1
+AFFX-BioC-5_at:	1
+AFFX-BioDn-3_st:	1
+AFFX-DapX-5_at:	1
+AFFX-DapX-3_at:	1
+AFFX-LysX-3_at:	1
+AFFX-ThrX-M_at:	1
+AFFX-TrpnX-5_at:	1
+AFFX-YEL021w/URA3_at:	1
+  31307_at:	1
+  31331_at:	1
+  31360_at:	1
+  31373_at:	1
+  31379_at:	1
+  31397_at:	1
+  31412_at:	1
+  31424_at:	1
+31425_g_at:	1
+  31427_at:	1
+  31429_at:	1
+  31452_at:	1
+31455_r_at:	1
+  31466_at:	0
+  31495_at:	1
+  31507_at:	1
+  31534_at:	1
+  31558_at:	1
+  31582_at:	1
+  31595_at:	1
+  31602_at:	1
+  31613_at:	1
+31626_i_at:	1
+  31628_at:	1
+  31679_at:	1
+  31724_at:	1
+
+  31330_at:	-1
+  31573_at:	-1
+
+BC053	S=42
+ Genes [21]: 31498_f_at 31529_at 31328_at 31408_at 31602_at 31636_s_at AFFX-YEL024w/RIP1_at 31321_at 31369_at 31373_at 31382_f_at 31446_s_at 31458_at 31579_at 31589_at 31592_at 31607_at 31637_s_at 31709_at 31727_at 31511_at 
+ Conds [2]: H J 
+31498_f_at:	-1	1
+  31529_at:	-1	1
+  31328_at:	-1	1
+  31408_at:	-1	1
+  31602_at:	-1	1
+31636_s_at:	-1	1
+AFFX-YEL024w/RIP1_at:	-1	1
+  31321_at:	-1	0
+  31369_at:	-1	1
+  31373_at:	-1	1
+31382_f_at:	1	1
+31446_s_at:	-1	1
+  31458_at:	-1	1
+  31579_at:	-1	1
+  31589_at:	-1	1
+  31592_at:	-1	1
+  31607_at:	-1	1
+31637_s_at:	-1	1
+  31709_at:	-1	1
+  31727_at:	-1	1
+
+  31511_at:	0	-1
+
+BC054	S=42
+ Genes [21]: AFFX-MurIL2_at 31404_at 31397_at 31726_at AFFX-BioB-3_st AFFX-M27830_5_at AFFX-HSAC07/X00351_5_st AFFX-YEL002c/WBP1_at AFFX-YEL024w/RIP1_at AFFX-YEL021w/URA3_at 31341_at 31406_at 31425_g_at 31507_at 31569_at 31571_at 31589_at 31591_s_at 31686_at AFFX-HSAC07/X00351_5_at AFFX-HSAC07/X00351_M_at 
+ Conds [2]: D Q 
+AFFX-MurIL2_at:	1	1
+  31404_at:	1	1
+  31397_at:	1	1
+  31726_at:	1	1
+AFFX-BioB-3_st:	1	1
+AFFX-M27830_5_at:	1	1
+AFFX-HSAC07/X00351_5_st:	1	1
+AFFX-YEL002c/WBP1_at:	1	1
+AFFX-YEL024w/RIP1_at:	1	1
+AFFX-YEL021w/URA3_at:	1	1
+  31341_at:	1	1
+  31406_at:	1	1
+31425_g_at:	1	1
+  31507_at:	1	1
+  31569_at:	1	1
+  31571_at:	1	1
+  31589_at:	1	1
+31591_s_at:	1	1
+  31686_at:	1	1
+
+AFFX-HSAC07/X00351_5_at:	-1	-1
+AFFX-HSAC07/X00351_M_at:	-1	-1
+
+BC055	S=41
+ Genes [41]: AFFX-MurIL10_at AFFX-BioC-3_st 31400_at 31714_at 31355_at 31387_at 31388_at 31393_r_at 31486_s_at 31497_at 31511_at 31555_at 31573_at 31577_at 31583_at 31598_s_at 31603_at 31677_at 31678_at 31693_f_at 31695_g_at 31722_at 31737_at AFFX-MurFAS_at AFFX-PheX-3_at AFFX-HUMISGF3A/M97935_3_at 31317_r_at 31319_at 31336_at 31340_at 31382_f_at 31421_at 31488_s_at 31512_at 31570_at 31581_at 31585_at 31586_f_at 31596_f_at 31630_at 31643_at 
+ Conds [1]: S 
+AFFX-MurIL10_at:	1
+AFFX-BioC-3_st:	1
+  31400_at:	1
+  31714_at:	1
+  31355_at:	1
+  31387_at:	1
+  31388_at:	0
+31393_r_at:	1
+31486_s_at:	1
+  31497_at:	1
+  31511_at:	1
+  31555_at:	1
+  31573_at:	1
+  31577_at:	1
+  31583_at:	1
+31598_s_at:	1
+  31603_at:	1
+  31677_at:	1
+  31678_at:	1
+31693_f_at:	1
+31695_g_at:	1
+  31722_at:	1
+  31737_at:	1
+
+AFFX-MurFAS_at:	-1
+AFFX-PheX-3_at:	0
+AFFX-HUMISGF3A/M97935_3_at:	-1
+31317_r_at:	0
+  31319_at:	0
+  31336_at:	-1
+  31340_at:	-1
+31382_f_at:	-1
+  31421_at:	-1
+31488_s_at:	-1
+  31512_at:	-1
+  31570_at:	-1
+  31581_at:	0
+  31585_at:	-1
+31586_f_at:	-1
+31596_f_at:	-1
+  31630_at:	-1
+  31643_at:	-1
+
+BC056	S=39
+ Genes [39]: 31420_at 31662_at AFFX-MurIL2_at 31406_at 31425_g_at 31507_at 31537_at 31554_at 31564_at 31571_at 31589_at 31686_at 31710_at AFFX-CreX-5_st AFFX-M27830_5_at AFFX-HUMGAPDH/M33197_5_st AFFX-HSAC07/X00351_5_st AFFX-YEL002c/WBP1_at AFFX-YEL024w/RIP1_at AFFX-YEL021w/URA3_at 31360_at 31386_at 31397_at 31428_at 31450_s_at 31550_at 31555_at 31569_at 31627_f_at 31658_at 31709_at 31715_at 31726_at 31727_at 31732_at AFFX-HSAC07/X00351_5_at AFFX-HSAC07/X00351_M_at AFFX-HSAC07/X00351_3_at 31717_at 
+ Conds [1]: J 
+  31420_at:	1
+  31662_at:	1
+AFFX-MurIL2_at:	1
+  31406_at:	1
+31425_g_at:	1
+  31507_at:	1
+  31537_at:	1
+  31554_at:	1
+  31564_at:	1
+  31571_at:	1
+  31589_at:	1
+  31686_at:	1
+  31710_at:	1
+AFFX-CreX-5_st:	1
+AFFX-M27830_5_at:	1
+AFFX-HUMGAPDH/M33197_5_st:	1
+AFFX-HSAC07/X00351_5_st:	1
+AFFX-YEL002c/WBP1_at:	0
+AFFX-YEL024w/RIP1_at:	1
+AFFX-YEL021w/URA3_at:	1
+  31360_at:	1
+  31386_at:	1
+  31397_at:	1
+  31428_at:	1
+31450_s_at:	1
+  31550_at:	1
+  31555_at:	1
+  31569_at:	1
+31627_f_at:	1
+  31658_at:	1
+  31709_at:	1
+  31715_at:	1
+  31726_at:	1
+  31727_at:	1
+  31732_at:	1
+
+AFFX-HSAC07/X00351_5_at:	-1
+AFFX-HSAC07/X00351_M_at:	-1
+AFFX-HSAC07/X00351_3_at:	-1
+  31717_at:	-1
+
+BC057	S=36
+ Genes [36]: 31658_at 31686_at AFFX-MurIL2_at 31425_g_at AFFX-YEL024w/RIP1_at AFFX-YEL021w/URA3_at 31397_at AFFX-MurIL4_at AFFX-BioB-3_st AFFX-PheX-M_at AFFX-M27830_5_at AFFX-HSAC07/X00351_5_st 31314_at 31357_at 31386_at 31406_at 31453_s_at 31507_at 31537_at 31554_at 31555_at 31564_at 31569_at 31571_at 31572_at 31585_at 31589_at 31602_at 31627_f_at 31662_at 31709_at 31710_at 31726_at AFFX-HSAC07/X00351_5_at AFFX-HSAC07/X00351_M_at 31371_at 
+ Conds [1]: J 
+  31658_at:	1
+  31686_at:	1
+AFFX-MurIL2_at:	1
+31425_g_at:	1
+AFFX-YEL024w/RIP1_at:	1
+AFFX-YEL021w/URA3_at:	1
+  31397_at:	1
+AFFX-MurIL4_at:	1
+AFFX-BioB-3_st:	0
+AFFX-PheX-M_at:	1
+AFFX-M27830_5_at:	1
+AFFX-HSAC07/X00351_5_st:	1
+  31314_at:	1
+  31357_at:	1
+  31386_at:	1
+  31406_at:	1
+31453_s_at:	1
+  31507_at:	1
+  31537_at:	1
+  31554_at:	1
+  31555_at:	1
+  31564_at:	1
+  31569_at:	1
+  31571_at:	1
+  31572_at:	1
+  31585_at:	1
+  31589_at:	1
+  31602_at:	1
+31627_f_at:	1
+  31662_at:	1
+  31709_at:	1
+  31710_at:	1
+  31726_at:	1
+
+AFFX-HSAC07/X00351_5_at:	-1
+AFFX-HSAC07/X00351_M_at:	-1
+  31371_at:	-1
+
+BC058	S=35
+ Genes [35]: 31534_at 31569_at AFFX-BioB-3_st 31564_at 31699_at AFFX-MurIL2_at AFFX-TrpnX-5_at AFFX-M27830_5_at AFFX-M27830_3_at AFFX-HSAC07/X00351_5_st AFFX-YEL021w/URA3_at 31360_at 31368_at 31373_at 31379_at 31397_at 31406_at 31417_at 31425_g_at 31466_at 31476_g_at 31503_at 31507_at 31537_at 31571_at 31582_at 31589_at 31618_at 31686_at 31709_at 31710_at 31726_at 31727_at AFFX-HSAC07/X00351_3_at 31508_at 
+ Conds [1]: C 
+  31534_at:	1
+  31569_at:	1
+AFFX-BioB-3_st:	1
+  31564_at:	1
+  31699_at:	1
+AFFX-MurIL2_at:	1
+AFFX-TrpnX-5_at:	1
+AFFX-M27830_5_at:	1
+AFFX-M27830_3_at:	0
+AFFX-HSAC07/X00351_5_st:	1
+AFFX-YEL021w/URA3_at:	1
+  31360_at:	1
+  31368_at:	1
+  31373_at:	1
+  31379_at:	1
+  31397_at:	1
+  31406_at:	1
+  31417_at:	1
+31425_g_at:	1
+  31466_at:	1
+31476_g_at:	1
+  31503_at:	1
+  31507_at:	1
+  31537_at:	1
+  31571_at:	1
+  31582_at:	1
+  31589_at:	1
+  31618_at:	1
+  31686_at:	1
+  31709_at:	1
+  31710_at:	1
+  31726_at:	1
+  31727_at:	1
+
+AFFX-HSAC07/X00351_3_at:	0
+  31508_at:	-1
+
+BC059	S=33
+ Genes [11]: AFFX-MurIL2_at 31686_at AFFX-YEL021w/URA3_at 31397_at 31425_g_at AFFX-BioB-3_st AFFX-YEL024w/RIP1_at 31507_at 31537_at 31564_at 31710_at 
+ Conds [3]: D R Z 
+AFFX-MurIL2_at:	1	1	1
+  31686_at:	1	1	1
+AFFX-YEL021w/URA3_at:	1	1	1
+  31397_at:	1	1	1
+31425_g_at:	1	1	1
+AFFX-BioB-3_st:	1	1	1
+AFFX-YEL024w/RIP1_at:	1	1	1
+  31507_at:	1	1	1
+  31537_at:	1	1	1
+  31564_at:	1	1	1
+  31710_at:	1	1	1
+
+
+BC060	S=31
+ Genes [31]: 31328_at 31602_at 31321_at 31636_s_at 31414_at 31424_at 31592_at AFFX-MurIL2_at AFFX-YEL021w/URA3_at 31326_at 31356_at 31373_at 31379_at 31397_at 31419_r_at 31446_s_at 31458_at 31529_at 31537_at 31559_at 31589_at 31607_at 31618_at 31637_s_at 31709_at 31710_at 31726_at 31727_at 31330_at 31511_at 31573_at 
+ Conds [1]: C 
+  31328_at:	1
+  31602_at:	1
+  31321_at:	1
+31636_s_at:	1
+  31414_at:	1
+  31424_at:	1
+  31592_at:	1
+AFFX-MurIL2_at:	1
+AFFX-YEL021w/URA3_at:	1
+  31326_at:	1
+  31356_at:	1
+  31373_at:	1
+  31379_at:	1
+  31397_at:	1
+31419_r_at:	1
+31446_s_at:	1
+  31458_at:	1
+  31529_at:	0
+  31537_at:	1
+  31559_at:	1
+  31589_at:	1
+  31607_at:	1
+  31618_at:	1
+31637_s_at:	1
+  31709_at:	1
+  31710_at:	1
+  31726_at:	1
+  31727_at:	1
+
+  31330_at:	-1
+  31511_at:	-1
+  31573_at:	-1
+
+BC061	S=31
+ Genes [31]: AFFX-LysX-5_at 31554_at AFFX-MurIL2_at AFFX-BioC-5_at AFFX-BioB-5_at AFFX-CreX-3_at AFFX-CreX-5_st AFFX-LysX-M_at AFFX-YEL021w/URA3_at 31314_at 31397_at 31405_at 31414_at 31424_at 31425_g_at 31441_at 31450_s_at 31514_at 31529_at 31537_at 31564_at 31571_at 31592_at 31602_at 31614_at 31635_g_at 31636_s_at 31710_at 31725_s_at 31642_at 31729_at 
+ Conds [1]: G 
+AFFX-LysX-5_at:	1
+  31554_at:	1
+AFFX-MurIL2_at:	1
+AFFX-BioC-5_at:	1
+AFFX-BioB-5_at:	1
+AFFX-CreX-3_at:	1
+AFFX-CreX-5_st:	1
+AFFX-LysX-M_at:	1
+AFFX-YEL021w/URA3_at:	1
+  31314_at:	1
+  31397_at:	1
+  31405_at:	1
+  31414_at:	1
+  31424_at:	1
+31425_g_at:	1
+  31441_at:	1
+31450_s_at:	1
+  31514_at:	1
+  31529_at:	1
+  31537_at:	1
+  31564_at:	1
+  31571_at:	0
+  31592_at:	1
+  31602_at:	1
+  31614_at:	1
+31635_g_at:	1
+31636_s_at:	1
+  31710_at:	1
+31725_s_at:	1
+
+  31642_at:	-1
+  31729_at:	-1
+
+BC062	S=30
+ Genes [30]: 31431_at 31477_at 31690_at 31472_s_at AFFX-HUMISGF3A/M97935_3_at 31315_at 31317_r_at 31319_at 31339_at 31354_r_at 31432_g_at 31508_at 31512_at 31526_f_at 31586_f_at 31593_at 31596_f_at 31670_s_at 31333_at 31335_at 31340_at 31361_at 31366_at 31402_at 31501_at 31522_f_at 31523_f_at 31555_at 31598_s_at 31737_at 
+ Conds [1]: P 
+  31431_at:	1
+  31477_at:	1
+  31690_at:	1
+31472_s_at:	1
+AFFX-HUMISGF3A/M97935_3_at:	1
+  31315_at:	1
+31317_r_at:	1
+  31319_at:	1
+  31339_at:	1
+31354_r_at:	1
+31432_g_at:	1
+  31508_at:	1
+  31512_at:	1
+31526_f_at:	1
+31586_f_at:	1
+  31593_at:	1
+31596_f_at:	1
+31670_s_at:	1
+
+  31333_at:	-1
+  31335_at:	-1
+  31340_at:	-1
+  31361_at:	-1
+  31366_at:	-1
+  31402_at:	-1
+  31501_at:	-1
+31522_f_at:	1
+31523_f_at:	1
+  31555_at:	0
+31598_s_at:	0
+  31737_at:	-1
+
+BC063	S=29
+ Genes [29]: AFFX-YEL021w/URA3_at 31582_at 31710_at AFFX-MurIL2_at AFFX-TrpnX-5_at 31373_at 31397_at 31425_g_at 31537_at 31564_at 31715_at AFFX-MurIL4_at AFFX-BioB-3_st AFFX-CreX-5_st AFFX-YEL024w/RIP1_at 31360_at 31368_at 31450_s_at 31471_at 31476_g_at 31554_at 31555_at 31602_at 31618_at 31686_at 31709_at 31727_at 31511_at 31573_at 
+ Conds [1]: J 
+AFFX-YEL021w/URA3_at:	1
+  31582_at:	1
+  31710_at:	1
+AFFX-MurIL2_at:	1
+AFFX-TrpnX-5_at:	1
+  31373_at:	1
+  31397_at:	1
+31425_g_at:	1
+  31537_at:	1
+  31564_at:	1
+  31715_at:	1
+AFFX-MurIL4_at:	1
+AFFX-BioB-3_st:	0
+AFFX-CreX-5_st:	1
+AFFX-YEL024w/RIP1_at:	1
+  31360_at:	1
+  31368_at:	1
+31450_s_at:	1
+  31471_at:	1
+31476_g_at:	1
+  31554_at:	1
+  31555_at:	1
+  31602_at:	1
+  31618_at:	1
+  31686_at:	1
+  31709_at:	1
+  31727_at:	1
+
+  31511_at:	-1
+  31573_at:	-1
+
+BC064	S=29
+ Genes [29]: 31511_at 31583_at 31546_at 31330_at 31505_at 31385_at 31545_at 31573_at 31722_at AFFX-MurIL2_at AFFX-BioC-5_at AFFX-PheX-M_at AFFX-HUMISGF3A/M97935_MA_at AFFX-YEL021w/URA3_at 31314_at 31321_at 31328_at 31379_at 31382_f_at 31397_at 31424_at 31522_f_at 31529_at 31537_at 31554_at 31591_s_at 31602_at 31636_s_at 31710_at 
+ Conds [1]: G 
+  31511_at:	-1
+  31583_at:	-1
+  31546_at:	-1
+  31330_at:	-1
+  31505_at:	-1
+  31385_at:	-1
+  31545_at:	-1
+  31573_at:	-1
+  31722_at:	-1
+
+AFFX-MurIL2_at:	1
+AFFX-BioC-5_at:	1
+AFFX-PheX-M_at:	1
+AFFX-HUMISGF3A/M97935_MA_at:	0
+AFFX-YEL021w/URA3_at:	1
+  31314_at:	1
+  31321_at:	1
+  31328_at:	1
+  31379_at:	1
+31382_f_at:	1
+  31397_at:	1
+  31424_at:	1
+31522_f_at:	1
+  31529_at:	1
+  31537_at:	1
+  31554_at:	1
+31591_s_at:	1
+  31602_at:	1
+31636_s_at:	1
+  31710_at:	1
+
+BC065	S=29
+ Genes [29]: 31406_at 31434_at AFFX-YEL021w/URA3_at AFFX-MurIL2_at 31379_at 31397_at 31571_at 31589_at 31686_at 31726_at AFFX-BioB-3_st AFFX-M27830_5_at AFFX-HSAC07/X00351_5_st 31414_at 31425_g_at 31466_at 31507_at 31537_at 31559_at 31569_at 31574_i_at 31592_at 31602_at 31604_at 31607_at 31636_s_at 31710_at 31510_s_at 31729_at 
+ Conds [1]: C 
+  31406_at:	1
+  31434_at:	1
+AFFX-YEL021w/URA3_at:	1
+AFFX-MurIL2_at:	1
+  31379_at:	1
+  31397_at:	1
+  31571_at:	1
+  31589_at:	1
+  31686_at:	1
+  31726_at:	1
+AFFX-BioB-3_st:	1
+AFFX-M27830_5_at:	1
+AFFX-HSAC07/X00351_5_st:	1
+  31414_at:	1
+31425_g_at:	1
+  31466_at:	1
+  31507_at:	1
+  31537_at:	1
+  31559_at:	1
+  31569_at:	1
+31574_i_at:	1
+  31592_at:	1
+  31602_at:	1
+  31604_at:	0
+  31607_at:	1
+31636_s_at:	1
+  31710_at:	1
+
+31510_s_at:	-1
+  31729_at:	0
+
+BC066	S=29
+ Genes [29]: AFFX-HUMRGE/M10098_3_at 31397_at AFFX-PheX-M_at 31321_at AFFX-MurIL2_at AFFX-MurIL4_at AFFX-MurFAS_at AFFX-BioB-M_at AFFX-BioC-5_at AFFX-HUMTFRR/M11507_5_at AFFX-YEL021w/URA3_at 31328_at 31331_at 31382_f_at 31405_at 31419_r_at 31424_at 31455_r_at 31537_at 31554_at 31558_at 31602_at 31610_at 31710_at 31388_at 31541_at 31573_at 31652_at 31729_at 
+ Conds [1]: G 
+AFFX-HUMRGE/M10098_3_at:	1
+  31397_at:	1
+AFFX-PheX-M_at:	1
+  31321_at:	1
+AFFX-MurIL2_at:	1
+AFFX-MurIL4_at:	1
+AFFX-MurFAS_at:	1
+AFFX-BioB-M_at:	1
+AFFX-BioC-5_at:	1
+AFFX-HUMTFRR/M11507_5_at:	1
+AFFX-YEL021w/URA3_at:	1
+  31328_at:	1
+  31331_at:	1
+31382_f_at:	1
+  31405_at:	1
+31419_r_at:	1
+  31424_at:	1
+31455_r_at:	1
+  31537_at:	1
+  31554_at:	1
+  31558_at:	1
+  31602_at:	1
+  31610_at:	1
+  31710_at:	1
+
+  31388_at:	0
+  31541_at:	-1
+  31573_at:	-1
+  31652_at:	-1
+  31729_at:	-1
+
+BC067	S=29
+ Genes [29]: 31324_at 31593_at 31526_f_at AFFX-HSAC07/X00351_3_at 31339_at 31382_f_at 31445_at 31462_f_at 31605_at 31690_at 31731_at AFFX-CreX-5_at AFFX-BioC-5_st AFFX-HUMGAPDH/M33197_M_at AFFX-HUMGAPDH/M33197_3_at 31330_at 31341_at 31366_at 31380_at 31434_at 31451_at 31510_s_at 31546_at 31555_at 31583_at 31594_at 31652_at 31703_at 31709_at 
+ Conds [1]: F 
+  31324_at:	1
+  31593_at:	1
+31526_f_at:	1
+AFFX-HSAC07/X00351_3_at:	1
+  31339_at:	1
+31382_f_at:	1
+  31445_at:	1
+31462_f_at:	1
+  31605_at:	1
+  31690_at:	1
+  31731_at:	1
+
+AFFX-CreX-5_at:	-1
+AFFX-BioC-5_st:	-1
+AFFX-HUMGAPDH/M33197_M_at:	0
+AFFX-HUMGAPDH/M33197_3_at:	0
+  31330_at:	0
+  31341_at:	-1
+  31366_at:	-1
+  31380_at:	-1
+  31434_at:	0
+  31451_at:	-1
+31510_s_at:	-1
+  31546_at:	0
+  31555_at:	-1
+  31583_at:	-1
+  31594_at:	-1
+  31652_at:	-1
+  31703_at:	-1
+  31709_at:	-1
+
+BC068	S=27
+ Genes [27]: 31577_at 31646_at AFFX-BioC-5_st 31412_at AFFX-BioB-5_st AFFX-HSAC07/X00351_3_st 31314_at 31341_at 31346_at 31377_r_at 31479_f_at 31508_at 31512_at 31558_at 31562_at 31595_at 31647_at 31656_at 31706_at 31731_at AFFX-HUMGAPDH/M33197_5_st 31332_at 31365_f_at 31440_at 31657_at 31705_at 31739_at 
+ Conds [1]: Y 
+  31577_at:	1
+  31646_at:	1
+AFFX-BioC-5_st:	1
+  31412_at:	1
+AFFX-BioB-5_st:	1
+AFFX-HSAC07/X00351_3_st:	1
+  31314_at:	1
+  31341_at:	1
+  31346_at:	1
+31377_r_at:	1
+31479_f_at:	1
+  31508_at:	0
+  31512_at:	1
+  31558_at:	1
+  31562_at:	1
+  31595_at:	1
+  31647_at:	1
+  31656_at:	1
+  31706_at:	1
+  31731_at:	1
+
+AFFX-HUMGAPDH/M33197_5_st:	-1
+  31332_at:	-1
+31365_f_at:	-1
+  31440_at:	-1
+  31657_at:	-1
+  31705_at:	-1
+  31739_at:	-1
+
+BC069	S=27
+ Genes [9]: 31341_at 31687_f_at 31646_at 31717_at AFFX-HSAC07/X00351_3_st 31574_i_at 31332_at 31657_at 31729_at 
+ Conds [3]: I Q S 
+  31341_at:	1	1	1
+31687_f_at:	1	1	1
+  31646_at:	1	1	1
+  31717_at:	1	1	1
+AFFX-HSAC07/X00351_3_st:	1	1	1
+31574_i_at:	1	1	1
+
+  31332_at:	-1	-1	0
+  31657_at:	0	-1	-1
+  31729_at:	-1	-1	-1
+
+BC070	S=27
+ Genes [27]: AFFX-HSAC07/X00351_5_st 31364_i_at AFFX-YEL021w/URA3_at 31699_at AFFX-MurIL2_at AFFX-BioB-3_st AFFX-M27830_5_at AFFX-YEL002c/WBP1_at 31347_at 31350_at 31379_at 31397_at 31425_g_at 31466_at 31470_at 31503_at 31507_at 31537_at 31564_at 31574_i_at 31594_at 31604_at 31696_at 31701_r_at 31710_at 31508_at 31631_f_at 
+ Conds [1]: Z 
+AFFX-HSAC07/X00351_5_st:	1
+31364_i_at:	1
+AFFX-YEL021w/URA3_at:	1
+  31699_at:	1
+AFFX-MurIL2_at:	1
+AFFX-BioB-3_st:	1
+AFFX-M27830_5_at:	1
+AFFX-YEL002c/WBP1_at:	1
+  31347_at:	1
+  31350_at:	0
+  31379_at:	1
+  31397_at:	1
+31425_g_at:	1
+  31466_at:	1
+  31470_at:	1
+  31503_at:	1
+  31507_at:	1
+  31537_at:	1
+  31564_at:	1
+31574_i_at:	1
+  31594_at:	1
+  31604_at:	1
+  31696_at:	1
+31701_r_at:	1
+  31710_at:	1
+
+  31508_at:	-1
+31631_f_at:	1
+
+BC071	S=25
+ Genes [5]: 31524_f_at 31528_f_at 31522_f_at 31523_f_at 31693_f_at 
+ Conds [5]: F G H O Y 
+31524_f_at:	-1	1	1	1	1
+31528_f_at:	-1	1	1	1	1
+31522_f_at:	-1	1	1	1	1
+31523_f_at:	-1	1	1	1	1
+31693_f_at:	-1	1	1	1	1
+
+
+BC072	S=24
+ Genes [12]: 31512_at 31586_f_at 31315_at AFFX-HUMISGF3A/M97935_5_at AFFX-HUMISGF3A/M97935_MA_at AFFX-HUMISGF3A/M97935_MB_at AFFX-HUMISGF3A/M97935_3_at 31319_at 31438_s_at 31496_g_at 31499_s_at 31596_f_at 
+ Conds [2]: P Z 
+  31512_at:	1	1
+31586_f_at:	1	1
+  31315_at:	1	1
+AFFX-HUMISGF3A/M97935_5_at:	1	1
+AFFX-HUMISGF3A/M97935_MA_at:	1	1
+AFFX-HUMISGF3A/M97935_MB_at:	1	1
+AFFX-HUMISGF3A/M97935_3_at:	1	1
+  31319_at:	1	1
+31438_s_at:	1	1
+31496_g_at:	1	1
+31499_s_at:	1	1
+31596_f_at:	1	1
+
+
+BC073	S=24
+ Genes [24]: AFFX-MurIL2_at 31678_at 31397_at AFFX-YEL024w/RIP1_at AFFX-YEL021w/URA3_at 31425_g_at 31554_at 31555_at 31564_at AFFX-BioB-M_at AFFX-BioB-3_st AFFX-BioDn-3_st AFFX-CreX-5_st AFFX-PheX-M_at AFFX-M27830_5_at 31314_at 31446_s_at 31450_s_at 31507_at 31537_at 31602_at 31662_at 31710_at 31642_at 
+ Conds [1]: J 
+AFFX-MurIL2_at:	1
+  31678_at:	1
+  31397_at:	1
+AFFX-YEL024w/RIP1_at:	1
+AFFX-YEL021w/URA3_at:	1
+31425_g_at:	1
+  31554_at:	1
+  31555_at:	1
+  31564_at:	1
+AFFX-BioB-M_at:	1
+AFFX-BioB-3_st:	0
+AFFX-BioDn-3_st:	1
+AFFX-CreX-5_st:	1
+AFFX-PheX-M_at:	1
+AFFX-M27830_5_at:	1
+  31314_at:	1
+31446_s_at:	1
+31450_s_at:	1
+  31507_at:	1
+  31537_at:	1
+  31602_at:	1
+  31662_at:	1
+  31710_at:	1
+
+  31642_at:	-1
+
+BC074	S=24
+ Genes [24]: AFFX-HUMISGF3A/M97935_5_at 31383_at 31315_at 31512_at 31581_at 31586_f_at 31627_f_at AFFX-HUMISGF3A/M97935_MA_at AFFX-HUMISGF3A/M97935_MB_at AFFX-HUMISGF3A/M97935_3_at 31314_at 31317_r_at 31319_at 31386_at 31438_s_at 31460_f_at 31496_g_at 31499_s_at 31585_at 31596_f_at 31599_f_at 31662_at 31371_at 31705_at 
+ Conds [1]: Z 
+AFFX-HUMISGF3A/M97935_5_at:	1
+  31383_at:	1
+  31315_at:	1
+  31512_at:	1
+  31581_at:	1
+31586_f_at:	1
+31627_f_at:	1
+AFFX-HUMISGF3A/M97935_MA_at:	1
+AFFX-HUMISGF3A/M97935_MB_at:	1
+AFFX-HUMISGF3A/M97935_3_at:	1
+  31314_at:	1
+31317_r_at:	0
+  31319_at:	1
+  31386_at:	1
+31438_s_at:	1
+31460_f_at:	1
+31496_g_at:	1
+31499_s_at:	1
+  31585_at:	1
+31596_f_at:	1
+31599_f_at:	1
+  31662_at:	1
+
+  31371_at:	-1
+  31705_at:	0
+
+BC075	S=24
+ Genes [24]: 31390_at 31660_at 31677_at AFFX-CreX-3_at 31421_at 31497_at 31691_g_at 31706_at AFFX-HUMISGF3A/M97935_MB_at 31314_at 31383_at 31386_at 31409_at 31438_s_at 31447_at 31489_at 31499_s_at 31533_s_at 31582_at 31596_f_at 31647_at 31667_r_at 31669_s_at 31707_at 
+ Conds [1]: K 
+  31390_at:	1
+  31660_at:	1
+  31677_at:	1
+AFFX-CreX-3_at:	1
+  31421_at:	1
+  31497_at:	1
+31691_g_at:	1
+  31706_at:	1
+
+AFFX-HUMISGF3A/M97935_MB_at:	1
+  31314_at:	-1
+  31383_at:	-1
+  31386_at:	0
+  31409_at:	-1
+31438_s_at:	0
+  31447_at:	-1
+  31489_at:	-1
+31499_s_at:	1
+31533_s_at:	-1
+  31582_at:	0
+31596_f_at:	0
+  31647_at:	-1
+31667_r_at:	-1
+31669_s_at:	-1
+  31707_at:	-1
+
+BC076	S=22
+ Genes [22]: 31431_at 31432_g_at 31317_r_at 31690_at AFFX-HUMISGF3A/M97935_MB_at AFFX-HUMISGF3A/M97935_3_at 31315_at 31319_at 31499_s_at 31512_at 31524_f_at 31528_f_at 31586_f_at 31593_at 31596_f_at 31671_at 31672_g_at 31335_at 31340_at 31402_at 31501_at 31667_r_at 
+ Conds [1]: P 
+  31431_at:	1
+31432_g_at:	1
+31317_r_at:	1
+  31690_at:	1
+AFFX-HUMISGF3A/M97935_MB_at:	1
+AFFX-HUMISGF3A/M97935_3_at:	1
+  31315_at:	1
+  31319_at:	1
+31499_s_at:	1
+  31512_at:	1
+31524_f_at:	1
+31528_f_at:	1
+31586_f_at:	1
+  31593_at:	1
+31596_f_at:	1
+  31671_at:	1
+31672_g_at:	1
+
+  31335_at:	-1
+  31340_at:	-1
+  31402_at:	-1
+  31501_at:	-1
+31667_r_at:	-1
+
+BC077	S=22
+ Genes [22]: AFFX-HSAC07/X00351_5_st 31548_at AFFX-M27830_5_at AFFX-YEL021w/URA3_at 31466_at 31574_i_at AFFX-MurIL2_at AFFX-MurIL4_at AFFX-BioB-3_st 31350_at 31378_at 31397_at 31406_at 31425_g_at 31434_at 31507_at 31550_at 31569_at 31572_at 31592_at 31696_at 31710_at 
+ Conds [1]: C 
+AFFX-HSAC07/X00351_5_st:	1
+  31548_at:	1
+AFFX-M27830_5_at:	1
+AFFX-YEL021w/URA3_at:	1
+  31466_at:	1
+31574_i_at:	1
+AFFX-MurIL2_at:	1
+AFFX-MurIL4_at:	1
+AFFX-BioB-3_st:	1
+  31350_at:	1
+  31378_at:	0
+  31397_at:	1
+  31406_at:	1
+31425_g_at:	1
+  31434_at:	1
+  31507_at:	1
+  31550_at:	1
+  31569_at:	1
+  31572_at:	1
+  31592_at:	1
+  31696_at:	1
+  31710_at:	1
+
+
+BC078	S=21
+ Genes [21]: 31332_at 31657_at 31400_at 31308_at AFFX-DapX-5_at 31369_at 31381_at 31452_at 31497_at 31618_at 31624_at 31633_g_at 31679_at 31694_at 31712_at 31736_at AFFX-HSAC07/X00351_3_st 31346_at 31382_f_at 31646_at 31706_at 
+ Conds [1]: H 
+  31332_at:	-1
+  31657_at:	-1
+  31400_at:	-1
+  31308_at:	-1
+AFFX-DapX-5_at:	-1
+  31369_at:	-1
+  31381_at:	-1
+  31452_at:	-1
+  31497_at:	-1
+  31618_at:	-1
+  31624_at:	-1
+31633_g_at:	-1
+  31679_at:	-1
+  31694_at:	-1
+  31712_at:	-1
+  31736_at:	-1
+
+AFFX-HSAC07/X00351_3_st:	1
+  31346_at:	1
+31382_f_at:	1
+  31646_at:	1
+  31706_at:	1
+
+BC079	S=18
+ Genes [18]: 31605_at 31690_at 31463_s_at AFFX-HUMGAPDH/M33197_5_at 31608_g_at 31492_at 31504_at 31516_f_at 31524_f_at 31528_f_at 31593_at 31600_s_at 31621_s_at 31674_s_at 31696_at 31702_at 31706_at 31335_at 
+ Conds [1]: K 
+  31605_at:	1
+  31690_at:	1
+31463_s_at:	1
+AFFX-HUMGAPDH/M33197_5_at:	1
+31608_g_at:	1
+  31492_at:	1
+  31504_at:	1
+31516_f_at:	1
+31524_f_at:	1
+31528_f_at:	1
+  31593_at:	1
+31600_s_at:	1
+31621_s_at:	1
+31674_s_at:	1
+  31696_at:	1
+  31702_at:	1
+  31706_at:	1
+
+  31335_at:	-1
+
+BC080	S=15
+ Genes [15]: AFFX-YEL021w/URA3_at 31592_at AFFX-MurIL2_at 31397_at 31425_g_at AFFX-BioB-3_st AFFX-M27830_5_at AFFX-YEL024w/RIP1_at 31414_at 31507_at 31550_at 31564_at 31571_at 31607_at 31636_s_at 
+ Conds [1]: S 
+AFFX-YEL021w/URA3_at:	1
+  31592_at:	1
+AFFX-MurIL2_at:	1
+  31397_at:	1
+31425_g_at:	1
+AFFX-BioB-3_st:	1
+AFFX-M27830_5_at:	1
+AFFX-YEL024w/RIP1_at:	1
+  31414_at:	1
+  31507_at:	1
+  31550_at:	1
+  31564_at:	1
+  31571_at:	1
+  31607_at:	1
+31636_s_at:	1
+
+
+BC081	S=15
+ Genes [15]: 31533_s_at 31731_at 31524_f_at 31528_f_at AFFX-HUMISGF3A/M97935_5_at AFFX-HUMISGF3A/M97935_MA_at AFFX-HUMISGF3A/M97935_MB_at AFFX-HUMISGF3A/M97935_3_at 31431_at 31438_s_at 31499_s_at 31522_f_at 31625_at 31693_f_at 31501_at 
+ Conds [1]: Y 
+31533_s_at:	1
+  31731_at:	1
+31524_f_at:	1
+31528_f_at:	1
+AFFX-HUMISGF3A/M97935_5_at:	1
+AFFX-HUMISGF3A/M97935_MA_at:	1
+AFFX-HUMISGF3A/M97935_MB_at:	1
+AFFX-HUMISGF3A/M97935_3_at:	1
+  31431_at:	1
+31438_s_at:	1
+31499_s_at:	1
+31522_f_at:	1
+  31625_at:	1
+31693_f_at:	1
+
+  31501_at:	-1
+
+BC082	S=13
+ Genes [13]: AFFX-MurIL2_at 31507_at 31425_g_at AFFX-YEL021w/URA3_at 31397_at AFFX-BioB-3_st AFFX-M27830_5_at AFFX-HSAC07/X00351_5_st AFFX-YEL024w/RIP1_at 31466_at 31564_at 31571_at 31574_i_at 
+ Conds [1]: Z 
+AFFX-MurIL2_at:	1
+  31507_at:	1
+31425_g_at:	1
+AFFX-YEL021w/URA3_at:	1
+  31397_at:	1
+AFFX-BioB-3_st:	1
+AFFX-M27830_5_at:	1
+AFFX-HSAC07/X00351_5_st:	1
+AFFX-YEL024w/RIP1_at:	1
+  31466_at:	1
+  31564_at:	1
+  31571_at:	1
+31574_i_at:	1
+
+
+BC083	S=13
+ Genes [13]: 31317_r_at 31319_at 31512_at 31586_f_at 31315_at AFFX-HUMISGF3A/M97935_5_at AFFX-HUMISGF3A/M97935_3_at 31386_at 31431_at 31452_at 31581_at 31596_f_at 31501_at 
+ Conds [1]: Y 
+31317_r_at:	1
+  31319_at:	1
+  31512_at:	1
+31586_f_at:	1
+  31315_at:	1
+AFFX-HUMISGF3A/M97935_5_at:	1
+AFFX-HUMISGF3A/M97935_3_at:	1
+  31386_at:	1
+  31431_at:	1
+  31452_at:	1
+  31581_at:	1
+31596_f_at:	1
+
+  31501_at:	-1
+
+BC084	S=13
+ Genes [13]: 31508_at 31680_at AFFX-HSAC07/X00351_3_st 31477_at AFFX-HUMISGF3A/M97935_3_at 31463_s_at 31504_at 31600_s_at 31605_at 31674_s_at 31335_at 31565_at 31695_g_at 
+ Conds [1]: T 
+  31508_at:	1
+  31680_at:	1
+AFFX-HSAC07/X00351_3_st:	1
+  31477_at:	1
+AFFX-HUMISGF3A/M97935_3_at:	1
+31463_s_at:	1
+  31504_at:	1
+31600_s_at:	1
+  31605_at:	1
+31674_s_at:	1
+
+  31335_at:	-1
+  31565_at:	-1
+31695_g_at:	-1
+
+BC085	S=9
+ Genes [9]: 31521_f_at 31522_f_at 31524_f_at 31528_f_at 31431_at 31477_at 31523_f_at 31693_f_at 31474_r_at 
+ Conds [1]: H 
+31521_f_at:	1
+31522_f_at:	1
+31524_f_at:	1
+31528_f_at:	1
+  31431_at:	1
+  31477_at:	1
+31523_f_at:	1
+31693_f_at:	1
+
+31474_r_at:	-1
+

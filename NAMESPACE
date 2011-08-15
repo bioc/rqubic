@@ -1,0 +1,40 @@
+importClassFrom(Biobase, VersionedBiobase, Versioned, eSet)
+importClassFrom(biclust, Biclust)
+
+importFrom(Biobase, featureNames, sampleNames, exprs)
+importFrom(Biobase, "featureNames<-", "sampleNames<-", "exprs<-")
+
+## exporting
+## exportPattern("^[[:alpha:]]+")
+exportClasses(QUBICBiclusterSet)
+
+exportMethods("BCcount",
+              "info",
+              "Svalue",
+              "RowxNumber", "NumberxCol",
+              "features", "featureCount", "BCfeatures", "BCfeatureCount",
+              "conditions", "conditionCount", "BCconditions", "BCconditionCount",
+              "parameter")
+
+
+## C to R functions
+export("parseQubicRules",
+       "parseQubicChars",
+       "parseQubicBlocks")
+
+## R to C functions
+export("eSetDimName",
+       "writeQubicInputFile")
+
+## R to internal C functions
+export("quantileDiscretize",
+       "generateSeeds",
+       "quBicluster")
+
+## export S3 methods
+S3method(length, QUBICBiclusterSet)
+S3method(dim, QUBICBiclusterSet)
+S3method(print, rqubicSeeds)
+
+## dynlib
+useDynLib(rqubic, discretize_matrix, generate_sorted_seeds, qubicluster)
