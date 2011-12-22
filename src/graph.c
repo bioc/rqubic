@@ -150,7 +150,7 @@ SEXP generate_sorted_seeds (SEXP dexp, SEXP col_width) {
 
   rec_num = heap->fh_n;
   if(rec_num==0) {
-    fprintf(stderr, "No enough overlap between genes\n");
+    REprintf("No enough overlap between genes\n");
     return R_NilValue;
   }
     

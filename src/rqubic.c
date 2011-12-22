@@ -13,7 +13,7 @@ void* xmalloc ( int size )
 {
   register void* value = malloc(size);
   if (value == NULL)
-    fprintf(stderr, "[Error] Memory exhausted (xmalloc)");
+    REprintf("[Error] Memory exhausted (xmalloc)");
   return value;
 }
 
@@ -22,7 +22,7 @@ void* xrealloc ( void* ptr, int size )
 {
   register void* value = realloc(ptr, size);
   if (value == NULL)
-    fprintf(stderr, "[Error] Memory exhausted (xrealloc)");
+    REprintf("[Error] Memory exhausted (xrealloc)");
   return value;
 }
 
