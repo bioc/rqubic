@@ -16,6 +16,8 @@ exportMethods("BCcount",
               "conditions", "conditionCount", "BCconditions", "BCconditionCount",
               "parameter")
 
+## combine
+export("combineBiclusts")
 
 ## C to R functions
 export("parseQubicRules",
