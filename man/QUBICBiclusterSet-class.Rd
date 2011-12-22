@@ -6,9 +6,9 @@
 \alias{Svalue,QUBICBiclusterSet,ANY-method}
 \alias{Svalue,eSet,missing-method}
 \alias{Svalue,matrix,missing-method}
-\alias{[,QUBICBiclusterSet,ANY,missing,missing-method}
+\alias{[,Biclust,ANY,missing,missing-method}
 
-\alias{BCcount,QUBICBiclusterSet-method}
+\alias{BCcount,Biclust-method}
 \alias{info,Biclust,missing-method}
 \alias{info,Biclust,ANY-method}
 \alias{parameter,Biclust,missing-method}

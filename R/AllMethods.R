@@ -54,11 +54,16 @@ print.rqubicSeeds <- function(x,...) {
 minimumCol <- function(x) attr(x, "minimumCol")
 
 ##----------------------------------------##
-## methods for QUBICBiclusterSet
+## methods for Biclust
 ##----------------------------------------##
-length.QUBICBiclusterSet <- function(x) x@Number
-dim.QUBICBiclusterSet <- function(x) c(dim(RowxNumber(x))[1],
-                                       dim(NumberxCol(x))[2])
+length.Biclust <- function(x) x@Number
+dim.Biclust <- function(x) c(dim(RowxNumber(x))[1],
+                             dim(NumberxCol(x))[2])
+
+##length.QUBICBiclusterSet <- function(x) x@Number
+##dim.QUBICBiclusterSet <- function(x) c(dim(RowxNumber(x))[1],
+##                                       dim(NumberxCol(x))[2])
+
 setMethod("RowxNumber", "Biclust", function(object) object@RowxNumber)
 setMethod("NumberxCol", "Biclust", function(object) object@NumberxCol)
 setReplaceMethod("RowxNumber", c("Biclust", "matrix"),
@@ -72,29 +77,29 @@ setReplaceMethod("NumberxCol", c("Biclust", "matrix"),
                  return(object)
                })
 
-setMethod("BCcount", c("QUBICBiclusterSet"), function(object) object@Number)
-setMethod("BCcount<-", c("QUBICBiclusterSet", "numeric"), function(object, value) object@Number <- as.integer(value))
+setMethod("BCcount", c("Biclust"), function(object) object@Number)
+setMethod("BCcount<-", c("Biclust", "numeric"), function(object, value) object@Number <- as.integer(value))
 setMethod("info", c("Biclust", "missing"), function(object, key) object@info)
 setMethod("info", c("Biclust", "ANY"), function(object, key) object@info[[key]])
 setMethod("Svalue", c("QUBICBiclusterSet", "missing"), function(object, index) info(object, "Svalues"))
 setMethod("Svalue", c("QUBICBiclusterSet", "ANY"), function(object, index) Svalue(object)[index])
 
 ## features
-setMethod("features", c("QUBICBiclusterSet"), function(object) info(object, "features"))
-setMethod("featureCount", c("QUBICBiclusterSet"), function(object) length(features(object)))
-setMethod("BCfeatures", c("QUBICBiclusterSet", "missing"), function(object, index) {
+setMethod("features", c("Biclust"), function(object) info(object, "features"))
+setMethod("featureCount", c("Biclust"), function(object) length(features(object)))
+setMethod("BCfeatures", c("Biclust", "missing"), function(object, index) {
   apply(RowxNumber(object),2,which)
 })
-setMethod("BCfeatures", c("QUBICBiclusterSet", "ANY"), function(object, index) {
+setMethod("BCfeatures", c("Biclust", "ANY"), function(object, index) {
   res <- apply(RowxNumber(object),2,which)[index]
   if(length(res)==1)
     res <- res[[1]]
   return(res)
 })
-setMethod("BCfeatureCount", c("QUBICBiclusterSet", "missing"), function(object) {
+setMethod("BCfeatureCount", c("Biclust", "missing"), function(object) {
   colSums(RowxNumber(object))
 })
-setMethod("BCfeatureCount", c("QUBICBiclusterSet", "ANY"), function(object, index) {
+setMethod("BCfeatureCount", c("Biclust", "ANY"), function(object, index) {
   res <- colSums(RowxNumber(object))[index]
   if(length(res)==1)
     res <- res[[1]]
@@ -102,21 +107,21 @@ setMethod("BCfeatureCount", c("QUBICBiclusterSet", "ANY"), function(object, inde
 })
 
 ## conditions
-setMethod("conditions", c("QUBICBiclusterSet"), function(object) info(object, "conditions"))
-setMethod("conditionCount", c("QUBICBiclusterSet"), function(object) length(conditions(object)))
-setMethod("BCconditions", c("QUBICBiclusterSet","missing"), function(object) {
+setMethod("conditions", c("Biclust"), function(object) info(object, "conditions"))
+setMethod("conditionCount", c("Biclust"), function(object) length(conditions(object)))
+setMethod("BCconditions", c("Biclust","missing"), function(object) {
   apply(NumberxCol(object), 1, which)
 })
-setMethod("BCconditions", c("QUBICBiclusterSet", "ANY"), function(object, index) {
+setMethod("BCconditions", c("Biclust", "ANY"), function(object, index) {
   res <- apply(NumberxCol(object), 1, which)[index]
   if(length(res)==1)
     res <- res[[1]]
   return(res)
 })
-setMethod("BCconditionCount", c("QUBICBiclusterSet", "missing"), function(object) {
+setMethod("BCconditionCount", c("Biclust", "missing"), function(object) {
   rowSums(NumberxCol(object))
 })
-setMethod("BCconditionCount", c("QUBICBiclusterSet", "ANY"), function(object, index) {
+setMethod("BCconditionCount", c("Biclust", "ANY"), function(object, index) {
   res <- rowSums(NumberxCol(object))[index]
   if(length(res)==1)
     res <- res[[1]]
@@ -124,8 +129,8 @@ setMethod("BCconditionCount", c("QUBICBiclusterSet", "ANY"), function(object, in
 })
 
 ## features and conditions (compatible with ExpressionSet)
-setMethod("featureNames", "QUBICBiclusterSet", function(object) features(object))
-setMethod("sampleNames", "QUBICBiclusterSet", function(object) conditions(object))
+setMethod("featureNames", "Biclust", function(object) features(object))
+setMethod("sampleNames", "Biclust", function(object) conditions(object))
 
 ## parameters
 setMethod("parameter", c("Biclust", "missing"), function(object) object@Parameters)
@@ -138,7 +143,7 @@ setMethod("parameter", c("Biclust", "character"), function(object, index) {
 })
 
 ## subset and relevel
-setMethod("[", c("QUBICBiclusterSet", "ANY", "missing", "missing"),
+setMethod("[", c("Biclust", "ANY", "missing", "missing"),
           function(x, i, j, drop=FALSE) {
             new.obj <- x
             RowxNumber(new.obj) <- RowxNumber(x)[,i,drop=FALSE]

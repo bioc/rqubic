@@ -16,42 +16,42 @@
 \alias{featureCount-methods}
 \alias{conditionCount-methods}
 
-\alias{featureCount,QUBICBiclusterSet-method}
-\alias{conditionCount,QUBICBiclusterSet-method}
+\alias{featureCount,Biclust-method}
+\alias{conditionCount,Biclust-method}
 
-\alias{featureNames,QUBICBiclusterSet-method}
-\alias{sampleNames,QUBICBiclusterSet-method}
+\alias{featureNames,Biclust-method}
+\alias{sampleNames,Biclust-method}
 
-\alias{features,QUBICBiclusterSet-method}
-\alias{featureCount,QUBICBicluster-method}
-\alias{BCfeatures,QUBICBiclusterSet,missing-method}
-\alias{BCfeatureCount,QUBICBiclusterSet,missing-method}
-\alias{BCfeatures,QUBICBiclusterSet,ANY-method}
-\alias{BCfeatureCount,QUBICBiclusterSet,ANY-method}
+\alias{features,Biclust-method}
+%%\alias{featureCount,QUBICBicluster-method}
+\alias{BCfeatures,Biclust,missing-method}
+\alias{BCfeatureCount,Biclust,missing-method}
+\alias{BCfeatures,Biclust,ANY-method}
+\alias{BCfeatureCount,Biclust,ANY-method}
 
-\alias{conditions,QUBICBiclusterSet-method}
-\alias{conditionCount,QUBICBicluster-method}
-\alias{BCconditions,QUBICBiclusterSet,missing-method}
-\alias{BCconditionCount,QUBICBiclusterSet,missing-method}
-\alias{BCconditions,QUBICBiclusterSet,ANY-method}
-\alias{BCconditionCount,QUBICBiclusterSet,ANY-method}
+\alias{conditions,Biclust-method}
+%%\alias{conditionCount,QUBICBicluster-method}
+\alias{BCconditions,Biclust,missing-method}
+\alias{BCconditionCount,Biclust,missing-method}
+\alias{BCconditions,Biclust,ANY-method}
+\alias{BCconditionCount,Biclust,ANY-method}
 
 \title{ Extract features and conditions }
 \description{
   Generic function \code{features} and \code{conditions}, as well as auxillary
   count functions, are implemented for
-  \code{\linkS4class{QUBICBiclusterSet}} objects.
+  \code{\linkS4class{Biclust}} objects.
 
   They can be used in one of the following forms:
   \enumerate{
-    \item Used on a \code{\linkS4class{QUBICBiclusterSet}}, and without
+    \item Used on a \code{\linkS4class{Biclust}}, and without
     specifying index, \code{features} or \code{conditions} returns the unique and ordered
     features or conditions involved in at least one bicluster, and
     \code{featureCount} or \code{conditionCount} returns the length of
     repsective vectors. To get the feature/condition numbers in each
     bicluster of the set, use
     \code{\link{BCfeatureCount}}/\code{\link{BCconditionCount}}.
-    \item Used on a \code{\linkS4class{QUBICBiclusterSet}} and provided
+    \item Used on a \code{\linkS4class{Biclust}} and provided
     index (indices), the features/conditions or their counts are
     returned for specified biclusters.
   }
@@ -67,11 +67,11 @@
   Information about all the biclusters.
 }
 
-\item{\code{signature(object = "QUBICBiclusterSet", index = "missing")}}{
+\item{\code{signature(object = "Biclust", index = "missing")}}{
   Information about all the biclusters in the set.
 }
 
-\item{\code{signature(object = "QUBICBiclusterSet", index = "ANY")}}{
+\item{\code{signature(object = "Biclust", index = "ANY")}}{
   Information about selected biclusters in the set, the index can be
   integers or logical variables for subsetting.
 }}
@@ -85,7 +85,9 @@
   Jitao David Zhang <jitao_david.zhang@roche.com>
 }
 \seealso{
-  Methods are also documented in \code{\linkS4class{QUBICBiclusterSet}}.
+  See other methods implemented for the \code{\linkS4class{Biclust}}
+  class in the \code{biclust} package. And the methods specific for
+  \code{\linkS4class{QUBICBiclusterSet}}.
 }
 \examples{
 example.file <- system.file("extdata", "sampleExpressionSet.blocks", package="rqubic")

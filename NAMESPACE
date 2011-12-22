@@ -32,8 +32,8 @@ export("quantileDiscretize",
        "quBicluster")
 
 ## export S3 methods
-S3method(length, QUBICBiclusterSet)
-S3method(dim, QUBICBiclusterSet)
+S3method(length, Biclust)
+S3method(dim, Biclust)
 S3method(print, rqubicSeeds)
 
 ## dynlib
