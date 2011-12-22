@@ -19,6 +19,8 @@ exportMethods("BCcount",
 ## combine
 export("combineBiclusts")
 
+export("readBiclusterResults")
+
 ## C to R functions
 export("parseQubicRules",
        "parseQubicChars",
