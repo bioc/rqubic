@@ -4,6 +4,7 @@
 \alias{combineBiclusts-methods}
 \alias{combineBiclusts,Biclust,Biclust-method}
 \alias{combineBiclusts,QUBICBiclusterSet,QUBICBiclusterSet-method}
+\alias{combineBiclusts,list,missing-method}
 \title{ Combine two or more Biclust objects into one}
 \description{
   Combining two or more \code{Biclust} objects into one object. These
@@ -22,6 +23,11 @@
   only. Besides combining biclusters, they will also combine parameters
   and information stored in each \code{QUBICBiclusterSet} into the
   returning object.}
+
+\item{\code{signature(x = "list", y =
+    "missing")}}{Method for a list of \code{Biclust} or
+  \code{QUBICBiclusterSet} objects.}
+
 }}
 \keyword{methods}
 \examples{
@@ -49,4 +55,7 @@ re3.blocks <- quBicluster(re2.sel.seeds,
 
 re12.blocks <- combineBiclusts(re1.blocks, re2.blocks)
 re123.blocks <- combineBiclusts(re1.blocks, re2.blocks, re3.blocks)
+re123.list.blocks <- combineBiclusts(list(re1.blocks, re2.blocks,
+re3.blocks))
+stopifnot(identical(re123.blocks, re123.list.blocks))
 }

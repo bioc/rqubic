@@ -45,3 +45,7 @@ setMethod("combineBiclusts",
           function(x,y,...) {
             combineQubic(x,y,...)
           })
+setMethod("combineBiclusts",
+          c("list", "missing"), function(x,y,...) {
+            do.call("combineBiclusts", x)
+          })
