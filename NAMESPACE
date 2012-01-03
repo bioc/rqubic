@@ -21,6 +21,9 @@ export("combineBiclusts")
 
 export("readBiclusterResults")
 
+## filter
+export("fcFilter")
+
 ## C to R functions
 export("parseQubicRules",
        "parseQubicChars",

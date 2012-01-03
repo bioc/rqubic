@@ -1,6 +1,9 @@
+Version 1.1-2 (2012-01-03)
+  + Add fcFilter for feature-condition filtering
 Version 1.1-1 (2011-12-22)
   + Generalize S4 methods for QUBICBiclusterSet to Biclust: most of the S4 methods now can be applied to a Biclust object.
   + Add the combineBiclusts method to combine multiple Biclust/QUBICBiclusterSet objects.
+  + Add readBiclusterResults function to complement the writeBiclusterResults function in the biclust package.
 
 Version 0.99.1 (2011-08-11)
   + Rename quantile.discritize to quantileDiscritize in order to avoid conflicts with the S3 method nomenclature

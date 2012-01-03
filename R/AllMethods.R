@@ -28,6 +28,7 @@ setGeneric("parameter", function(object, index) standardGeneric("parameter"))
 setGeneric("quantileDiscretize", function(x,...) standardGeneric("quantileDiscretize"))
 setGeneric("generateSeeds", function(object, ...) standardGeneric("generateSeeds"))
 
+setGeneric("fcFilter", function(object,...) standardGeneric("fcFilter"))
 ##----------------------------------------##
 ## helper functions
 ##----------------------------------------##
@@ -190,6 +191,26 @@ setMethod("show", "QUBICBiclusterSet",
 
             cat("\n")
           })
+
+##----------------------------------------##
+## filter
+##----------------------------------------##
+setMethod("fcFilter", "Biclust", function(object, feat.min, cond.min) {
+  if(!missing(feat.min)) {
+    stopifnot(length(feat.min) == 1 || length(feat.min) == length(object))
+    feat.over <- BCfeatureCount(object) >= feat.min
+  } else {
+    feat.over <- rep(TRUE, length(object))
+  }
+  if(!missing(cond.min)) {
+    stopifnot(length(cond.min) == 1 || length(cond.min) == length(object))
+    cond.over <- BCconditionCount(object) >= cond.min
+  } else {
+    cond.over <- rep(TRUE, length(object))
+  }
+  pass.filter <- feat.over & cond.over
+  object[pass.filter]
+})
 
 ##----------------------------------------##
 ## methods for other object types
