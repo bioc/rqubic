@@ -46,7 +46,9 @@ readBiclusterResults <- function(filename,
   colnames(nxc) <- uniqSamples
   
   obj <- new("Biclust",
-             Parameters=list(Algorithm=alg),
+             Parameters=list(Algorithm=alg,
+               featureNames=uniqFeatures,
+               sampleNames=uniqSamples), ## featureNames/sampleNames are used by ISA
              RowxNumber=rxn,
              NumberxCol=nxc,
              Number=bicno,
