@@ -4,6 +4,16 @@ setGeneric("combineBiclusts", function(x,y,...) standardGeneric("combineBiclusts
 combine <- function(x,y,...) {
   biclist <- c(x,y, list(...))
   stopifnot(all(sapply(biclist, function(x) is(x, "Biclust"))))
+
+  ## empty bics
+  bicl <- sapply(biclist, length)
+  if(all(bicl==0)) {
+    return(new("Biclust"))
+  } else if (any(bicl==0)) {
+    rem <- bicl==0
+    biclist <- biclist[!rem]
+  }
+  
   rns <- sapply(biclist, featureCount)
   cns <- sapply(biclist, conditionCount)
   stopifnot(identical(length(unique(rns)),1L))

@@ -57,7 +57,9 @@ minimumCol <- function(x) attr(x, "minimumCol")
 ##----------------------------------------##
 ## methods for Biclust
 ##----------------------------------------##
-length.Biclust <- function(x) x@Number
+length.Biclust <- function(x) {
+  ifelse(length(x@Number)>0L,x@Number,0L)
+}
 dim.Biclust <- function(x) c(dim(RowxNumber(x))[1],
                              dim(NumberxCol(x))[2])
 
@@ -81,12 +83,25 @@ setReplaceMethod("NumberxCol", c("Biclust", "matrix"),
 setMethod("BCcount", c("Biclust"), function(object) object@Number)
 setMethod("BCcount<-", c("Biclust", "numeric"), function(object, value) object@Number <- as.integer(value))
 setMethod("info", c("Biclust", "missing"), function(object, key) object@info)
-setMethod("info", c("Biclust", "ANY"), function(object, key) object@info[[key]])
+setMethod("info", c("Biclust", "ANY"), function(object, key) {
+  if(key %in% names(info(object)))
+    return(info(object)[[key]])
+  else if(is.numeric(key) && key <= length(info(object)))
+    return(info(object)[[as.integer(key)]])
+  else
+    return(NULL)
+})
 setMethod("Svalue", c("QUBICBiclusterSet", "missing"), function(object, index) info(object, "Svalues"))
 setMethod("Svalue", c("QUBICBiclusterSet", "ANY"), function(object, index) Svalue(object)[index])
 
 ## features
-setMethod("features", c("Biclust"), function(object) info(object, "features"))
+setMethod("features", c("Biclust"), function(object) {
+  feats <- info(object, "features")
+  if(!is.null(feats))
+    return(feats)
+  else
+    return(rownames(RowxNumber(bic3)))
+})
 setMethod("featureCount", c("Biclust"), function(object) length(features(object)))
 setMethod("BCfeatures", c("Biclust", "missing"), function(object, index) {
   apply(RowxNumber(object),2,which)
@@ -108,7 +123,13 @@ setMethod("BCfeatureCount", c("Biclust", "ANY"), function(object, index) {
 })
 
 ## conditions
-setMethod("conditions", c("Biclust"), function(object) info(object, "conditions"))
+setMethod("conditions", c("Biclust"), function(object) {
+  conds <- info(object, "conditions")
+  if(!is.null(conds))
+    return(conds)
+  else
+    return(colnames(NumberxCol(bic3)))
+})
 setMethod("conditionCount", c("Biclust"), function(object) length(conditions(object)))
 setMethod("BCconditions", c("Biclust","missing"), function(object) {
   apply(NumberxCol(object), 1, which)

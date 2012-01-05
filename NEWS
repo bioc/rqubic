@@ -1,5 +1,14 @@
+Version 1.1-3 (2012-01-05)
+  + Minor bug fix in readBiclusterResults: bicluster files without any bicluster are recognized
+  + Minor bug fix in readBiclusterResults: bicluster files with only one bicluster and one row/column not report error anymore (previously due to matrix dropping)
+  + Minor bug fix in readBiclusterResults: feature/condition names are written in "features"/"conditions" items in the info list
+  + Methods features and conditions now have a two-step strategy: first try the info list, if failed, then try the matrix names
+  + length.Biclust returns 0 if the Biclust object contains no bicluster
+  + combineBiclusts support non-empty Biclust objects with empty Biclust objects, e.g. those without valid biclusters detected.
+
 Version 1.1-2 (2012-01-03)
   + Add fcFilter for feature-condition filtering
+
 Version 1.1-1 (2011-12-22)
   + Generalize S4 methods for QUBICBiclusterSet to Biclust: most of the S4 methods now can be applied to a Biclust object.
   + Add the combineBiclusts method to combine multiple Biclust/QUBICBiclusterSet objects.
