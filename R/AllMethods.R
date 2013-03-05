@@ -100,7 +100,7 @@ setMethod("features", c("Biclust"), function(object) {
   if(!is.null(feats))
     return(feats)
   else
-    return(rownames(RowxNumber(bic3)))
+    return(rownames(RowxNumber(object)))
 })
 setMethod("featureCount", c("Biclust"), function(object) length(features(object)))
 setMethod("BCfeatures", c("Biclust", "missing"), function(object, index) {
@@ -128,7 +128,7 @@ setMethod("conditions", c("Biclust"), function(object) {
   if(!is.null(conds))
     return(conds)
   else
-    return(colnames(NumberxCol(bic3)))
+    return(colnames(NumberxCol(object)))
 })
 setMethod("conditionCount", c("Biclust"), function(object) length(conditions(object)))
 setMethod("BCconditions", c("Biclust","missing"), function(object) {
