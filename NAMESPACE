@@ -1,3 +1,5 @@
+importFrom("methods")
+
 importClassFrom(Biobase, VersionedBiobase, Versioned, eSet)
 importClassFrom(biclust, Biclust)
 

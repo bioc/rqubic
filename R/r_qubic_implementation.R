@@ -182,9 +182,15 @@ quBiclusterIndex <- function(seeds, eset, report.no=100L,
   symbols <- qubicRankSymbols(rank)
 
   ## level the exps
+  if(!all(exp %in% symbols)) {
+      stop("The exprs matrix of the ExpressionSet object must consist of only following integers:", paste(sort(symbols), collapse=","),"\n",
+           "It is likely that the ExpressionSet has not been discretized. Please call quantileDiscretize first!")
+  }
   exp.level <- factor(as.vector(exp), levels=symbols)
   exp.leveled <- matrix(as.integer(exp.level)-1L, ## -1L since C array starts with 0
                         nrow=nrow(exp), ncol=ncol(exp), byrow=FALSE)
+  if(any(is.na(exp.leveled)))
+      stop("Should not happen. Please contact the developer\n")
 
   ## rcIndex: an index of rows and columns indicating the bicluster memberships
   rcIndex <- .Call("qubicluster",
