@@ -1,7 +1,7 @@
 Package: rqubic
 Type: Package
 Title: Qualitative biclustering algorithm for expression data analysis in R
-Version: 1.12.0
+Version: 1.13.0
 Date: 2014-06-29
 Author: Jitao David Zhang, with inputs from Laura Badi and Martin Ebeling
 Maintainer: Jitao David Zhang <jitao_david.zhang@roche.com>
