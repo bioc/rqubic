@@ -1,8 +1,9 @@
 library(rqubic)
+library(Biobase)
 source("test_utilities.R")
 
 ## quantileDiscretize
-data(sample.ExpressionSet)
+data(sample.ExpressionSet, package="Biobase")
 exp.eset <- sample.ExpressionSet
 fData(exp.eset) <- data.frame(label=rownames(exprs(exp.eset)),
                               row.names=rownames(exprs(exp.eset)))

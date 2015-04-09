@@ -1,10 +1,11 @@
-importFrom("methods")
-
+import(methods)
 importClassFrom(Biobase, VersionedBiobase, Versioned, eSet)
 importClassFrom(biclust, Biclust)
 
-importFrom(Biobase, featureNames, sampleNames, exprs)
-importFrom(Biobase, "featureNames<-", "sampleNames<-", "exprs<-")
+importFrom(BiocGenerics, conditions)
+importFrom(Biobase, featureNames, sampleNames, exprs, fData, pData, assayData, protocolData, package.version)
+importFrom(Biobase, "featureNames<-", "sampleNames<-", "exprs<-", "protocolData<-")
+importFrom(biclust, biclust)
 
 ## exporting
 ## exportPattern("^[[:alpha:]]+")
@@ -14,7 +15,9 @@ exportMethods("BCcount",
               "info",
               "Svalue",
               "RowxNumber", "NumberxCol",
-              "features", "featureCount", "BCfeatures", "BCfeatureCount",
+              "features", "featureNames",
+              "sampleNames",
+              "featureCount", "BCfeatures", "BCfeatureCount",
               "conditions", "conditionCount", "BCconditions", "BCconditionCount",
               "parameter")
 

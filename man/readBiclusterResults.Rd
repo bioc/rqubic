@@ -40,7 +40,8 @@ readBiclusterResults(filename, featureNames, sampleNames, delimiter = ";", ...)
 }
 \examples{
 temp <- tempfile()
-data(BicatYeast)
+library(biclust)
+data(BicatYeast, package="biclust")
 res <- biclust(BicatYeast, method=BCBimax(), number=5)
 writeBiclusterResults(temp, res,"CC with delta 1.5",dimnames(BicatYeast)[[1]],dimnames(BicatYeast)[[2]], delimiter=";")
 res.back <- readBiclusterResults(temp, delimiter=";")

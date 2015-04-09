@@ -312,12 +312,14 @@ fh_replacekeydata(struct fibheap *h, struct fibheap_el *x, int key, void *data)
 		error("Bad code. Please inform the developer");
 		fh_deleteel(h, x);
 
-		x->fhe_data = data;
-		x->fhe_key = key;
-
-		fh_insertel(h, x);
-
-		return odata;
+	  fh_deleteel(h, x);
+	  
+	  x->fhe_data = data;
+	  x->fhe_key = key;
+	  
+	  fh_insertel(h, x);
+	  
+	  return odata;
 	}
 
 	x->fhe_data = data;

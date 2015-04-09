@@ -49,7 +49,7 @@ writeQubicInputFile(x, file = "", featureNames, sampleNames)
 \seealso{\code{\link{eSetDimName}}, \code{\link{write.table}}}
 \examples{
 tmpfile <- tempfile()
-data(sample.ExpressionSet)
+data(sample.ExpressionSet, package="Biobase")
 sub.eset <- sample.ExpressionSet[1:3, 1:3]
 
 ## write to standard output

@@ -90,6 +90,8 @@
   \code{\linkS4class{QUBICBiclusterSet}}.
 }
 \examples{
+library(Biobase)
+library(biclust)
 example.file <- system.file("extdata", "sampleExpressionSet.blocks", package="rqubic")
 
 example.block <- parseQubicBlocks(example.file)

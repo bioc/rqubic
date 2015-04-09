@@ -55,7 +55,7 @@ eSetDimName(eset, input, type = c("feature", "sample"))
   \code{\link{writeQubicInputFile}} calls the function.
 }
 \examples{
-data(sample.ExpressionSet)
+data(sample.ExpressionSet, package="Biobase")
 sub.eset <- sample.ExpressionSet[1:3, 1:3]
 
 ## usage one:

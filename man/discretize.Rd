@@ -102,6 +102,7 @@ quantileDiscretize(x, ...)
   QUBIC command line tool into a data frame.
 }
 \examples{
+library(Biobase)
 data(sample.ExpressionSet, package="Biobase")
 sample.disc <- quantileDiscretize(sample.ExpressionSet)
 exprs(sample.disc)[1:6, 1:6]

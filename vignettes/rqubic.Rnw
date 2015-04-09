@@ -111,6 +111,8 @@ executing following codes in R.
 
 <<helpParser, eval=FALSE, echo=TRUE>>=
 library(rqubic)
+library(Biobase)
+library(biclust)
 help("parseQubicRules")
 example(parseQubicRules)
 @ 
@@ -127,6 +129,8 @@ general approach.
 
 <<buildExpres>>=
 library(rqubic)
+library(Biobase)
+library(biclust)
 data(BicatYeast)
 demo.exprs <- new("ExpressionSet", exprs=BicatYeast)
 

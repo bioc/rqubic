@@ -16,7 +16,6 @@ setGeneric("features", function(object) standardGeneric("features"))
 setGeneric("featureCount", function(object, index) standardGeneric("featureCount"))
 setGeneric("BCfeatures", function(object, index) standardGeneric("BCfeatures"))
 setGeneric("BCfeatureCount", function(object, index) standardGeneric("BCfeatureCount"))
-setGeneric("conditions", function(object) standardGeneric("conditions"))
 setGeneric("conditionCount", function(object) standardGeneric("conditionCount"))
 setGeneric("BCconditions", function(object, index) standardGeneric("BCconditions"))
 setGeneric("BCconditionCount", function(object, index) standardGeneric("BCconditionCount"))
@@ -123,7 +122,7 @@ setMethod("BCfeatureCount", c("Biclust", "ANY"), function(object, index) {
 })
 
 ## conditions
-setMethod("conditions", c("Biclust"), function(object) {
+setMethod("conditions", c("Biclust"), function(object, ...) {
   conds <- info(object, "conditions")
   if(!is.null(conds))
     return(conds)

@@ -48,7 +48,7 @@ quBicluster(seeds, eset, report.no = 100L, tolerance = 0.95, filter.proportion =
 \code{\link{quantileDiscretize}} and \code{\link{generateSeeds}}
 }
 \examples{
-data(sample.ExpressionSet)
+data(sample.ExpressionSet, package="Biobase")
 rqubic.example.discret <- quantileDiscretize(sample.ExpressionSet, rank=2L)
 
 rqubic.example.sel.seeds <- generateSeeds(rqubic.example.discret, minColWidth=2L)

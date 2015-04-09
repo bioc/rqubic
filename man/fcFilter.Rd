@@ -26,7 +26,7 @@ fcFilter(object, ...)
   Jitao David Zhang <jitao_david.zhang@roche.com>
 }
 \examples{
-data(sample.ExpressionSet)
+data(sample.ExpressionSet, package="Biobase")
 rqubic.example.discret <- quantileDiscretize(sample.ExpressionSet, rank=2L)
 
 rqubic.example.sel.seeds <- generateSeeds(rqubic.example.discret, minColWidth=2L)

@@ -31,7 +31,7 @@
 }}
 \keyword{methods}
 \examples{
-data(sample.ExpressionSet)
+data(sample.ExpressionSet, package="Biobase")
 re1.discret <- quantileDiscretize(sample.ExpressionSet, rank=1L)
 re1.sel.seeds <- generateSeeds(re1.discret, minColWidth=2L)
 re1.blocks <- quBicluster(re1.sel.seeds,
