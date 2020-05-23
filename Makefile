@@ -1,46 +1,50 @@
+## AUTOMATICALLY GENERATED FROM TEMPLATE (Mo Jul  8 20:50:58 CEST 2019). DO NOT EDIT IT MANUALLY!
 ################################################################################
 ##
 ##  Makefile
 ##      Author: Jitao David Zhang <jitao_david.zhang@roche.com>
-##	BEDA TRS, pRED, Hoffmann-La Roche AG
+##	    F. Hoffmann-La Roche AG
 ##      Description: Makefile for building distributions etc.
-##                   the Makefile provides the following targets:
-##                   
-##                   - make install  calls R CMD INSTALL
-##                   - make check    calls R CMD check (with RUnit)
-##                   - make dist     calls R CMD build
 ##
 ################################################################################
-## conditional: choose R version depending on the BICOSN value
-R=R
-PKG=`awk 'BEGIN{FS=":"}{if ($$1=="Package") {gsub(/ /, "",$$2);print $$2}}' DESCRIPTION`
-PKG_VERSION=`awk 'BEGIN{FS=":"}{if ($$1=="Version") {gsub(/ /, "",$$2);print $$2}}' DESCRIPTION`
+R:=R
 
+roxygenise:
+	@echo '====== roxygenize ======'	
+	@(${R} -q -e "library(devtools);load_all();document('.')")
+	@echo ' '
 
-PKG_ROOT_DIR=`pwd`
-PKG_SRC_DIR=$(PKG_ROOT_DIR)/src
+test:
+	@echo '====== test ======'
+	@(${R} -q -e "library(devtools);test('.')")
+	@echo 
 
-install: 
+doVignettes:
+	@echo "====== vignettes ======"
+	@(${R} -q -e "library(devtools); devtools::build_vignettes()")
+	@echo ' '
+
+build: roxygenise
+	@echo '====== Building Distribution ======'
+	@(${R} -q -e "library(devtools); devtools::build()")
+	@echo '====== Building finished ======'
+	@echo ' '
+
+install: roxygenise
 	@echo '====== Installing Package ======'
-	@(cd ..; ${R} CMD INSTALL $(PKG))
+	@(${R} -q -e "library(devtools); devtools::install(reload=FALSE, quick=FALSE, build=TRUE, upgrade=FALSE)")
 	@echo '====== Installing finished ======'
 	@echo ' '
 
-check:	dist
+check: roxygenise
 	@echo '====== Checking Package ======'
-	@(cd ..; ${R} CMD check ${PKG}_${PKG_VERSION}.tar.gz)
+	@(${R} -q -e "library(devtools);check('.', check_dir=\"..\")")
 	@echo '====== Checking finished ======'
-	@echo ' '
-
-dist:	clean
-	@echo '====== Building Distribution ======'
-	@(cd ..; ${R} CMD build $(PKG))
-	@echo '====== Building finished ======'
 	@echo ' '
 
 clean:
 	@echo '====== Cleaning Package ======'
-	@(rm -f $(PKG_SRC_DIR)/*.o $(PKG_SRC_DIR)/*.so)
+	@(rm -f src/*.o src/*.so src/*.dll src/*.rds)
 	@(find . -type f -name "*~" -exec rm '{}' \;)
 	@(find . -type f -name ".Rhistory" -exec rm '{}' \;)
 	@echo ' '
