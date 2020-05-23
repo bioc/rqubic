@@ -54,7 +54,8 @@ typedef struct Edge{
 
 /* initialization */
 // names
-SEXP RQUBIC_edgelist_tag;
+extern SEXP RQUBIC_edgelist_tag;
+
 SEXP RQUBIC_init(SEXP env);
 
 static const char *EDGELIST_ATT_NAME="edgelist";

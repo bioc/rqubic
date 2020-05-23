@@ -7,6 +7,7 @@
 #define REGISTER_CCALLABLE(fun) \
         R_RegisterCCallable("rqubic", #fun, (DL_FUNC) &fun)
 
+SEXP RQUBIC_edgelist_tag;
 
 /* Safe wrapper for standard malloc */
 void* xmalloc ( int size )
